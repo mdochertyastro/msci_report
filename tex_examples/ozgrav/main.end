@@ -1,3 +1,4 @@
 \@doendnote{endnote58}{Binary neutron stars can be characterized by additional tidal parameters and all compact binaries can be characterized with additional eccentricity parameters, depending on their formation scenario.}
 \@doendnote{endnote59}{To be clear, we are not proposing $\ell |m|=22$ gravitational waves as a serious alternative to general relativity. Rather, we are using this Bayes factor in order to ascertain if we can resolve the higher-order mode content predicted by general relativity.}
-\@doendnote{endnote60}{After this paper appeared on the arxiv, our method was used in\protect \nobreakspace  {}\cite {isobel}.}
+\@doendnote{endnote60}{Of course, if the target\ posterior is multi-modal, there is an additional risk that the proposal\ posterior might miss a mode, which would not be apparent through visual inspection. We have not observed such multi-modal behavior in the examples considered in this manuscript, but one can guard against this failure mode through $pp$ tests as described in the appendix.}
+\@doendnote{endnote61}{After this paper appeared on the arxiv, our method was used in\protect \nobreakspace  {}\cite {isobel}.}
