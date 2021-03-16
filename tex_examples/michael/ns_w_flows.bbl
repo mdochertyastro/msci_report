@@ -1,0 +1,1123 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{71}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2017{\natexlab{a}})\citenamefont {Abbott} \emph
+  {et~al.}}]{GBM:2017lvd}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific, Virgo,
+  Fermi GBM, INTEGRAL, IceCube, AstroSat Cadmium Zinc Telluride Imager Team,
+  IPN, Insight-Hxmt, ANTARES, Swift, AGILE Team, 1M2H Team, Dark Energy Camera
+  GW-EM, DES, DLT40, GRAWITA, Fermi-LAT, ATCA, ASKAP, Las Cumbres Observatory
+  Group, OzGrav, DWF (Deeper Wider Faster Program), AST3, CAASTRO, VINROUGE,
+  MASTER, J-GEM, GROWTH, JAGWAR, CaltechNRAO, TTU-NRAO, NuSTAR, Pan-STARRS,
+  MAXI Team, TZAC Consortium, KU, Nordic Optical Telescope, ePESSTO, GROND,
+  Texas Tech University, SALT Group, TOROS, BOOTES, MWA, CALET, IKI-GW
+  Follow-up, H.E.S.S., LOFAR, LWA, HAWC, Pierre Auger, ALMA, Euro VLBI Team, Pi
+  of Sky, Chandra Team at McGill University, DFN, ATLAS Telescopes, High Time
+  Resolution Universe Survey, RIMAS, RATIR, SKA South Africa/MeerKAT}),\
+  }\bibfield  {title} {\bibinfo {title} {{Multi-messenger Observations of a
+  Binary Neutron Star Merger}},\ }\href
+  {https://doi.org/10.3847/2041-8213/aa91c9} {\bibfield  {journal} {\bibinfo
+  {journal} {Astrophys. J. Lett.}\ }\textbf {\bibinfo {volume} {848}},\
+  \bibinfo {pages} {L12} (\bibinfo {year} {2017}{\natexlab{a}})},\ \Eprint
+  {https://arxiv.org/abs/1710.05833} {arXiv:1710.05833 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph {et~al.}(2018)\citenamefont {Abbott}
+  \emph {et~al.}}]{Abbott:2018exr}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific,
+  Virgo}),\ }\bibfield  {title} {\bibinfo {title} {{GW170817: Measurements of
+  neutron star radii and equation of state}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.121.161101} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {121}},\
+  \bibinfo {pages} {161101} (\bibinfo {year} {2018})},\ \Eprint
+  {https://arxiv.org/abs/1805.11581} {arXiv:1805.11581 [gr-qc]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2019{\natexlab{a}})\citenamefont {Abbott} \emph
+  {et~al.}}]{Abbott:2019yzh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific,
+  Virgo}),\ }\bibfield  {title} {\bibinfo {title} {{A gravitational-wave
+  measurement of the Hubble constant following the second observing run of
+  Advanced LIGO and Virgo}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {arXiv e-prints}\ } (\bibinfo {year} {2019}{\natexlab{a}})},\
+  \Eprint {https://arxiv.org/abs/1908.06060} {arXiv:1908.06060 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph {et~al.}(2020)\citenamefont {Abbott}
+  \emph {et~al.}}]{Aasi:2013wya}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {KAGRA, LIGO Scientific,
+  VIRGO}),\ }\bibfield  {title} {\bibinfo {title} {{Prospects for Observing and
+  Localizing Gravitational-Wave Transients with Advanced LIGO, Advanced Virgo
+  and KAGRA}},\ }\bibfield  {journal} {\bibinfo  {journal} {Living Reviews in
+  Relativity}\ }\textbf {\bibinfo {volume} {23}},\ \href
+  {https://doi.org/10.1007/s41114-018-0012-9} {10.1007/s41114-018-0012-9}
+  (\bibinfo {year} {2020}),\ \Eprint {https://arxiv.org/abs/1304.0670}
+  {arXiv:1304.0670 [gr-qc]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Iyer}}\ \emph {et~al.}(2011)\citenamefont {{Iyer}},
+  \citenamefont {{Souradeep}}, \citenamefont {{Unnikrishnan}}, \citenamefont
+  {{Dhurandhar}}, \citenamefont {{Raja}},\ and\ \citenamefont
+  {{Sengupta}}}]{Iyer:2011indigo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {{Iyer}}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {{Souradeep}}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {{Unnikrishnan}}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Dhurandhar}}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {{Raja}}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Sengupta}}},\ }\href
+  {https://dcc.ligo.org/LIGO-M1100296/public} {\emph {\bibinfo {title}
+  {{LIGO-India, Proposal of the Consortium for Indian Initiative in
+  Gravitational-wave Observations (IndIGO)}}}},\ \bibinfo {type} {Tech. Rep.}\
+  (\bibinfo  {institution} {LIGO Scientific Collaboration},\ \bibinfo {year}
+  {2011})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2019{\natexlab{b}})\citenamefont {Abbott} \emph
+  {et~al.}}]{LIGOScientific:2018mvr}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific,
+  Virgo}),\ }\bibfield  {title} {\bibinfo {title} {{GWTC-1: A
+  Gravitational-Wave Transient Catalog of Compact Binary Mergers Observed by
+  LIGO and Virgo during the First and Second Observing Runs}},\ }\href
+  {https://doi.org/10.1103/PhysRevX.9.031040} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages}
+  {031040} (\bibinfo {year} {2019}{\natexlab{b}})},\ \Eprint
+  {https://arxiv.org/abs/1811.12907} {arXiv:1811.12907 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2017{\natexlab{b}})\citenamefont {Abbott} \emph
+  {et~al.}}]{GW170817discovery}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific,
+  Virgo}),\ }\bibfield  {title} {\bibinfo {title} {{GW170817: Observation of
+  Gravitational Waves from a Binary Neutron Star Inspiral}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.119.161101} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\
+  \bibinfo {pages} {161101} (\bibinfo {year} {2017}{\natexlab{b}})},\ \Eprint
+  {https://arxiv.org/abs/1710.05832} {arXiv:1710.05832 [gr-qc]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Abbott}}\ \emph {et~al.}(2020)\citenamefont
+  {{Abbott}} \emph {et~al.}}]{GWTC2:2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Abbott}}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific,
+  Virgo}),\ }\bibfield  {title} {\bibinfo {title} {{GWTC-2: Compact Binary
+  Coalescences Observed by LIGO and Virgo During the First Half of the Third
+  Observing Run}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {arXiv e-prints}\ ,\ \bibinfo {eid} {arXiv:2010.14527}} (\bibinfo {year}
+  {2020})},\ \Eprint {https://arxiv.org/abs/2010.14527} {arXiv:2010.14527
+  [gr-qc]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Aasi}\ \emph {et~al.}(2013)\citenamefont {Aasi} \emph
+  {et~al.}}]{Aasi:2013jjl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Aasi}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific, VIRGO}),\
+  }\bibfield  {title} {\bibinfo {title} {{Parameter estimation for compact
+  binary coalescence signals with the first generation gravitational-wave
+  detector network}},\ }\href {https://doi.org/10.1103/PhysRevD.88.062001}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {88}},\ \bibinfo {pages} {062001} (\bibinfo {year} {2013})},\
+  \Eprint {https://arxiv.org/abs/1304.1775} {arXiv:1304.1775 [gr-qc]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2016{\natexlab{a}})\citenamefont {Abbott} \emph
+  {et~al.}}]{TheLIGOScientific:2016wfe}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific,
+  Virgo}),\ }\bibfield  {title} {\bibinfo {title} {{Properties of the Binary
+  Black Hole Merger GW150914}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.116.241102} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\
+  \bibinfo {pages} {241102} (\bibinfo {year} {2016}{\natexlab{a}})},\ \Eprint
+  {https://arxiv.org/abs/1602.03840} {arXiv:1602.03840 [gr-qc]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Veitch}\ \emph {et~al.}(2015)\citenamefont {Veitch},
+  \citenamefont {Raymond}, \citenamefont {Farr}, \citenamefont {Farr},
+  \citenamefont {Graff}, \citenamefont {Vitale}, \citenamefont {Aylott},
+  \citenamefont {Blackburn}, \citenamefont {Christensen}, \citenamefont
+  {Coughlin} \emph {et~al.}}]{Veitch:2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Veitch}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Raymond}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Farr}}, \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Farr}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Graff}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Vitale}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Aylott}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Blackburn}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Christensen}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Coughlin}}, \emph {et~al.},\ }\bibfield  {title} {\bibinfo
+  {title} {Parameter estimation for compact binaries with ground-based
+  gravitational-wave observations using the lalinference software library},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {\prd}\ }\textbf
+  {\bibinfo {volume} {91}},\ \bibinfo {pages} {042003} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brooks}\ \emph {et~al.}(2011)\citenamefont {Brooks},
+  \citenamefont {Gelman}, \citenamefont {Jones},\ and\ \citenamefont
+  {Meng}}]{Brooks:2011handbook}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Brooks}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Gelman}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Jones}},\ and\ \bibinfo
+  {author} {\bibfnamefont {X.-L.}\ \bibnamefont {Meng}},\ }\href@noop {} {\emph
+  {\bibinfo {title} {Handbook of markov chain monte carlo}}}\ (\bibinfo
+  {publisher} {CRC press},\ \bibinfo {year} {2011})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Skilling}\ \emph {et~al.}(2006)\citenamefont
+  {Skilling} \emph {et~al.}}]{Skilling:2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Skilling}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {Nested
+  sampling for general bayesian computation},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Bayesian analysis}\ }\textbf {\bibinfo
+  {volume} {1}},\ \bibinfo {pages} {833} (\bibinfo {year} {2006})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Farr}\ \emph {et~al.}(2014)\citenamefont {Farr},
+  \citenamefont {Ochsner}, \citenamefont {Farr},\ and\ \citenamefont
+  {O'Shaughnessy}}]{Farr:2014system-frame}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Farr}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Ochsner}},
+  \bibinfo {author} {\bibfnamefont {W.~M.}\ \bibnamefont {Farr}},\ and\
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {O'Shaughnessy}},\
+  }\bibfield  {title} {\bibinfo {title} {A more effective coordinate system for
+  parameter estimation of precessing compact binaries from gravitational
+  waves},\ }\href {https://doi.org/10.1103/PhysRevD.90.024018} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume}
+  {90}},\ \bibinfo {pages} {024018} (\bibinfo {year} {2014})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {P\"urrer}(2014)}]{Purrer:2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {P\"urrer}},\ }\bibfield  {title} {\bibinfo {title} {{Frequency domain
+  reduced order models for gravitational waves from aligned-spin compact
+  binaries}},\ }\href {https://doi.org/10.1088/0264-9381/31/19/195010}
+  {\bibfield  {journal} {\bibinfo  {journal} {Class. Quant. Grav.}\ }\textbf
+  {\bibinfo {volume} {31}},\ \bibinfo {pages} {195010} (\bibinfo {year}
+  {2014})},\ \Eprint {https://arxiv.org/abs/1402.4146} {arXiv:1402.4146
+  [gr-qc]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Smith}\ \emph {et~al.}(2016)\citenamefont {Smith},
+  \citenamefont {Field}, \citenamefont {Blackburn}, \citenamefont {Haster},
+  \citenamefont {P\"urrer}, \citenamefont {Raymond},\ and\ \citenamefont
+  {Schmidt}}]{Smith:2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Smith}}, \bibinfo {author} {\bibfnamefont {S.~E.}\ \bibnamefont {Field}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Blackburn}}, \bibinfo
+  {author} {\bibfnamefont {C.-J.}\ \bibnamefont {Haster}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {P\"urrer}}, \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {Raymond}},\ and\ \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Schmidt}},\ }\bibfield  {title} {\bibinfo
+  {title} {Fast and accurate inference on gravitational waves from precessing
+  compact binaries},\ }\href {https://doi.org/10.1103/PhysRevD.94.044031}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {94}},\ \bibinfo {pages} {044031} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Handley}\ \emph {et~al.}(2015)\citenamefont
+  {Handley}, \citenamefont {Hobson},\ and\ \citenamefont
+  {Lasenby}}]{Handley:2015polychord}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~J.}\ \bibnamefont
+  {Handley}}, \bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont
+  {Hobson}},\ and\ \bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont
+  {Lasenby}},\ }\bibfield  {title} {\bibinfo {title} {{polychord:
+  next-generation nested sampling}},\ }\href
+  {https://doi.org/10.1093/mnras/stv1911} {\bibfield  {journal} {\bibinfo
+  {journal} {Monthly Notices of the Royal Astronomical Society}\ }\textbf
+  {\bibinfo {volume} {453}},\ \bibinfo {pages} {4384} (\bibinfo {year}
+  {2015})},\ \Eprint
+  {https://arxiv.org/abs/https://academic.oup.com/mnras/article-pdf/453/4/4384/8034904/stv1911.pdf}
+  {https://academic.oup.com/mnras/article-pdf/453/4/4384/8034904/stv1911.pdf}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Veitch}\ \emph {et~al.}(2021)\citenamefont {Veitch},
+  \citenamefont {Pozzo}, \citenamefont {Williams}, \citenamefont {Talbot},
+  \citenamefont {Pitkin}, \citenamefont {Ashton}, \citenamefont {Cody},
+  \citenamefont {Hübner}, \citenamefont {Nitz}, \citenamefont {Macleod},
+  \citenamefont {Carullo}, \citenamefont {Davies},\ and\ \citenamefont
+  {Tony}}]{Veitch:2021cpnest}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Veitch}}, \bibinfo {author} {\bibfnamefont {W.~D.}\ \bibnamefont {Pozzo}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Williams}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Talbot}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Pitkin}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Ashton}}, \bibinfo {author} {\bibnamefont {Cody}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Hübner}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Nitz}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Macleod}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Carullo}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Davies}},\ and\ \bibinfo {author} {\bibnamefont {Tony}},\
+  }\href {https://doi.org/10.5281/zenodo.4428902} {\bibinfo {title}
+  {johnveitch/cpnest: Version 0.11}} (\bibinfo {year} {2021})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Smith}\ \emph {et~al.}(2020)\citenamefont {Smith},
+  \citenamefont {Ashton}, \citenamefont {Vajpeyi},\ and\ \citenamefont
+  {Talbot}}]{Smith:2020pbilby}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~J.~E.}\
+  \bibnamefont {Smith}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Ashton}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Vajpeyi}},\
+  and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Talbot}},\
+  }\bibfield  {title} {\bibinfo {title} {{Massively parallel Bayesian inference
+  for transient gravitational-wave astronomy}},\ }\href
+  {https://doi.org/10.1093/mnras/staa2483} {\bibfield  {journal} {\bibinfo
+  {journal} {Monthly Notices of the Royal Astronomical Society}\ }\textbf
+  {\bibinfo {volume} {498}},\ \bibinfo {pages} {4492} (\bibinfo {year}
+  {2020})},\ \Eprint
+  {https://arxiv.org/abs/https://academic.oup.com/mnras/article-pdf/498/3/4492/33798799/staa2483.pdf}
+  {https://academic.oup.com/mnras/article-pdf/498/3/4492/33798799/staa2483.pdf}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Lange}}\ \emph {et~al.}(2018)\citenamefont
+  {{Lange}}, \citenamefont {{O'Shaughnessy}},\ and\ \citenamefont
+  {{Rizzo}}}]{Lange:2018RIFT}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Lange}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{O'Shaughnessy}}},\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Rizzo}}},\ }\bibfield  {title} {\bibinfo {title} {{Rapid and accurate
+  parameter inference for coalescing, precessing compact binaries}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv e-prints}\
+  ,\ \bibinfo {eid} {arXiv:1805.10457}} (\bibinfo {year} {2018})},\ \Eprint
+  {https://arxiv.org/abs/1805.10457} {arXiv:1805.10457 [gr-qc]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Biwer}}\ \emph {et~al.}(2019)\citenamefont
+  {{Biwer}}, \citenamefont {{Capano}}, \citenamefont {{De}}, \citenamefont
+  {{Cabero}}, \citenamefont {{Brown}}, \citenamefont {{Nitz}},\ and\
+  \citenamefont {{Raymond}}}]{Biwer:2018PyCBCInf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {{Biwer}}}, \bibinfo {author} {\bibfnamefont {C.~D.}\ \bibnamefont
+  {{Capano}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{De}}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Cabero}}}, \bibinfo
+  {author} {\bibfnamefont {D.~A.}\ \bibnamefont {{Brown}}}, \bibinfo {author}
+  {\bibfnamefont {A.~H.}\ \bibnamefont {{Nitz}}},\ and\ \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {{Raymond}}},\ }\bibfield  {title} {\bibinfo
+  {title} {{PyCBC Inference: A Python-based Parameter Estimation Toolkit for
+  Compact Binary Coalescence Signal}},\ }\href
+  {https://doi.org/10.1088/1538-3873/aaef0b} {\bibfield  {journal} {\bibinfo
+  {journal} {\pasp}\ }\textbf {\bibinfo {volume} {131}},\ \bibinfo {pages}
+  {024503} (\bibinfo {year} {2019})},\ \Eprint
+  {https://arxiv.org/abs/1807.10312} {arXiv:1807.10312 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Ashton}}\ \emph {et~al.}(2019)\citenamefont
+  {{Ashton}}, \citenamefont {{H{\"u}bner}}, \citenamefont {{Lasky}},
+  \citenamefont {{Talbot}}, \citenamefont {{Ackley}}, \citenamefont
+  {{Biscoveanu}}, \citenamefont {{Chu}}, \citenamefont {{Divakarla}},
+  \citenamefont {{Easter}}, \citenamefont {{Goncharov}}, \citenamefont
+  {{Hernandez Vivanco}}, \citenamefont {{Harms}}, \citenamefont {{Lower}},
+  \citenamefont {{Meadors}}, \citenamefont {{Melchor}}, \citenamefont
+  {{Payne}}, \citenamefont {{Pitkin}}, \citenamefont {{Powell}}, \citenamefont
+  {{Sarin}}, \citenamefont {{Smith}},\ and\ \citenamefont
+  {{Thrane}}}]{Ashton:2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {{Ashton}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{H{\"u}bner}}}, \bibinfo {author} {\bibfnamefont {P.~D.}\ \bibnamefont
+  {{Lasky}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {{Talbot}}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {{Ackley}}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {{Biscoveanu}}}, \bibinfo {author}
+  {\bibfnamefont {Q.}~\bibnamefont {{Chu}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Divakarla}}}, \bibinfo {author} {\bibfnamefont {P.~J.}\
+  \bibnamefont {{Easter}}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {{Goncharov}}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {{Hernandez Vivanco}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Harms}}}, \bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont
+  {{Lower}}}, \bibinfo {author} {\bibfnamefont {G.~D.}\ \bibnamefont
+  {{Meadors}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {{Melchor}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {{Payne}}},
+  \bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont {{Pitkin}}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {{Powell}}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {{Sarin}}}, \bibinfo {author} {\bibfnamefont
+  {R.~J.~E.}\ \bibnamefont {{Smith}}},\ and\ \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {{Thrane}}},\ }\bibfield  {title} {\bibinfo {title}
+  {{BILBY: A User-friendly Bayesian Inference Library for Gravitational-wave
+  Astronomy}},\ }\href {https://doi.org/10.3847/1538-4365/ab06fc} {\bibfield
+  {journal} {\bibinfo  {journal} {\apjs}\ }\textbf {\bibinfo {volume} {241}},\
+  \bibinfo {eid} {27} (\bibinfo {year} {2019})},\ \Eprint
+  {https://arxiv.org/abs/1811.02042} {arXiv:1811.02042 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Cuoco}}\ \emph {et~al.}(2020)\citenamefont
+  {{Cuoco}}, \citenamefont {{Powell}}, \citenamefont {{Cavagli{\`a}}},
+  \citenamefont {{Ackley}}, \citenamefont {{Bejger}}, \citenamefont
+  {{Chatterjee}}, \citenamefont {{Coughlin}}, \citenamefont {{Coughlin}},
+  \citenamefont {{Easter}}, \citenamefont {{Essick}}, \citenamefont
+  {{Gabbard}}, \citenamefont {{Gebhard}}, \citenamefont {{Ghosh}},
+  \citenamefont {{Haegel}}, \citenamefont {{Iess}}, \citenamefont {{Keitel}},
+  \citenamefont {{Marka}}, \citenamefont {{Marka}}, \citenamefont {{Morawski}},
+  \citenamefont {{Nguyen}}, \citenamefont {{Ormiston}}, \citenamefont
+  {{Puerrer}}, \citenamefont {{Razzano}}, \citenamefont {{Staats}},
+  \citenamefont {{Vajente}},\ and\ \citenamefont
+  {{Williams}}}]{Cuoco:2020:egwml}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {{Cuoco}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Powell}}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Cavagli{\`a}}}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {{Ackley}}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {{Bejger}}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {{Chatterjee}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Coughlin}}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {{Coughlin}}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {{Easter}}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {{Essick}}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {{Gabbard}}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {{Gebhard}}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {{Ghosh}}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {{Haegel}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Iess}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{Keitel}}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {{Marka}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Marka}}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {{Morawski}}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {{Nguyen}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Ormiston}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Puerrer}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Razzano}}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {{Staats}}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {{Vajente}}},\ and\ \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{Williams}}},\ }\bibfield  {title} {\bibinfo {title}
+  {{Enhancing Gravitational-Wave Science with Machine Learning}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo
+  {eid} {arXiv:2005.03745}} (\bibinfo {year} {2020})},\ \Eprint
+  {https://arxiv.org/abs/2005.03745} {arXiv:2005.03745 [astro-ph.HE]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Gabbard}}\ \emph {et~al.}(2019)\citenamefont
+  {{Gabbard}}, \citenamefont {{Messenger}}, \citenamefont {{Heng}},
+  \citenamefont {{Tonolini}},\ and\ \citenamefont
+  {{Murray-Smith}}}]{Gabbard:2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {{Gabbard}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Messenger}}}, \bibinfo {author} {\bibfnamefont {I.~S.}\ \bibnamefont
+  {{Heng}}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {{Tonolini}}},\
+  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {{Murray-Smith}}},\
+  }\bibfield  {title} {\bibinfo {title} {{Bayesian parameter estimation using
+  conditional variational autoencoders for gravitational-wave astronomy}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv e-prints}\
+  ,\ \bibinfo {eid} {arXiv:1909.06296}} (\bibinfo {year} {2019})},\ \Eprint
+  {https://arxiv.org/abs/1909.06296} {arXiv:1909.06296 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Chua}}\ and\ \citenamefont
+  {{Vallisneri}}(2020)}]{Chua:2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~J.~K.}\
+  \bibnamefont {{Chua}}}\ and\ \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Vallisneri}}},\ }\bibfield  {title} {\bibinfo {title}
+  {{Learning Bayesian Posteriors with Neural Networks for Gravitational-Wave
+  Inference}},\ }\href {https://doi.org/10.1103/PhysRevLett.124.041102}
+  {\bibfield  {journal} {\bibinfo  {journal} {\prl}\ }\textbf {\bibinfo
+  {volume} {124}},\ \bibinfo {eid} {041102} (\bibinfo {year} {2020})},\ \Eprint
+  {https://arxiv.org/abs/1909.05966} {arXiv:1909.05966 [gr-qc]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Green}}\ \emph {et~al.}(2020)\citenamefont
+  {{Green}}, \citenamefont {{Simpson}},\ and\ \citenamefont
+  {{Gair}}}]{Green:2020a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
+  {{Green}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {{Simpson}}},\
+  and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Gair}}},\
+  }\bibfield  {title} {\bibinfo {title} {{Gravitational-wave parameter
+  estimation with autoregressive neural network flows}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo
+  {eid} {arXiv:2002.07656}} (\bibinfo {year} {2020})},\ \Eprint
+  {https://arxiv.org/abs/2002.07656} {arXiv:2002.07656 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Green}}\ and\ \citenamefont
+  {{Gair}}(2020)}]{Green:2020complete}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
+  {{Green}}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Gair}}},\ }\bibfield  {title} {\bibinfo {title} {{Complete parameter
+  inference for GW150914 using deep learning}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo {eid}
+  {arXiv:2008.03312}} (\bibinfo {year} {2020})},\ \Eprint
+  {https://arxiv.org/abs/2008.03312} {arXiv:2008.03312 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Kobyzev}}\ \emph {et~al.}(2019)\citenamefont
+  {{Kobyzev}}, \citenamefont {{Prince}},\ and\ \citenamefont
+  {{Brubaker}}}]{Kobyzev:2019nf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {{Kobyzev}}}, \bibinfo {author} {\bibfnamefont {S.~J.~D.}\ \bibnamefont
+  {{Prince}}},\ and\ \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {{Brubaker}}},\ }\bibfield  {title} {\bibinfo {title} {{Normalizing Flows: An
+  Introduction and Review of Current Methods}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo {eid}
+  {arXiv:1908.09257}} (\bibinfo {year} {2019})},\ \Eprint
+  {https://arxiv.org/abs/1908.09257} {arXiv:1908.09257 [stat.ML]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Papamakarios}}\ \emph {et~al.}(2019)\citenamefont
+  {{Papamakarios}}, \citenamefont {{Nalisnick}}, \citenamefont {{Jimenez
+  Rezende}}, \citenamefont {{Mohamed}},\ and\ \citenamefont
+  {{Lakshminarayanan}}}]{Paramakarios:2019nfpmi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {{Papamakarios}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {{Nalisnick}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Jimenez
+  Rezende}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Mohamed}}},\
+  and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {{Lakshminarayanan}}},\ }\bibfield  {title} {\bibinfo {title} {{Normalizing
+  Flows for Probabilistic Modeling and Inference}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo {eid}
+  {arXiv:1912.02762}} (\bibinfo {year} {2019})},\ \Eprint
+  {https://arxiv.org/abs/1912.02762} {arXiv:1912.02762 [stat.ML]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Feroz}}\ \emph {et~al.}(2009)\citenamefont
+  {{Feroz}}, \citenamefont {{Hobson}},\ and\ \citenamefont
+  {{Bridges}}}]{Feroz:2019multinest}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {{Feroz}}}, \bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont
+  {{Hobson}}},\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Bridges}}},\ }\bibfield  {title} {\bibinfo {title} {{MULTINEST: an
+  efficient and robust Bayesian inference tool for cosmology and particle
+  physics}},\ }\href {https://doi.org/10.1111/j.1365-2966.2009.14548.x}
+  {\bibfield  {journal} {\bibinfo  {journal} {\mnras}\ }\textbf {\bibinfo
+  {volume} {398}},\ \bibinfo {pages} {1601} (\bibinfo {year} {2009})},\ \Eprint
+  {https://arxiv.org/abs/0809.3437} {arXiv:0809.3437 [astro-ph]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Speagle}}(2020)}]{Speagle:2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont
+  {{Speagle}}},\ }\bibfield  {title} {\bibinfo {title} {{DYNESTY: a dynamic
+  nested sampling package for estimating Bayesian posteriors and evidences}},\
+  }\href {https://doi.org/10.1093/mnras/staa278} {\bibfield  {journal}
+  {\bibinfo  {journal} {\mnras}\ }\textbf {\bibinfo {volume} {493}},\ \bibinfo
+  {pages} {3132} (\bibinfo {year} {2020})},\ \Eprint
+  {https://arxiv.org/abs/1904.02180} {arXiv:1904.02180 [astro-ph.IM]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Romero-Shaw}}\ \emph {et~al.}(2020)\citenamefont
+  {{Romero-Shaw}}, \citenamefont {{Talbot}}, \citenamefont {{Biscoveanu}},
+  \citenamefont {{D'Emilio}}, \citenamefont {{Ashton}}, \citenamefont
+  {{Berry}}, \citenamefont {{Coughlin}}, \citenamefont {{Galaudage}},
+  \citenamefont {{Hoy}}, \citenamefont {{Huebner}}, \citenamefont {{Phukon}},
+  \citenamefont {{Pitkin}}, \citenamefont {{Rizzo}}, \citenamefont {{Sarin}},
+  \citenamefont {{Smith}}, \citenamefont {{Stevenson}}, \citenamefont
+  {{Vajpeyi}}, \citenamefont {{Arene}}, \citenamefont {{Athar}}, \citenamefont
+  {{Banagiri}}, \citenamefont {{Bose}}, \citenamefont {{Carney}}, \citenamefont
+  {{Chatziioannou}}, \citenamefont {{Cotesta}}, \citenamefont {{Edelman}},
+  \citenamefont {{Garcia-Quiros}}, \citenamefont {{Ghosh}}, \citenamefont
+  {{Green}}, \citenamefont {{Haster}}, \citenamefont {{Kim}}, \citenamefont
+  {{Hernandez-Vivanco}}, \citenamefont {{Magana Hernandez}}, \citenamefont
+  {{Karathanasis}}, \citenamefont {{Lasky}}, \citenamefont {{De Lillo}},
+  \citenamefont {{Lower}}, \citenamefont {{Macleod}}, \citenamefont
+  {{Mateu-Lucena}}, \citenamefont {{Miller}}, \citenamefont {{Millhouse}},
+  \citenamefont {{Morisaki}}, \citenamefont {{Oh}}, \citenamefont {{Ossokine}},
+  \citenamefont {{Payne}}, \citenamefont {{Powell}}, \citenamefont {{Puerrer}},
+  \citenamefont {{Ramos-Buades}}, \citenamefont {{Raymond}}, \citenamefont
+  {{Thrane}}, \citenamefont {{Veitch}}, \citenamefont {{Williams}},
+  \citenamefont {{Williams}},\ and\ \citenamefont {{Xiao}}}]{Romero-Shaw:2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.~M.}\ \bibnamefont
+  {{Romero-Shaw}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Talbot}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Biscoveanu}}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {{D'Emilio}}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {{Ashton}}}, \bibinfo {author} {\bibfnamefont {C.~P.~L.}\ \bibnamefont
+  {{Berry}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Coughlin}}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Galaudage}}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {{Hoy}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Huebner}}}, \bibinfo {author}
+  {\bibfnamefont {K.~S.}\ \bibnamefont {{Phukon}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Pitkin}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Rizzo}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Sarin}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Smith}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Stevenson}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Vajpeyi}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Arene}}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {{Athar}}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {{Banagiri}}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {{Bose}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Carney}}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {{Chatziioannou}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Cotesta}}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {{Edelman}}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {{Garcia-Quiros}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Ghosh}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Green}}}, \bibinfo {author} {\bibfnamefont {C.~J.}\
+  \bibnamefont {{Haster}}}, \bibinfo {author} {\bibfnamefont {A.~X.}\
+  \bibnamefont {{Kim}}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {{Hernandez-Vivanco}}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {{Magana Hernandez}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Karathanasis}}}, \bibinfo {author} {\bibfnamefont {P.~D.}\ \bibnamefont
+  {{Lasky}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {{De Lillo}}},
+  \bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont {{Lower}}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {{Macleod}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Mateu-Lucena}}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Miller}}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {{Millhouse}}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {{Morisaki}}}, \bibinfo {author}
+  {\bibfnamefont {S.~H.}\ \bibnamefont {{Oh}}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {{Ossokine}}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {{Payne}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Powell}}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {{Puerrer}}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {{Ramos-Buades}}}, \bibinfo {author} {\bibfnamefont
+  {V.}~\bibnamefont {{Raymond}}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {{Thrane}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {{Veitch}}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {{Williams}}}, \bibinfo {author} {\bibfnamefont {M.~J.}\
+  \bibnamefont {{Williams}}},\ and\ \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {{Xiao}}},\ }\bibfield  {title} {\bibinfo {title}
+  {{Bayesian inference for compact binary coalescences with BILBY: Validation
+  and application to the first LIGO--Virgo gravitational-wave transient
+  catalogue}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {arXiv e-prints}\ ,\ \bibinfo {eid} {arXiv:2006.00714}} (\bibinfo {year}
+  {2020})},\ \Eprint {https://arxiv.org/abs/2006.00714} {arXiv:2006.00714
+  [astro-ph.IM]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Jimenez Rezende}}\ and\ \citenamefont
+  {{Mohamed}}(2015)}]{Rezende:2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {{Jimenez Rezende}}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Mohamed}}},\ }\bibfield  {title} {\bibinfo {title} {{Variational Inference
+  with Normalizing Flows}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {arXiv e-prints}\ ,\ \bibinfo {eid} {arXiv:1505.05770}} (\bibinfo
+  {year} {2015})},\ \Eprint {https://arxiv.org/abs/1505.05770}
+  {arXiv:1505.05770 [stat.ML]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Papamakarios}}\ \emph {et~al.}(2017)\citenamefont
+  {{Papamakarios}}, \citenamefont {{Pavlakou}},\ and\ \citenamefont
+  {{Murray}}}]{Papamakarios:2017made}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {{Papamakarios}}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {{Pavlakou}}},\ and\ \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {{Murray}}},\ }\bibfield  {title} {\bibinfo {title} {{Masked Autoregressive
+  Flow for Density Estimation}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo {eid} {arXiv:1705.07057}}
+  (\bibinfo {year} {2017})},\ \Eprint {https://arxiv.org/abs/1705.07057}
+  {arXiv:1705.07057 [stat.ML]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Huang}}\ \emph {et~al.}(2018)\citenamefont
+  {{Huang}}, \citenamefont {{Krueger}}, \citenamefont {{Lacoste}},\ and\
+  \citenamefont {{Courville}}}]{Huang:2018naf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.-W.}\ \bibnamefont
+  {{Huang}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Krueger}}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Lacoste}}},\ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Courville}}},\
+  }\bibfield  {title} {\bibinfo {title} {{Neural Autoregressive Flows}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv e-prints}\
+  ,\ \bibinfo {eid} {arXiv:1804.00779}} (\bibinfo {year} {2018})},\ \Eprint
+  {https://arxiv.org/abs/1804.00779} {arXiv:1804.00779 [cs.LG]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Dinh}}\ \emph {et~al.}(2016)\citenamefont {{Dinh}},
+  \citenamefont {{Sohl-Dickstein}},\ and\ \citenamefont
+  {{Bengio}}}]{Dinh:2016:rnvp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {{Dinh}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Sohl-Dickstein}}},\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Bengio}}},\ }\bibfield  {title} {\bibinfo {title} {{Density estimation
+  using Real NVP}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {arXiv e-prints}\ ,\ \bibinfo {eid} {arXiv:1605.08803}} (\bibinfo {year}
+  {2016})},\ \Eprint {https://arxiv.org/abs/1605.08803} {arXiv:1605.08803
+  [cs.LG]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Kingma}}\ and\ \citenamefont
+  {{Dhariwal}}(2018)}]{Kingma:2018glow}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~P.}\ \bibnamefont
+  {{Kingma}}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Dhariwal}}},\ }\bibfield  {title} {\bibinfo {title} {{Glow: Generative Flow
+  with Invertible 1x1 Convolutions}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo {eid} {arXiv:1807.03039}}
+  (\bibinfo {year} {2018})},\ \Eprint {https://arxiv.org/abs/1807.03039}
+  {arXiv:1807.03039 [stat.ML]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Durkan}}\ \emph
+  {et~al.}(2019{\natexlab{a}})\citenamefont {{Durkan}}, \citenamefont
+  {{Bekasov}}, \citenamefont {{Murray}},\ and\ \citenamefont
+  {{Papamakarios}}}]{Durkan:2019spl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Durkan}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Bekasov}}},
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {{Murray}}},\ and\
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {{Papamakarios}}},\
+  }\bibfield  {title} {\bibinfo {title} {{Neural Spline Flows}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo
+  {eid} {arXiv:1906.04032}} (\bibinfo {year} {2019}{\natexlab{a}})},\ \Eprint
+  {https://arxiv.org/abs/1906.04032} {arXiv:1906.04032 [stat.ML]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Muller}(1959)}]{Muller:1959ANO}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont
+  {Muller}},\ }\bibfield  {title} {\bibinfo {title} {A note on a method for
+  generating points uniformly on n-dimensional spheres},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Commun. ACM}\ }\textbf {\bibinfo
+  {volume} {2}},\ \bibinfo {pages} {19} (\bibinfo {year} {1959})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Marsaglia}(1972)}]{Marsaglia:1972}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Marsaglia}},\ }\bibfield  {title} {\bibinfo {title} {Choosing a point from
+  the surface of a sphere},\ }\href {https://doi.org/10.1214/aoms/1177692644}
+  {\bibfield  {journal} {\bibinfo  {journal} {Ann. Math. Statist.}\ }\textbf
+  {\bibinfo {volume} {43}},\ \bibinfo {pages} {645} (\bibinfo {year}
+  {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Williams}}(2021{\natexlab{a}})}]{nessai-docs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {{Williams}}},\ }\href@noop {} {\bibinfo {title} {Nessai documentation}},\
+  \bibinfo {howpublished} {\url{https://nessai.readthedocs.io/}} (\bibinfo
+  {year} {2021}{\natexlab{a}})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Paszke}\ \emph {et~al.}(2019)\citenamefont {Paszke},
+  \citenamefont {Gross}, \citenamefont {Massa}, \citenamefont {Lerer},
+  \citenamefont {Bradbury}, \citenamefont {Chanan}, \citenamefont {Killeen},
+  \citenamefont {Lin}, \citenamefont {Gimelshein}, \citenamefont {Antiga},
+  \citenamefont {Desmaison}, \citenamefont {Kopf}, \citenamefont {Yang},
+  \citenamefont {DeVito}, \citenamefont {Raison}, \citenamefont {Tejani},
+  \citenamefont {Chilamkurthy}, \citenamefont {Steiner}, \citenamefont {Fang},
+  \citenamefont {Bai},\ and\ \citenamefont {Chintala}}]{Paszke:2019:pt}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Paszke}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Gross}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Massa}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Lerer}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Bradbury}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Chanan}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Killeen}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Lin}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Gimelshein}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Antiga}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Desmaison}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Kopf}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Yang}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {DeVito}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Raison}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Tejani}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Chilamkurthy}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Steiner}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Fang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Bai}},\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Chintala}},\ }\bibfield  {title} {\bibinfo {title} {Pytorch: An imperative
+  style, high-performance deep learning library},\ }in\ \href
+  {http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf}
+  {\emph {\bibinfo {booktitle} {Advances in Neural Information Processing
+  Systems 32}}},\ \bibinfo {editor} {edited by\ \bibinfo {editor}
+  {\bibfnamefont {H.}~\bibnamefont {Wallach}}, \bibinfo {editor} {\bibfnamefont
+  {H.}~\bibnamefont {Larochelle}}, \bibinfo {editor} {\bibfnamefont
+  {A.}~\bibnamefont {Beygelzimer}}, \bibinfo {editor} {\bibfnamefont
+  {F.}~\bibnamefont {d'Alch\'{e} Buc}}, \bibinfo {editor} {\bibfnamefont
+  {E.}~\bibnamefont {Fox}},\ and\ \bibinfo {editor} {\bibfnamefont
+  {R.}~\bibnamefont {Garnett}}}\ (\bibinfo  {publisher} {Curran Associates,
+  Inc.},\ \bibinfo {year} {2019})\ pp.\ \bibinfo {pages}
+  {8024--8035}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Durkan}\ \emph {et~al.}(2020)\citenamefont {Durkan},
+  \citenamefont {Bekasov}, \citenamefont {Murray},\ and\ \citenamefont
+  {Papamakarios}}]{nflows}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Durkan}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Bekasov}},
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Murray}},\ and\ \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Papamakarios}},\ }\href
+  {https://doi.org/10.5281/zenodo.4296287} {\bibinfo {title} {{nflows}:
+  normalizing flows in {PyTorch}}} (\bibinfo {year} {2020})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Dinh}}\ \emph {et~al.}(2014)\citenamefont {{Dinh}},
+  \citenamefont {{Krueger}},\ and\ \citenamefont {{Bengio}}}]{Dinh:2014nice}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {{Dinh}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Krueger}}},\
+  and\ \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {{Bengio}}},\
+  }\bibfield  {title} {\bibinfo {title} {{NICE: Non-linear Independent
+  Components Estimation}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {arXiv e-prints}\ ,\ \bibinfo {eid} {arXiv:1410.8516}} (\bibinfo
+  {year} {2014})},\ \Eprint {https://arxiv.org/abs/1410.8516} {arXiv:1410.8516
+  [cs.LG]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Ioffe}}\ and\ \citenamefont
+  {{Szegedy}}(2015)}]{Ioffe:2015:bn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Ioffe}}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Szegedy}}},\ }\bibfield  {title} {\bibinfo {title} {{Batch Normalization:
+  Accelerating Deep Network Training by Reducing Internal Covariate Shift}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv e-prints}\
+  ,\ \bibinfo {eid} {arXiv:1502.03167}} (\bibinfo {year} {2015})},\ \Eprint
+  {https://arxiv.org/abs/1502.03167} {arXiv:1502.03167 [cs.LG]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{He}}\ \emph {et~al.}(2015)\citenamefont {{He}},
+  \citenamefont {{Zhang}}, \citenamefont {{Ren}},\ and\ \citenamefont
+  {{Sun}}}]{He:2015:drl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {{He}}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {{Zhang}}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Ren}}},\ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {{Sun}}},\ }\bibfield  {title}
+  {\bibinfo {title} {{Deep Residual Learning for Image Recognition}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv e-prints}\
+  ,\ \bibinfo {eid} {arXiv:1512.03385}} (\bibinfo {year} {2015})},\ \Eprint
+  {https://arxiv.org/abs/1512.03385} {arXiv:1512.03385 [cs.CV]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{He}}\ \emph {et~al.}(2016)\citenamefont {{He}},
+  \citenamefont {{Zhang}}, \citenamefont {{Ren}},\ and\ \citenamefont
+  {{Sun}}}]{He:2016:imdrn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {{He}}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {{Zhang}}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Ren}}},\ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {{Sun}}},\ }\bibfield  {title}
+  {\bibinfo {title} {{Identity Mappings in Deep Residual Networks}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv e-prints}\
+  ,\ \bibinfo {eid} {arXiv:1603.05027}} (\bibinfo {year} {2016})},\ \Eprint
+  {https://arxiv.org/abs/1603.05027} {arXiv:1603.05027 [cs.CV]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kingma}\ and\ \citenamefont
+  {Ba}(2014)}]{Kingma:2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~P.}\ \bibnamefont
+  {Kingma}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Ba}},\
+  }\bibfield  {title} {\bibinfo {title} {Adam: A method for stochastic
+  optimization},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {arXiv preprint arXiv:1412.6980}\ } (\bibinfo {year} {2014})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Williams}}(2021{\natexlab{b}})}]{nessai-git}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {{Williams}}},\ }\href {https://doi.org/10.5281/zenodo.4550693} {\bibinfo
+  {title} {Nessai: Nested sampling with artificial intelligence}} (\bibinfo
+  {year} {2021}{\natexlab{b}})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abbott}\ \emph
+  {et~al.}(2016{\natexlab{b}})\citenamefont {Abbott} \emph
+  {et~al.}}]{Abbott:2016blz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific,
+  Virgo}),\ }\bibfield  {title} {\bibinfo {title} {{Observation of
+  Gravitational Waves from a Binary Black Hole Merger}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.116.061102} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\
+  \bibinfo {pages} {061102} (\bibinfo {year} {2016}{\natexlab{b}})},\ \Eprint
+  {https://arxiv.org/abs/1602.03837} {arXiv:1602.03837 [gr-qc]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Graff}}\ and\ \citenamefont
+  {{Feroz}}(2013)}]{Graff:2013bambi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Graff}}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {{Feroz}}},\ }\href@noop {} {\bibinfo {title} {{BAMBI: Blind Accelerated
+  Multimodal Bayesian Inference}}} (\bibinfo {year} {2013}),\ \Eprint
+  {https://arxiv.org/abs/1312.008} {ascl:1312.008} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Levy}}\ \emph {et~al.}(2017)\citenamefont {{Levy}},
+  \citenamefont {{Hoffman}},\ and\ \citenamefont
+  {{Sohl-Dickstein}}}]{Levy:2017ghmc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {{Levy}}}, \bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont
+  {{Hoffman}}},\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Sohl-Dickstein}}},\ }\bibfield  {title} {\bibinfo {title} {{Generalizing
+  Hamiltonian Monte Carlo with Neural Networks}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo {eid}
+  {arXiv:1711.09268}} (\bibinfo {year} {2017})},\ \Eprint
+  {https://arxiv.org/abs/1711.09268} {arXiv:1711.09268 [stat.ML]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Hoffman}}\ \emph {et~al.}(2019)\citenamefont
+  {{Hoffman}}, \citenamefont {{Sountsov}}, \citenamefont {{Dillon}},
+  \citenamefont {{Langmore}}, \citenamefont {{Tran}},\ and\ \citenamefont
+  {{Vasudevan}}}]{Hoffman:2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Hoffman}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Sountsov}}}, \bibinfo {author} {\bibfnamefont {J.~V.}\ \bibnamefont
+  {{Dillon}}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {{Langmore}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Tran}}},\
+  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Vasudevan}}},\
+  }\bibfield  {title} {\bibinfo {title} {{NeuTra-lizing Bad Geometry in
+  Hamiltonian Monte Carlo Using Neural Transport}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo {eid}
+  {arXiv:1903.03704}} (\bibinfo {year} {2019})},\ \Eprint
+  {https://arxiv.org/abs/1903.03704} {arXiv:1903.03704 [stat.CO]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Moss}}(2019)}]{Moss:2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Moss}}},\ }\bibfield  {title} {\bibinfo {title} {{Accelerated Bayesian
+  inference using deep learning}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo {eid} {arXiv:1903.10860}}
+  (\bibinfo {year} {2019})},\ \Eprint {https://arxiv.org/abs/1903.10860}
+  {arXiv:1903.10860 [astro-ph.CO]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schmidt}\ \emph {et~al.}(2012)\citenamefont
+  {Schmidt}, \citenamefont {Hannam},\ and\ \citenamefont
+  {Husa}}]{Schmidt:2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Schmidt}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Hannam}},\
+  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Husa}},\ }\bibfield
+  {title} {\bibinfo {title} {Towards models of gravitational waveforms from
+  generic binaries: A simple approximate mapping between precessing and
+  nonprecessing inspiral signals},\ }\href
+  {https://doi.org/10.1103/physrevd.86.104063} {\bibfield  {journal} {\bibinfo
+  {journal} {\prd}\ }\textbf {\bibinfo {volume} {86}},\ \bibinfo {pages}
+  {104063} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Khan}}\ \emph {et~al.}(2019)\citenamefont {{Khan}},
+  \citenamefont {{Chatziioannou}}, \citenamefont {{Hannam}},\ and\
+  \citenamefont {{Ohme}}}]{Khan:2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Khan}}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {{Chatziioannou}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Hannam}}},\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {{Ohme}}},\ }\bibfield  {title} {\bibinfo {title} {{Phenomenological model
+  for the gravitational-wave signal from precessing binary black holes with
+  two-spin effects}},\ }\href {https://doi.org/10.1103/PhysRevD.100.024059}
+  {\bibfield  {journal} {\bibinfo  {journal} {\prd}\ }\textbf {\bibinfo
+  {volume} {100}},\ \bibinfo {eid} {024059} (\bibinfo {year} {2019})},\ \Eprint
+  {https://arxiv.org/abs/1809.10113} {arXiv:1809.10113 [gr-qc]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Cook}\ \emph {et~al.}(2006)\citenamefont {Cook},
+  \citenamefont {Gelman},\ and\ \citenamefont {Rubin}}]{Cook:2006pp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
+  {Cook}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Gelman}},\ and\
+  \bibinfo {author} {\bibfnamefont {D.~B.}\ \bibnamefont {Rubin}},\ }\bibfield
+  {title} {\bibinfo {title} {Validation of software for bayesian models using
+  posterior quantiles},\ }\href {https://doi.org/10.1198/106186006X136976}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Computational and
+  Graphical Statistics}\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo {pages}
+  {675} (\bibinfo {year} {2006})},\ \Eprint
+  {https://arxiv.org/abs/https://doi.org/10.1198/106186006X136976}
+  {https://doi.org/10.1198/106186006X136976} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Talts}}\ \emph {et~al.}(2018)\citenamefont
+  {{Talts}}, \citenamefont {{Betancourt}}, \citenamefont {{Simpson}},
+  \citenamefont {{Vehtari}},\ and\ \citenamefont {{Gelman}}}]{Talts:2018pp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Talts}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Betancourt}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {{Simpson}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Vehtari}}},\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Gelman}}},\ }\bibfield  {title} {\bibinfo {title} {{Validating Bayesian
+  Inference Algorithms with Simulation-Based Calibration}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo
+  {eid} {arXiv:1804.06788}} (\bibinfo {year} {2018})},\ \Eprint
+  {https://arxiv.org/abs/1804.06788} {arXiv:1804.06788 [stat.ME]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Veitch}}\ and\ \citenamefont
+  {{Vecchio}}(2010)}]{Veitch:2010ns}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Veitch}}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Vecchio}}},\ }\bibfield  {title} {\bibinfo {title} {{Bayesian coherent
+  analysis of in-spiral gravitational wave signals with a detector network}},\
+  }\href {https://doi.org/10.1103/PhysRevD.81.062003} {\bibfield  {journal}
+  {\bibinfo  {journal} {\prd}\ }\textbf {\bibinfo {volume} {81}},\ \bibinfo
+  {eid} {062003} (\bibinfo {year} {2010})},\ \Eprint
+  {https://arxiv.org/abs/0911.3820} {arXiv:0911.3820 [astro-ph.CO]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Fowlie}}\ \emph {et~al.}(2020)\citenamefont
+  {{Fowlie}}, \citenamefont {{Handley}},\ and\ \citenamefont
+  {{Su}}}]{Fowlie:2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Fowlie}}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {{Handley}}},\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {{Su}}},\ }\bibfield  {title} {\bibinfo {title} {{Nested sampling
+  cross-checks using order statistics}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo {eid} {arXiv:2006.03371}}
+  (\bibinfo {year} {2020})},\ \Eprint {https://arxiv.org/abs/2006.03371}
+  {arXiv:2006.03371 [stat.CO]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Smirnov}(1948)}]{Smirnov:1948table}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Smirnov}},\ }\bibfield  {title} {\bibinfo {title} {Table for estimating the
+  goodness of fit of empirical distributions},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {The annals of mathematical statistics}\
+  }\textbf {\bibinfo {volume} {19}},\ \bibinfo {pages} {279} (\bibinfo {year}
+  {1948})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Arnold}\ and\ \citenamefont
+  {Emerson}(2011)}]{Arnold:2011npgof}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~B.}\ \bibnamefont
+  {Arnold}}\ and\ \bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont
+  {Emerson}},\ }\bibfield  {title} {\bibinfo {title} {Nonparametric
+  goodness-of-fit tests for discrete null distributions.},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {R Journal}\ }\textbf {\bibinfo
+  {volume} {3}} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Durkan}}\ \emph
+  {et~al.}(2019{\natexlab{b}})\citenamefont {{Durkan}}, \citenamefont
+  {{Bekasov}}, \citenamefont {{Murray}},\ and\ \citenamefont
+  {{Papamakarios}}}]{Durkan:2019nsf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Durkan}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Bekasov}}},
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {{Murray}}},\ and\
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {{Papamakarios}}},\
+  }\bibfield  {title} {\bibinfo {title} {{Neural Spline Flows}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo
+  {eid} {arXiv:1906.04032}} (\bibinfo {year} {2019}{\natexlab{b}})},\ \Eprint
+  {https://arxiv.org/abs/1906.04032} {arXiv:1906.04032 [stat.ML]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Brehmer}}\ and\ \citenamefont
+  {{Cranmer}}(2020)}]{Brehemer:2020manifold}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Brehmer}}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {{Cranmer}}},\ }\bibfield  {title} {\bibinfo {title} {{Flows for simultaneous
+  manifold learning and density estimation}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {arXiv e-prints}\ ,\ \bibinfo {eid}
+  {arXiv:2003.13913}} (\bibinfo {year} {2020})},\ \Eprint
+  {https://arxiv.org/abs/2003.13913} {arXiv:2003.13913 [stat.ML]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{van der Walt}}\ \emph {et~al.}(2011)\citenamefont
+  {{van der Walt}}, \citenamefont {{Colbert}},\ and\ \citenamefont
+  {{Varoquaux}}}]{numpy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{van
+  der Walt}}}, \bibinfo {author} {\bibfnamefont {S.~C.}\ \bibnamefont
+  {{Colbert}}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {{Varoquaux}}},\ }\bibfield  {title} {\bibinfo {title} {The numpy array: A
+  structure for efficient numerical computation},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Computing in Science Engineering}\ }\textbf
+  {\bibinfo {volume} {13}},\ \bibinfo {pages} {22} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Virtanen}}\ \emph {et~al.}(2020)\citenamefont
+  {{Virtanen}}, \citenamefont {{Gommers}}, \citenamefont {{Oliphant}},
+  \citenamefont {{Haberland}}, \citenamefont {{Reddy}}, \citenamefont
+  {{Cournapeau}}, \citenamefont {{Burovski}}, \citenamefont {{Peterson}},
+  \citenamefont {{Weckesser}}, \citenamefont {{Bright}}, \citenamefont {{van
+  der Walt}}, \citenamefont {{Brett}}, \citenamefont {{Wilson}}, \citenamefont
+  {{Jarrod Millman}}, \citenamefont {{Mayorov}}, \citenamefont {{Nelson}},
+  \citenamefont {{Jones}}, \citenamefont {{Kern}}, \citenamefont {{Larson}},
+  \citenamefont {{Carey}}, \citenamefont {{Polat}}, \citenamefont {{Feng}},
+  \citenamefont {{Moore}}, \citenamefont {{Vand erPlas}}, \citenamefont
+  {{Laxalde}}, \citenamefont {{Perktold}}, \citenamefont {{Cimrman}},
+  \citenamefont {{Henriksen}}, \citenamefont {{Quintero}}, \citenamefont
+  {{Harris}}, \citenamefont {{Archibald}}, \citenamefont {{Ribeiro}},
+  \citenamefont {{Pedregosa}}, \citenamefont {{van Mulbregt}},\ and\
+  \citenamefont {{Contributors}}}]{2020SciPy-NMeth}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Virtanen}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Gommers}}}, \bibinfo {author} {\bibfnamefont {T.~E.}\ \bibnamefont
+  {{Oliphant}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Haberland}}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {{Reddy}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {{Cournapeau}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {{Burovski}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Peterson}}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {{Weckesser}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Bright}}}, \bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont {{van der
+  Walt}}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{Brett}}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Wilson}}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {{Jarrod Millman}}}, \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {{Mayorov}}}, \bibinfo {author}
+  {\bibfnamefont {A.~R.~J.}\ \bibnamefont {{Nelson}}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {{Jones}}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {{Kern}}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {{Larson}}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {{Carey}}}, \bibinfo {author} {\bibfnamefont
+  {{\.I}.}~\bibnamefont {{Polat}}}, \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {{Feng}}}, \bibinfo {author} {\bibfnamefont {E.~W.}\
+  \bibnamefont {{Moore}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Vand erPlas}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {{Laxalde}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Perktold}}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {{Cimrman}}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {{Henriksen}}}, \bibinfo {author} {\bibfnamefont {E.~A.}\ \bibnamefont
+  {{Quintero}}}, \bibinfo {author} {\bibfnamefont {C.~R.}\ \bibnamefont
+  {{Harris}}}, \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {{Archibald}}}, \bibinfo {author} {\bibfnamefont {A.~H.}\ \bibnamefont
+  {{Ribeiro}}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {{Pedregosa}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {{van
+  Mulbregt}}},\ and\ \bibinfo {author} {\bibfnamefont {S.~.~.}\ \bibnamefont
+  {{Contributors}}},\ }\bibfield  {title} {\bibinfo {title} {{SciPy 1.0:
+  Fundamental Algorithms for Scientific Computing in Python}},\ }\href
+  {https://doi.org/https://doi.org/10.1038/s41592-019-0686-2} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Methods}\ }\textbf {\bibinfo {volume}
+  {17}},\ \bibinfo {pages} {261} (\bibinfo {year} {2020})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {pandas~development team}(2020)}]{reback2020pandas}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {pandas~development team}},\ }\href {https://doi.org/10.5281/zenodo.3509134}
+  {\bibinfo {title} {pandas-dev/pandas: Pandas}} (\bibinfo {year}
+  {2020})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{W}es
+  {M}c{K}inney}(2010)}]{mckinney-proc-scipy-2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{W}es {M}c{K}inney}},\
+  }\bibfield  {title} {\bibinfo {title} {{D}ata {S}tructures for {S}tatistical
+  {C}omputing in {P}ython},\ }in\ \href
+  {https://doi.org/10.25080/Majora-92bf1922-00a} {\emph {\bibinfo {booktitle}
+  {{P}roceedings of the 9th {P}ython in {S}cience {C}onference}}},\ \bibinfo
+  {editor} {edited by\ \bibinfo {editor} {\bibnamefont {{S}t\'efan van~der
+  {W}alt}}\ and\ \bibinfo {editor} {\bibnamefont {{J}arrod {M}illman}}}\
+  (\bibinfo {year} {2010})\ pp.\ \bibinfo {pages} {56 -- 61}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hunter}(2007)}]{Hunter:2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {Hunter}},\ }\bibfield  {title} {\bibinfo {title} {Matplotlib: A 2d graphics
+  environment},\ }\href {https://doi.org/10.1109/MCSE.2007.55} {\bibfield
+  {journal} {\bibinfo  {journal} {Computing in Science \& Engineering}\
+  }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {90} (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Waskom}\ and\ \citenamefont {the seaborn~development
+  team}(2020)}]{waskom2020seaborn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Waskom}}\ and\ \bibinfo {author} {\bibnamefont {the seaborn~development
+  team}},\ }\href {https://doi.org/10.5281/zenodo.592845} {\bibinfo {title}
+  {mwaskom/seaborn}} (\bibinfo {year} {2020})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Foreman-Mackey}(2016)}]{corner}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Foreman-Mackey}},\ }\bibfield  {title} {\bibinfo {title} {corner.py:
+  Scatterplot matrices in python},\ }\href
+  {https://doi.org/10.21105/joss.00024} {\bibfield  {journal} {\bibinfo
+  {journal} {The Journal of Open Source Software}\ }\textbf {\bibinfo {volume}
+  {1}},\ \bibinfo {pages} {24} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\end{thebibliography}%

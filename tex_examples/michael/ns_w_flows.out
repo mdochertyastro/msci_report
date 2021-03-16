@@ -1,0 +1,28 @@
+\BOOKMARK [0][-]{section*.2}{Nested Sampling with Normalising Flows for Gravitational-Wave Inference}{}% 2
+\BOOKMARK [1][-]{section*.1}{Abstract}{section*.2}% 1
+\BOOKMARK [1][-]{section*.3}{Introduction}{section*.2}% 3
+\BOOKMARK [1][-]{section*.7}{Background}{section*.2}% 4
+\BOOKMARK [2][-]{section*.8}{Gravitational-wave likelihood for compact binary coalescence}{section*.7}% 5
+\BOOKMARK [2][-]{section*.9}{Nested sampling}{section*.7}% 6
+\BOOKMARK [2][-]{section*.11}{Normalising flows}{section*.7}% 7
+\BOOKMARK [1][-]{section*.12}{Method}{section*.2}% 8
+\BOOKMARK [2][-]{section*.13}{Sampling within a iso-likelihood contour}{section*.12}% 9
+\BOOKMARK [2][-]{section*.18}{Algorithm details}{section*.12}% 10
+\BOOKMARK [2][-]{section*.19}{Gravitational-wave reparameterisations}{section*.12}% 11
+\BOOKMARK [2][-]{section*.20}{Implementation}{section*.12}% 12
+\BOOKMARK [1][-]{section*.21}{Related Work}{section*.2}% 13
+\BOOKMARK [1][-]{section*.22}{Results}{section*.2}% 14
+\BOOKMARK [2][-]{section*.23}{Result validation}{section*.22}% 15
+\BOOKMARK [2][-]{section*.24}{Comparison to dynesty}{section*.22}% 16
+\BOOKMARK [2][-]{section*.25}{Parallelisation of the likelihood computation}{section*.22}% 17
+\BOOKMARK [2][-]{section*.26}{Diagnostics}{section*.22}% 18
+\BOOKMARK [2][-]{section*.27}{Tuning Nessai}{section*.22}% 19
+\BOOKMARK [1][-]{section*.28}{Conclusions}{section*.2}% 20
+\BOOKMARK [1][-]{section*.29}{Acknowledgments}{section*.2}% 21
+\BOOKMARK [1][-]{section*.30}{Loss function}{section*.2}% 22
+\BOOKMARK [1][-]{section*.31}{Boundary inversion}{section*.2}% 23
+\BOOKMARK [1][-]{section*.32}{Gravitational-wave priors}{section*.2}% 24
+\BOOKMARK [1][-]{section*.33}{Nessai sampling settings}{section*.2}% 25
+\BOOKMARK [1][-]{section*.34}{P-P tests for dynesty}{section*.2}% 26
+\BOOKMARK [1][-]{section*.35}{Example corner plot}{section*.2}% 27
+\BOOKMARK [1][-]{section*.36}{References}{section*.2}% 28

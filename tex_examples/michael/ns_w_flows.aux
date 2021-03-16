@@ -1,0 +1,362 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\AC@reset@newl@bel
+\citation{GBM:2017lvd,Abbott:2018exr,Abbott:2019yzh}
+\citation{Aasi:2013wya}
+\citation{Iyer:2011indigo}
+\citation{LIGOScientific:2018mvr}
+\citation{GW170817discovery}
+\citation{GWTC2:2020}
+\citation{Aasi:2013jjl,TheLIGOScientific:2016wfe}
+\citation{Veitch:2015}
+\citation{Brooks:2011handbook}
+\citation{Skilling:2006}
+\citation{Farr:2014system-frame}
+\citation{Purrer:2014,Smith:2016}
+\citation{Handley:2015polychord,Veitch:2021cpnest,Smith:2020pbilby}
+\citation{Veitch:2015,Lange:2018RIFT,Biwer:2018PyCBCInf,Ashton:2019}
+\citation{Cuoco:2020:egwml}
+\citation{Gabbard:2019,Chua:2019,Green:2020a,Green:2020complete}
+\citation{Kobyzev:2019nf,Paramakarios:2019nfpmi}
+\newlabel{FirstPage}{{}{1}{}{section*.1}{}}
+\newlabel{FirstPage@cref}{{}{[1][1][]1}}
+\@writefile{toc}{\contentsline {title}{Nested Sampling with Normalising Flows for Gravitational-Wave Inference}{1}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {abstract}{Abstract}{1}{section*.1}\protected@file@percent }
+\newacro{CBC}[CBC]{compact binary coalescence}
+\newacro{GW}[GW]{gravitational wave}
+\newacro{iid}[i.i.d.]{independently and identically distributed}
+\newacro{MCMC}[MCMC]{Markov Chain Monte Carlo}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section*.3}\protected@file@percent }
+\AC@undonewlabel{acro:GW}
+\newlabel{acro:GW}{{I}{1}{}{section*.4}{}}
+\newlabel{acro:GW@cref}{{[section][1][]I}{[1][1][]1}}
+\acronymused{GW}
+\AC@undonewlabel{acro:CBC}
+\newlabel{acro:CBC}{{I}{1}{}{section*.5}{}}
+\newlabel{acro:CBC@cref}{{[section][1][]I}{[1][1][]1}}
+\acronymused{CBC}
+\acronymused{GW}
+\newlabel{eq:bayes_theorem}{{1}{1}{}{equation.1.1}{}}
+\newlabel{eq:bayes_theorem@cref}{{[equation][1][]1}{[1][1][]1}}
+\AC@undonewlabel{acro:MCMC}
+\newlabel{acro:MCMC}{{I}{1}{}{section*.6}{}}
+\newlabel{acro:MCMC@cref}{{[section][1][]I}{[1][1][]1}}
+\acronymused{MCMC}
+\citation{Veitch:2015}
+\citation{Veitch:2015}
+\citation{Veitch:2015}
+\citation{Farr:2014system-frame}
+\citation{Skilling:2006}
+\citation{Skilling:2006}
+\citation{Skilling:2006}
+\citation{Veitch:2015}
+\citation{Skilling:2006}
+\citation{Veitch:2015,Veitch:2021cpnest}
+\citation{Feroz:2019multinest}
+\citation{Speagle:2020}
+\citation{Romero-Shaw:2020}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Background}{2}{section*.7}\protected@file@percent }
+\newlabel{sec:background}{{II}{2}{}{section*.7}{}}
+\newlabel{sec:background@cref}{{[section][2][]II}{[1][2][]2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Gravitational-wave likelihood for compact binary coalescence}{2}{section*.8}\protected@file@percent }
+\newlabel{sec:gw_likelihood}{{II\tmspace  +\thinmuskip {.1667em}A}{2}{}{section*.8}{}}
+\newlabel{sec:gw_likelihood@cref}{{[subsection][1][2]II\tmspace  +\thinmuskip {.1667em}A}{[1][2][]2}}
+\newlabel{eq:gw_likelihood}{{2}{2}{}{equation.2.2}{}}
+\newlabel{eq:gw_likelihood@cref}{{[equation][2][]2}{[1][2][]2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Nested sampling}{2}{section*.9}\protected@file@percent }
+\newlabel{sec:nested_sampling}{{II\tmspace  +\thinmuskip {.1667em}B}{2}{}{section*.9}{}}
+\newlabel{sec:nested_sampling@cref}{{[subsection][2][2]II\tmspace  +\thinmuskip {.1667em}B}{[1][2][]2}}
+\newlabel{eq:ns_prior_volume}{{3}{2}{}{equation.2.3}{}}
+\newlabel{eq:ns_prior_volume@cref}{{[equation][3][]3}{[1][2][]2}}
+\newlabel{eq:ns_evidence}{{4}{2}{}{equation.2.4}{}}
+\newlabel{eq:ns_evidence@cref}{{[equation][4][]4}{[1][2][]2}}
+\newlabel{eq:ns_trapezoid}{{5}{2}{}{equation.2.5}{}}
+\newlabel{eq:ns_trapezoid@cref}{{[equation][5][]5}{[1][2][]2}}
+\AC@undonewlabel{acro:iid}
+\newlabel{acro:iid}{{II\tmspace  +\thinmuskip {.1667em}B}{2}{}{section*.10}{}}
+\newlabel{acro:iid@cref}{{[subsection][2][2]II\tmspace  +\thinmuskip {.1667em}B}{[1][2][]2}}
+\acronymused{iid}
+\acronymused{iid}
+\acronymused{MCMC}
+\acronymused{GW}
+\citation{Rezende:2015}
+\citation{Papamakarios:2017made,Huang:2018naf}
+\citation{Dinh:2016:rnvp,Kingma:2018glow,Durkan:2019spl}
+\citation{Dinh:2016:rnvp}
+\citation{Dinh:2016:rnvp}
+\citation{Kingma:2018glow}
+\citation{Kobyzev:2019nf,Paramakarios:2019nfpmi}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Normalising flows}{3}{section*.11}\protected@file@percent }
+\newlabel{eq:change_of_variable}{{6}{3}{}{equation.2.6}{}}
+\newlabel{eq:change_of_variable@cref}{{[equation][6][]6}{[1][3][]3}}
+\newlabel{eq:coupling_trasnform}{{7}{3}{}{equation.2.7}{}}
+\newlabel{eq:coupling_trasnform@cref}{{[subequation][7][]7}{[1][3][]3}}
+\newlabel{eq:inverse_coupling_trasnform}{{8}{3}{}{equation.2.8}{}}
+\newlabel{eq:inverse_coupling_trasnform@cref}{{[subequation][8][]8}{[1][3][]3}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Method}{3}{section*.12}\protected@file@percent }
+\newlabel{sec:method}{{III}{3}{}{section*.12}{}}
+\newlabel{sec:method@cref}{{[section][3][]III}{[1][3][]3}}
+\citation{Muller:1959ANO,Marsaglia:1972}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Diagram of a normalising flow $f(x)$ composed of four coupling transforms which maps an \ndimensional {n} input vector x to an \ndimensional {n} latent vector z. Each transform splits $x$ in two $[x_{1:m}, x_{m+1:n}]$ and updates one part conditioned on the other. In the first and third transforms $x_{1:m}$ is used as the input to a neural network (NN) which then produces the scale $s$ and translation $t$ vectors of length $m$. The element-wise product ($\odot $) is then computed between $x_{1:m}$ and $\qopname  \relax o{exp}(s)$ followed by the sum of the output and $t$. This is shown in the left transform. In the second and fourth transforms $x_{1:m}$ is updated conditioned on $x_{m+1:n}$ as shown in the right transform.}}{4}{figure.1}\protected@file@percent }
+\newlabel{fig:flow_diagram}{{1}{4}{Diagram of a normalising flow $f(x)$ composed of four coupling transforms which maps an \protect \ndimensional {n} input vector x to an \protect \ndimensional {n} latent vector z. Each transform splits $x$ in two $[x_{1:m}, x_{m+1:n}]$ and updates one part conditioned on the other. In the first and third transforms $x_{1:m}$ is used as the input to a neural network (NN) which then produces the scale $s$ and translation $t$ vectors of length $m$. The element-wise product ($\odot $) is then computed between $x_{1:m}$ and $\exp (s)$ followed by the sum of the output and $t$. This is shown in the left transform. In the second and fourth transforms $x_{1:m}$ is updated conditioned on $x_{m+1:n}$ as shown in the right transform}{figure.1}{}}
+\newlabel{fig:flow_diagram@cref}{{[figure][1][]1}{[1][3][]4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Sampling within a iso-likelihood contour}{4}{section*.13}\protected@file@percent }
+\newlabel{sec:sampling}{{III\tmspace  +\thinmuskip {.1667em}A}{4}{}{section*.13}{}}
+\newlabel{sec:sampling@cref}{{[subsection][1][3]III\tmspace  +\thinmuskip {.1667em}A}{[1][4][]4}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {a}How to define an iso-likelihood contour using a normalising flow.}{4}{section*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {b}How to determine the contour given the current set of live points.}{4}{section*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {c}How to sample within the contour.}{4}{section*.16}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Example of how a normalising flow trained on a set of live points can produce samples within current iso-likelihood contour for simple two-dimensional parameter space. \textbf  {Top:} example of training samples in the physical space $\mathcal  {X}$ and learned mapping to the latent space $\mathcal  {Z}$ with the iso-likelihood contour for the current \textit  {worst point} shown in orange. \textbf  {Middle:} samples drawn from a truncated Guassian within the iso-likelihood contour in $\mathcal  {Z}$ and mapped to $\mathcal  {X}$ using the inverse mapping. \textbf  {Bottom:} pool of accepted samples after applying rejection sampling until 1000 points are obtained shown in both $\mathcal  {Z}$ and $\mathcal  {X}$.}}{5}{figure.2}\protected@file@percent }
+\newlabel{fig:learning_contours}{{2}{5}{Example of how a normalising flow trained on a set of live points can produce samples within current iso-likelihood contour for simple two-dimensional parameter space. \textbf {Top:} example of training samples in the physical space $\physical $ and learned mapping to the latent space $\latent $ with the iso-likelihood contour for the current \textit {worst point} shown in orange. \textbf {Middle:} samples drawn from a truncated Guassian within the iso-likelihood contour in $\latent $ and mapped to $\physical $ using the inverse mapping. \textbf {Bottom:} pool of accepted samples after applying rejection sampling until 1000 points are obtained shown in both $\latent $ and $\physical $}{figure.2}{}}
+\newlabel{fig:learning_contours@cref}{{[figure][2][]2}{[1][4][]5}}
+\newlabel{eq:latent_sampling}{{9}{5}{}{equation.3.9}{}}
+\newlabel{eq:latent_sampling@cref}{{[equation][9][]9}{[1][5][]5}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {d}How to ensure new samples are drawn according to the prior.}{5}{section*.17}\protected@file@percent }
+\newlabel{eq:rejection_sampling}{{10}{5}{}{equation.3.10}{}}
+\newlabel{eq:rejection_sampling@cref}{{[equation][10][]10}{[1][5][]5}}
+\newlabel{eq:proposal_prob}{{11}{5}{}{equation.3.11}{}}
+\newlabel{eq:proposal_prob@cref}{{[equation][11][]11}{[1][5][]5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Algorithm details}{5}{section*.18}\protected@file@percent }
+\newlabel{sec:algorithm}{{III\tmspace  +\thinmuskip {.1667em}B}{5}{}{section*.18}{}}
+\newlabel{sec:algorithm@cref}{{[subsection][2][3]III\tmspace  +\thinmuskip {.1667em}B}{[1][5][]5}}
+\citation{nessai-docs}
+\citation{Veitch:2015}
+\citation{Farr:2014system-frame}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Gravitational-wave reparameterisations}{6}{section*.19}\protected@file@percent }
+\newlabel{sec:gw_reparam}{{III\tmspace  +\thinmuskip {.1667em}C}{6}{}{section*.19}{}}
+\newlabel{sec:gw_reparam@cref}{{[subsection][3][3]III\tmspace  +\thinmuskip {.1667em}C}{[1][6][]6}}
+\newlabel{eq:cartesian}{{12}{6}{}{equation.3.12}{}}
+\newlabel{eq:cartesian@cref}{{[equation][12][]12}{[1][6][]6}}
+\citation{Paszke:2019:pt}
+\citation{nflows}
+\citation{Dinh:2016:rnvp}
+\citation{Dinh:2014nice,Kingma:2018glow}
+\citation{Ioffe:2015:bn}
+\citation{Dinh:2016:rnvp}
+\citation{He:2015:drl,He:2016:imdrn}
+\citation{Kingma:2014}
+\citation{nessai-git}
+\citation{nessai-docs}
+\citation{Veitch:2015}
+\citation{Abbott:2016blz}
+\citation{LIGOScientific:2018mvr}
+\citation{Ashton:2019}
+\citation{Speagle:2020}
+\citation{Romero-Shaw:2020}
+\citation{Graff:2013bambi}
+\citation{Levy:2017ghmc}
+\citation{Hoffman:2019}
+\citation{Moss:2019}
+\citation{Gabbard:2019,Chua:2019}
+\citation{Green:2020a,Green:2020complete}
+\citation{Ashton:2019}
+\citation{Schmidt:2012,Khan:2019}
+\citation{Aasi:2013wya}
+\citation{Romero-Shaw:2020}
+\newlabel{eq:spin_reparam}{{13}{7}{}{equation.3.13}{}}
+\newlabel{eq:spin_reparam@cref}{{[equation][13][]13}{[1][7][]7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D}Implementation}{7}{section*.20}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Related Work}{7}{section*.21}\protected@file@percent }
+\newlabel{sec:related_work}{{IV}{7}{}{section*.21}{}}
+\newlabel{sec:related_work@cref}{{[section][4][]IV}{[1][7][]7}}
+\acronymused{MCMC}
+\acronymused{MCMC}
+\acronymused{MCMC}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Results}{7}{section*.22}\protected@file@percent }
+\newlabel{sec:results}{{V}{7}{}{section*.22}{}}
+\newlabel{sec:results@cref}{{[section][5][]V}{[1][7][]7}}
+\acronymused{CBC}
+\citation{Cook:2006pp,Talts:2018pp}
+\citation{Speagle:2020}
+\citation{Ashton:2019,Romero-Shaw:2020}
+\citation{Romero-Shaw:2020}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis {\sc  Nessai}\xspace  for 128 simulated compact binary coalescence signals produced with {\sc  Bilby}\xspace  and {\sc  bilby\_pipe}\xspace  . The 1-, 2- and 3-$\sigma $ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown.}}{8}{figure.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {With phase marginalisation}}}{8}{figure.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {With phase and distance marginalisation}}}{8}{figure.3}\protected@file@percent }
+\newlabel{fig:pp_plot}{{3}{8}{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis \nessai for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe . The 1-, 2- and 3-$\sigma $ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown}{figure.3}{}}
+\newlabel{fig:pp_plot@cref}{{[figure][3][]3}{[1][7][]8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Result validation}{8}{section*.23}\protected@file@percent }
+\newlabel{sec:validaton}{{V\tmspace  +\thinmuskip {.1667em}A}{8}{}{section*.23}{}}
+\newlabel{sec:validaton@cref}{{[subsection][1][5]V\tmspace  +\thinmuskip {.1667em}A}{[1][8][]8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Comparison to {\sc  dynesty}\xspace  }{8}{section*.24}\protected@file@percent }
+\citation{Veitch:2010ns}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Difference between the log evidences $\Delta \qopname  \relax o{ln}Z$ obtained using {\sc  dynesty}\xspace  and {\sc  Nessai}\xspace  for all 128 injections with distance marginalisation (dashed line) and without distance marginalisation (solid line).}}{9}{figure.4}\protected@file@percent }
+\newlabel{fig:log_evidence}{{4}{9}{Difference between the log evidences $\Delta \ln Z$ obtained using \dynesty and \nessai for all 128 injections with distance marginalisation (dashed line) and without distance marginalisation (solid line)}{figure.4}{}}
+\newlabel{fig:log_evidence@cref}{{[figure][4][]4}{[1][9][]9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Distribution of the total number of likelihood evaluations required to reach convergence for and total run time for {\sc  dynesty}\xspace  (blue) and {\sc  Nessai}\xspace  (orange) when applied 128 simulated signals from compact binary coalescence with the priors and sampler settings described in \cref  {sec:results,app:sampling-settings}. The results distance marginalisation disable are shown with solid lines and those with distance marginalisation enabled are shown with dashed lines.}}{9}{figure.5}\protected@file@percent }
+\newlabel{fig:comparison}{{5}{9}{Distribution of the total number of likelihood evaluations required to reach convergence for and total run time for \dynesty (blue) and \nessai (orange) when applied 128 simulated signals from compact binary coalescence with the priors and sampler settings described in \cref {sec:results,app:sampling-settings}. The results distance marginalisation disable are shown with solid lines and those with distance marginalisation enabled are shown with dashed lines}{figure.5}{}}
+\newlabel{fig:comparison@cref}{{[figure][5][]5}{[1][9][]9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Parallelisation of the likelihood computation}{9}{section*.25}\protected@file@percent }
+\newlabel{sec:multiprocessing}{{V\tmspace  +\thinmuskip {.1667em}C}{9}{}{section*.25}{}}
+\newlabel{sec:multiprocessing@cref}{{[subsection][3][5]V\tmspace  +\thinmuskip {.1667em}C}{[1][9][]9}}
+\citation{Fowlie:2020}
+\citation{Smirnov:1948table}
+\citation{Arnold:2011npgof}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Comparison of the total time (in hours) spent on each stage of the algorithm for increasing number of threads for a single injection with a fixed noise seed. The time spent evaluating the likelihood decreases as the number of threads increases, the theoretical reduction is shown in black. The training and population stages remain approximately constant, as such act a lower bound on the minimum run-time. The sum of the time spent on likelihood evaluation, training and population is approximately equal to the total time spent sampling, indicating minimal overhead.}}{10}{figure.6}\protected@file@percent }
+\newlabel{fig:multithreading}{{6}{10}{Comparison of the total time (in hours) spent on each stage of the algorithm for increasing number of threads for a single injection with a fixed noise seed. The time spent evaluating the likelihood decreases as the number of threads increases, the theoretical reduction is shown in black. The training and population stages remain approximately constant, as such act a lower bound on the minimum run-time. The sum of the time spent on likelihood evaluation, training and population is approximately equal to the total time spent sampling, indicating minimal overhead}{figure.6}{}}
+\newlabel{fig:multithreading@cref}{{[figure][6][]6}{[1][9][]10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D}Diagnostics}{10}{section*.26}\protected@file@percent }
+\newlabel{sec:diagnostics}{{V\tmspace  +\thinmuskip {.1667em}D}{10}{}{section*.26}{}}
+\newlabel{sec:diagnostics@cref}{{[subsection][4][5]V\tmspace  +\thinmuskip {.1667em}D}{[1][10][]10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Example of the distribution of insertion indices for two nested sampling runs with 2000 live points. Uniformly distributed indices indicate no under- or over-constraining and deviations from uniformity indicate the opposite. The result with an orange dashed line shows over-constraining and the result with a solid blue line shows the correctly converged run. The shaded region indicates the 2-$\sigma $ errors on the expected distribution.}}{10}{figure.7}\protected@file@percent }
+\newlabel{fig:insertion_indices}{{7}{10}{Example of the distribution of insertion indices for two nested sampling runs with 2000 live points. Uniformly distributed indices indicate no under- or over-constraining and deviations from uniformity indicate the opposite. The result with an orange dashed line shows over-constraining and the result with a solid blue line shows the correctly converged run. The shaded region indicates the 2-$\sigma $ errors on the expected distribution}{figure.7}{}}
+\newlabel{fig:insertion_indices@cref}{{[figure][7][]7}{[1][10][]10}}
+\citation{nessai-docs}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Example of the statistics that are tracked in our sampler as a function of sampling iteration: \textbf  {(a)} minimum (blue solid) and maximum (red dashed) log-likelihood, \textbf  {(b)} cumulative number of likelihood evaluations, \textbf  {(c)} log evidence $\qopname  \relax o{log}Z$ (blue solid) and fractional change in evidence $\text  {d}Z$ (red dashed), \textbf  {(d)} proposal (blue solid) and population (red dashed) acceptance and \textbf  {(e)} $p$-value for cross-checks of every $K$ live points. The iterations at which the normalising flow is trained are indicated with vertical lines.}}{11}{figure.8}\protected@file@percent }
+\newlabel{fig:state}{{8}{11}{Example of the statistics that are tracked in our sampler as a function of sampling iteration: \textbf {(a)} minimum (blue solid) and maximum (red dashed) log-likelihood, \textbf {(b)} cumulative number of likelihood evaluations, \textbf {(c)} log evidence $\log Z$ (blue solid) and fractional change in evidence $\text {d}Z$ (red dashed), \textbf {(d)} proposal (blue solid) and population (red dashed) acceptance and \textbf {(e)} $p$-value for cross-checks of every $K$ live points. The iterations at which the normalising flow is trained are indicated with vertical lines}{figure.8}{}}
+\newlabel{fig:state@cref}{{[figure][8][]8}{[1][10][]11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E}Tuning {\sc  Nessai}\xspace  }{11}{section*.27}\protected@file@percent }
+\newlabel{sec:tuning}{{V\tmspace  +\thinmuskip {.1667em}E}{11}{}{section*.27}{}}
+\newlabel{sec:tuning@cref}{{[subsection][5][5]V\tmspace  +\thinmuskip {.1667em}E}{[1][11][]11}}
+\citation{Romero-Shaw:2020}
+\citation{Gabbard:2019,Chua:2019,Green:2020a,Green:2020complete}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Conclusions}{12}{section*.28}\protected@file@percent }
+\newlabel{sec:conclusion}{{VI}{12}{}{section*.28}{}}
+\newlabel{sec:conclusion@cref}{{[section][6][]VI}{[1][12][]12}}
+\citation{Durkan:2019nsf}
+\citation{Brehemer:2020manifold}
+\citation{Veitch:2021cpnest}
+\citation{numpy}
+\citation{2020SciPy-NMeth}
+\citation{reback2020pandas,mckinney-proc-scipy-2010}
+\citation{nflows}
+\citation{Paszke:2019:pt}
+\citation{Hunter:2007}
+\citation{waskom2020seaborn}
+\citation{Ashton:2019}
+\citation{Hunter:2007}
+\citation{waskom2020seaborn}
+\citation{Ashton:2019}
+\citation{corner}
+\citation{Paramakarios:2019nfpmi}
+\@writefile{toc}{\contentsline {section}{\numberline {}Acknowledgments}{13}{section*.29}\protected@file@percent }
+\@writefile{toc}{\appendix }
+\@writefile{toc}{\contentsline {section}{\numberline {A}Loss function}{13}{section*.30}\protected@file@percent }
+\newlabel{app:loss}{{A}{13}{}{section*.30}{}}
+\newlabel{app:loss@cref}{{[appendix][1][2147483647]A}{[1][13][]13}}
+\newlabel{eq:loss}{{A2}{13}{}{equation.A.2}{}}
+\newlabel{eq:loss@cref}{{[equation][2][2147483647,1]A2}{[1][13][]13}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Boundary inversion}{13}{section*.31}\protected@file@percent }
+\newlabel{app:inversion}{{B}{13}{}{section*.31}{}}
+\newlabel{app:inversion@cref}{{[appendix][2][2147483647]B}{[1][13][]13}}
+\citation{nessai-docs}
+\citation{nessai-docs}
+\@writefile{toc}{\contentsline {section}{\numberline {C}Gravitational-wave priors}{14}{section*.32}\protected@file@percent }
+\newlabel{app:priors}{{C}{14}{}{section*.32}{}}
+\newlabel{app:priors@cref}{{[appendix][3][2147483647]C}{[1][14][]14}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Prior distributions used for each parameter for gravitational-wave parameter estimation. Their corresponding labels and the lower and upper bounds are included where applicable.}}{14}{table.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {D}{\sc  Nessai}\xspace  sampling settings}{14}{section*.33}\protected@file@percent }
+\newlabel{app:sampling-settings}{{D}{14}{}{section*.33}{}}
+\newlabel{app:sampling-settings@cref}{{[appendix][4][2147483647]D}{[1][14][]14}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Settings used for {\sc  Nessai}\xspace  for gravitational-wave inference. These are split into three categories: general settings which control aspects of the sampler such as the choice of latent prior or pool-size, flow hyper-parameters which determine the configuration of the normalising flow and flow training settings which control the training process. For a complete description of each see the documentation \cite  {nessai-docs}.}}{14}{table.2}\protected@file@percent }
+\citation{Romero-Shaw:2020}
+\citation{Romero-Shaw:2020}
+\@writefile{toc}{\contentsline {section}{\numberline {E}P-P tests for {\sc  dynesty}\xspace  }{15}{section*.34}\protected@file@percent }
+\newlabel{app:dynesty}{{E}{15}{}{section*.34}{}}
+\newlabel{app:dynesty@cref}{{[appendix][5][2147483647]E}{[1][15][]15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using {\sc  dynesty}\xspace  for 128 simulated compact binary coalescence signals produced with {\sc  Bilby}\xspace  and {\sc  bilby\_pipe}\xspace  . The 1-, 2- and 3-$\sigma $ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown. We use the settings described in \cite  {Romero-Shaw:2020} with the exception of the number of live points which we increase to 2000.}}{15}{figure.9}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {With phase marginalisation}}}{15}{figure.9}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {With phase and distance marginalisation}}}{15}{figure.9}\protected@file@percent }
+\newlabel{fig:pp_plot_dynesty}{{9}{15}{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using \dynesty for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe . The 1-, 2- and 3-$\sigma $ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown. We use the settings described in \cite {Romero-Shaw:2020} with the exception of the number of live points which we increase to 2000}{figure.9}{}}
+\newlabel{fig:pp_plot_dynesty@cref}{{[figure][9][2147483647]9}{[1][15][]15}}
+\bibdata{ns_w_flowsNotes,ns_w_flows}
+\bibcite{GBM:2017lvd}{{1}{2017{}}{{Abbott\ \emph  {et~al.}}}{{Abbott \emph  {et~al.}}}}
+\@writefile{toc}{\contentsline {section}{\numberline {F}Example corner plot}{16}{section*.35}\protected@file@percent }
+\newlabel{app:corner}{{F}{16}{}{section*.35}{}}
+\newlabel{app:corner@cref}{{[appendix][6][2147483647]F}{[1][16][]16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Corner plot comparing the posterior distributions produced with {\sc  dynesty}\xspace  (blue) and our sampler {\sc  Nessai}\xspace  (red). The phase is marginalised and remaining 14 parameters are shown, see \cref  {app:priors} for details on the parameters. The respective 16\% and 84\% quantiles are also shown in the \ndimensional {1} marginalised posteriors.}}{16}{figure.10}\protected@file@percent }
+\newlabel{fig:corner}{{10}{16}{Corner plot comparing the posterior distributions produced with \dynesty (blue) and our sampler \nessai (red). The phase is marginalised and remaining 14 parameters are shown, see \cref {app:priors} for details on the parameters. The respective 16\% and 84\% quantiles are also shown in the \protect \ndimensional {1} marginalised posteriors}{figure.10}{}}
+\newlabel{fig:corner@cref}{{[figure][10][2147483647]10}{[1][16][]16}}
+\@writefile{toc}{\contentsline {section}{\numberline {}References}{16}{section*.36}\protected@file@percent }
+\bibcite{Abbott:2018exr}{{2}{2018}{{Abbott\ \emph  {et~al.}}}{{Abbott \emph  {et~al.}}}}
+\bibcite{Abbott:2019yzh}{{3}{2019{}}{{Abbott\ \emph  {et~al.}}}{{Abbott \emph  {et~al.}}}}
+\bibcite{Aasi:2013wya}{{4}{2020}{{Abbott\ \emph  {et~al.}}}{{Abbott \emph  {et~al.}}}}
+\bibcite{Iyer:2011indigo}{{5}{2011}{{{Iyer}\ \emph  {et~al.}}}{{{Iyer}, {Souradeep}, {Unnikrishnan}, {Dhurandhar}, {Raja},\ and\ {Sengupta}}}}
+\bibcite{LIGOScientific:2018mvr}{{6}{2019{}}{{Abbott\ \emph  {et~al.}}}{{Abbott \emph  {et~al.}}}}
+\bibcite{GW170817discovery}{{7}{2017{}}{{Abbott\ \emph  {et~al.}}}{{Abbott \emph  {et~al.}}}}
+\bibcite{GWTC2:2020}{{8}{2020}{{{Abbott}\ \emph  {et~al.}}}{{{Abbott} \emph  {et~al.}}}}
+\bibcite{Aasi:2013jjl}{{9}{2013}{{Aasi\ \emph  {et~al.}}}{{Aasi \emph  {et~al.}}}}
+\bibcite{TheLIGOScientific:2016wfe}{{10}{2016{}}{{Abbott\ \emph  {et~al.}}}{{Abbott \emph  {et~al.}}}}
+\bibcite{Veitch:2015}{{11}{2015}{{Veitch\ \emph  {et~al.}}}{{Veitch, Raymond, Farr, Farr, Graff, Vitale, Aylott, Blackburn, Christensen, Coughlin \emph  {et~al.}}}}
+\bibcite{Brooks:2011handbook}{{12}{2011}{{Brooks\ \emph  {et~al.}}}{{Brooks, Gelman, Jones,\ and\ Meng}}}
+\bibcite{Skilling:2006}{{13}{2006}{{Skilling\ \emph  {et~al.}}}{{Skilling \emph  {et~al.}}}}
+\bibcite{Farr:2014system-frame}{{14}{2014}{{Farr\ \emph  {et~al.}}}{{Farr, Ochsner, Farr,\ and\ O'Shaughnessy}}}
+\bibcite{Purrer:2014}{{15}{2014}{{P\"urrer}}{{}}}
+\bibcite{Smith:2016}{{16}{2016}{{Smith\ \emph  {et~al.}}}{{Smith, Field, Blackburn, Haster, P\"urrer, Raymond,\ and\ Schmidt}}}
+\bibcite{Handley:2015polychord}{{17}{2015}{{Handley\ \emph  {et~al.}}}{{Handley, Hobson,\ and\ Lasenby}}}
+\bibcite{Veitch:2021cpnest}{{18}{2021}{{Veitch\ \emph  {et~al.}}}{{Veitch, Pozzo, Williams, Talbot, Pitkin, Ashton, Cody, Hübner, Nitz, Macleod, Carullo, Davies,\ and\ Tony}}}
+\bibcite{Smith:2020pbilby}{{19}{2020}{{Smith\ \emph  {et~al.}}}{{Smith, Ashton, Vajpeyi,\ and\ Talbot}}}
+\bibcite{Lange:2018RIFT}{{20}{2018}{{{Lange}\ \emph  {et~al.}}}{{{Lange}, {O'Shaughnessy},\ and\ {Rizzo}}}}
+\bibcite{Biwer:2018PyCBCInf}{{21}{2019}{{{Biwer}\ \emph  {et~al.}}}{{{Biwer}, {Capano}, {De}, {Cabero}, {Brown}, {Nitz},\ and\ {Raymond}}}}
+\bibcite{Ashton:2019}{{22}{2019}{{{Ashton}\ \emph  {et~al.}}}{{{Ashton}, {H{\"u}bner}, {Lasky}, {Talbot}, {Ackley}, {Biscoveanu}, {Chu}, {Divakarla}, {Easter}, {Goncharov}, {Hernandez Vivanco}, {Harms}, {Lower}, {Meadors}, {Melchor}, {Payne}, {Pitkin}, {Powell}, {Sarin}, {Smith},\ and\ {Thrane}}}}
+\bibcite{Cuoco:2020:egwml}{{23}{2020}{{{Cuoco}\ \emph  {et~al.}}}{{{Cuoco}, {Powell}, {Cavagli{\`a}}, {Ackley}, {Bejger}, {Chatterjee}, {Coughlin}, {Coughlin}, {Easter}, {Essick}, {Gabbard}, {Gebhard}, {Ghosh}, {Haegel}, {Iess}, {Keitel}, {Marka}, {Marka}, {Morawski}, {Nguyen}, {Ormiston}, {Puerrer}, {Razzano}, {Staats}, {Vajente},\ and\ {Williams}}}}
+\bibcite{Gabbard:2019}{{24}{2019}{{{Gabbard}\ \emph  {et~al.}}}{{{Gabbard}, {Messenger}, {Heng}, {Tonolini},\ and\ {Murray-Smith}}}}
+\bibcite{Chua:2019}{{25}{2020}{{{Chua}\ and\ {Vallisneri}}}{{}}}
+\bibcite{Green:2020a}{{26}{2020}{{{Green}\ \emph  {et~al.}}}{{{Green}, {Simpson},\ and\ {Gair}}}}
+\bibcite{Green:2020complete}{{27}{2020}{{{Green}\ and\ {Gair}}}{{}}}
+\bibcite{Kobyzev:2019nf}{{28}{2019}{{{Kobyzev}\ \emph  {et~al.}}}{{{Kobyzev}, {Prince},\ and\ {Brubaker}}}}
+\bibcite{Paramakarios:2019nfpmi}{{29}{2019}{{{Papamakarios}\ \emph  {et~al.}}}{{{Papamakarios}, {Nalisnick}, {Jimenez Rezende}, {Mohamed},\ and\ {Lakshminarayanan}}}}
+\bibcite{Feroz:2019multinest}{{30}{2009}{{{Feroz}\ \emph  {et~al.}}}{{{Feroz}, {Hobson},\ and\ {Bridges}}}}
+\bibcite{Speagle:2020}{{31}{2020}{{{Speagle}}}{{}}}
+\bibcite{Romero-Shaw:2020}{{32}{2020}{{{Romero-Shaw}\ \emph  {et~al.}}}{{{Romero-Shaw}, {Talbot}, {Biscoveanu}, {D'Emilio}, {Ashton}, {Berry}, {Coughlin}, {Galaudage}, {Hoy}, {Huebner}, {Phukon}, {Pitkin}, {Rizzo}, {Sarin}, {Smith}, {Stevenson}, {Vajpeyi}, {Arene}, {Athar}, {Banagiri}, {Bose}, {Carney}, {Chatziioannou}, {Cotesta}, {Edelman}, {Garcia-Quiros}, {Ghosh}, {Green}, {Haster}, {Kim}, {Hernandez-Vivanco}, {Magana Hernandez}, {Karathanasis}, {Lasky}, {De Lillo}, {Lower}, {Macleod}, {Mateu-Lucena}, {Miller}, {Millhouse}, {Morisaki}, {Oh}, {Ossokine}, {Payne}, {Powell}, {Puerrer}, {Ramos-Buades}, {Raymond}, {Thrane}, {Veitch}, {Williams}, {Williams},\ and\ {Xiao}}}}
+\bibcite{Rezende:2015}{{33}{2015}{{{Jimenez Rezende}\ and\ {Mohamed}}}{{}}}
+\bibcite{Papamakarios:2017made}{{34}{2017}{{{Papamakarios}\ \emph  {et~al.}}}{{{Papamakarios}, {Pavlakou},\ and\ {Murray}}}}
+\bibcite{Huang:2018naf}{{35}{2018}{{{Huang}\ \emph  {et~al.}}}{{{Huang}, {Krueger}, {Lacoste},\ and\ {Courville}}}}
+\bibcite{Dinh:2016:rnvp}{{36}{2016}{{{Dinh}\ \emph  {et~al.}}}{{{Dinh}, {Sohl-Dickstein},\ and\ {Bengio}}}}
+\bibcite{Kingma:2018glow}{{37}{2018}{{{Kingma}\ and\ {Dhariwal}}}{{}}}
+\bibcite{Durkan:2019spl}{{38}{2019{}}{{{Durkan}\ \emph  {et~al.}}}{{{Durkan}, {Bekasov}, {Murray},\ and\ {Papamakarios}}}}
+\bibcite{Muller:1959ANO}{{39}{1959}{{Muller}}{{}}}
+\bibcite{Marsaglia:1972}{{40}{1972}{{Marsaglia}}{{}}}
+\bibcite{nessai-docs}{{41}{2021{}}{{{Williams}}}{{}}}
+\bibcite{Paszke:2019:pt}{{42}{2019}{{Paszke\ \emph  {et~al.}}}{{Paszke, Gross, Massa, Lerer, Bradbury, Chanan, Killeen, Lin, Gimelshein, Antiga, Desmaison, Kopf, Yang, DeVito, Raison, Tejani, Chilamkurthy, Steiner, Fang, Bai,\ and\ Chintala}}}
+\bibcite{nflows}{{43}{2020}{{Durkan\ \emph  {et~al.}}}{{Durkan, Bekasov, Murray,\ and\ Papamakarios}}}
+\bibcite{Dinh:2014nice}{{44}{2014}{{{Dinh}\ \emph  {et~al.}}}{{{Dinh}, {Krueger},\ and\ {Bengio}}}}
+\bibcite{Ioffe:2015:bn}{{45}{2015}{{{Ioffe}\ and\ {Szegedy}}}{{}}}
+\bibcite{He:2015:drl}{{46}{2015}{{{He}\ \emph  {et~al.}}}{{{He}, {Zhang}, {Ren},\ and\ {Sun}}}}
+\bibcite{He:2016:imdrn}{{47}{2016}{{{He}\ \emph  {et~al.}}}{{{He}, {Zhang}, {Ren},\ and\ {Sun}}}}
+\bibcite{Kingma:2014}{{48}{2014}{{Kingma\ and\ Ba}}{{}}}
+\bibcite{nessai-git}{{49}{2021{}}{{{Williams}}}{{}}}
+\bibcite{Abbott:2016blz}{{50}{2016{}}{{Abbott\ \emph  {et~al.}}}{{Abbott \emph  {et~al.}}}}
+\bibcite{Graff:2013bambi}{{51}{2013}{{{Graff}\ and\ {Feroz}}}{{}}}
+\bibcite{Levy:2017ghmc}{{52}{2017}{{{Levy}\ \emph  {et~al.}}}{{{Levy}, {Hoffman},\ and\ {Sohl-Dickstein}}}}
+\bibcite{Hoffman:2019}{{53}{2019}{{{Hoffman}\ \emph  {et~al.}}}{{{Hoffman}, {Sountsov}, {Dillon}, {Langmore}, {Tran},\ and\ {Vasudevan}}}}
+\bibcite{Moss:2019}{{54}{2019}{{{Moss}}}{{}}}
+\bibcite{Schmidt:2012}{{55}{2012}{{Schmidt\ \emph  {et~al.}}}{{Schmidt, Hannam,\ and\ Husa}}}
+\bibcite{Khan:2019}{{56}{2019}{{{Khan}\ \emph  {et~al.}}}{{{Khan}, {Chatziioannou}, {Hannam},\ and\ {Ohme}}}}
+\bibcite{Cook:2006pp}{{57}{2006}{{Cook\ \emph  {et~al.}}}{{Cook, Gelman,\ and\ Rubin}}}
+\bibcite{Talts:2018pp}{{58}{2018}{{{Talts}\ \emph  {et~al.}}}{{{Talts}, {Betancourt}, {Simpson}, {Vehtari},\ and\ {Gelman}}}}
+\bibcite{Veitch:2010ns}{{59}{2010}{{{Veitch}\ and\ {Vecchio}}}{{}}}
+\bibcite{Fowlie:2020}{{60}{2020}{{{Fowlie}\ \emph  {et~al.}}}{{{Fowlie}, {Handley},\ and\ {Su}}}}
+\bibcite{Smirnov:1948table}{{61}{1948}{{Smirnov}}{{}}}
+\bibcite{Arnold:2011npgof}{{62}{2011}{{Arnold\ and\ Emerson}}{{}}}
+\bibcite{Durkan:2019nsf}{{63}{2019{}}{{{Durkan}\ \emph  {et~al.}}}{{{Durkan}, {Bekasov}, {Murray},\ and\ {Papamakarios}}}}
+\bibcite{Brehemer:2020manifold}{{64}{2020}{{{Brehmer}\ and\ {Cranmer}}}{{}}}
+\bibcite{numpy}{{65}{2011}{{{van der Walt}\ \emph  {et~al.}}}{{{van der Walt}, {Colbert},\ and\ {Varoquaux}}}}
+\bibcite{2020SciPy-NMeth}{{66}{2020}{{{Virtanen}\ \emph  {et~al.}}}{{{Virtanen}, {Gommers}, {Oliphant}, {Haberland}, {Reddy}, {Cournapeau}, {Burovski}, {Peterson}, {Weckesser}, {Bright}, {van der Walt}, {Brett}, {Wilson}, {Jarrod Millman}, {Mayorov}, {Nelson}, {Jones}, {Kern}, {Larson}, {Carey}, {Polat}, {Feng}, {Moore}, {Vand erPlas}, {Laxalde}, {Perktold}, {Cimrman}, {Henriksen}, {Quintero}, {Harris}, {Archibald}, {Ribeiro}, {Pedregosa}, {van Mulbregt},\ and\ {Contributors}}}}
+\bibcite{reback2020pandas}{{67}{2020}{{pandas~development team}}{{}}}
+\bibcite{mckinney-proc-scipy-2010}{{68}{2010}{{{W}es {M}c{K}inney}}{{}}}
+\bibcite{Hunter:2007}{{69}{2007}{{Hunter}}{{}}}
+\bibcite{waskom2020seaborn}{{70}{2020}{{Waskom\ and\ the seaborn~development team}}{{}}}
+\bibcite{corner}{{71}{2016}{{Foreman-Mackey}}{{}}}
+\bibstyle{apsrev4-2}
+\citation{REVTEX42Control}
+\citation{apsrev42Control}
+\newlabel{LastBibItem}{{71}{19}{}{section*.36}{}}
+\newlabel{LastBibItem@cref}{{[section][6][]VI}{[1][19][]19}}
+\newlabel{LastPage}{{}{19}{}{}{}}
