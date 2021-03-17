@@ -4,112 +4,12 @@ The top-level auxiliary file: main.aux
 The style file: apsrev.bst
 I found no \citation commands---while reading file main.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: master.bib
-You're missing a field name---line 1 of file master.bib
- : @article{gwtc1, 
- :                 %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 17 of file master.bib
- : @unknown{gwtc2, 
- :                 %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 25 of file master.bib
- : @article{schultz2009review, 
- :                             %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 36 of file master.bib
- : @phdthesis{bayley2020phd, 
- :                           %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 41 of file master.bib
- : @book{sivia2006textbook, 
- :                          %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 48 of file master.bib
- : @article{mlreview2020, 
- :                        %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 55 of file master.bib
- : @article{vitpaper, 
- :                    %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 62 of file master.bib
- : @article{gabbard2018matching, 
- :                               %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 73 of file master.bib
- : @article{cwml2019, 
- :                    %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 84 of file master.bib
- : @article{abbott2016observation, 
- :                                 %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 95 of file master.bib
- : @article{tensorflow, 
- :                      %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 102 of file master.bib
- : @article{einstein1, 
- :                     %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 110 of file master.bib
- : @article{advancedLIGO, 
- :                        %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 125 of file master.bib
- : @article{advacnedVIRGO, 
- :                         %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 136 of file master.bib
- : @article{BBHo1, 
- :                 %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 152 of file master.bib
- : @article{pycbc2016, 
- :                     %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 165 of file master.bib
- : @misc{stephengreen2020, 
- :                         %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 174 of file master.bib
- : @article{bayesog, 
- :                   %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 185 of file master.bib
- : @article{everythingbutBBHo1, 
- :                              %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 197 of file master.bib
- : @article{gstlal_gen1_2017, 
- :                            %check this is right??
-I'm skipping whatever remains of this entry
-You're missing a field name---line 211 of file master.bib
- : @misc{gstlal_gen2_2019, 
- :                         %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 220 of file master.bib
- : @article{ml_cws, 
- :                  %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 231 of file master.bib
- : @article{resample_aus, 
- :                        %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 242 of file master.bib
- : @article{bayley2019soap, 
- :                          %name
-I'm skipping whatever remains of this entry
-You're missing a field name---line 249 of file master.bib
- : @article{bayley2020soapML, 
- :                            %name
-I'm skipping whatever remains of this entry
+Database file #1: refs.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 0 entries,
             3411 wiz_defined-function locations,
-            1152 strings with 9998 characters,
+            1166 strings with 10113 characters,
 and the built_in function-call counts, 46 in all, are:
 = -- 0
 > -- 0
@@ -148,4 +48,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 14
-(There were 26 error messages)
+(There was 1 error message)
