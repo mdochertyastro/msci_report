@@ -14,6 +14,32 @@
 
 % MY INTRO REFS
 
+% improved SIR, want to implement this in future work (removes bias)
+@article{10.2307/4616798,
+  issn      = {03036898, 14679469},
+  url       = {http://www.jstor.org/stable/4616798},
+  abstract  = {The sampling-importance resampling (SIR) algorithm aims at drawing a random sample from a target distribution π. First, a sample is drawn from a proposal distribution q, and then from this a smaller sample is drawn with sample probabilities proportional to the importance ratios π/q. We propose here a simple adjustment of the sample probabilities and show that this gives faster convergence. The results indicate that our version converges better also for small sample sizes. The SIR algorithms are compared with the Metropolis-Hastings (MH) algorithms with independent proposals. Although MH converges asymptotically faster, the results indicate that our improved SIR version is better than MH for small sample sizes. We also establish a connection between the SIR algorithms and importance sampling with normalized weights. We show that the use of adjusted SIR sample probabilities as importance weights reduces the bias of the importance sampling estimate.},
+  author    = {Øivind Skare and Erik Bølviken and Lars Holden},
+  journal   = {Scandinavian Journal of Statistics},
+  number    = {4},
+  pages     = {719--737},
+  publisher = {[Board of the Foundation of the Scandinavian Journal of Statistics, Wiley]},
+  title     = {Improved Sampling-Importance Resampling and Reduced Bias Importance Sampling},
+  volume    = {30},
+  year      = {2003}
+}
+
+
+
+% my basic SIR reference - need to link to more established ones
+@phdthesis{brian2006resampling,
+  title  = {The Resampling Weights in Sampling-importance Resampling Algorithm},
+  author = {Brian, AU Siu Chun},
+  year   = {2006},
+  school = {The Chinese University of Hong Kong}
+}
+
+
 @article{williams2021nested,
   title   = {Nested Sampling with Normalising Flows for Gravitational-Wave Inference},
   author  = {Williams, Michael J and Veitch, John and Messenger, Chris},

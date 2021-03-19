@@ -1,18 +1,17 @@
 \BOOKMARK [1][-]{section*.1}{Introduction}{}% 1
-\BOOKMARK [2][-]{section*.2}{}{section*.1}% 2
-\BOOKMARK [1][-]{section*.3}{VItamin: User-Friendly Inference}{}% 3
-\BOOKMARK [2][-]{section*.4}{Structure}{section*.3}% 4
-\BOOKMARK [2][-]{section*.5}{Training}{section*.3}% 5
-\BOOKMARK [2][-]{section*.6}{Results}{section*.3}% 6
-\BOOKMARK [1][-]{section*.7}{Monte Carlo Approaches}{}% 7
-\BOOKMARK [2][-]{section*.8}{Theoretical Framework}{section*.7}% 8
-\BOOKMARK [2][-]{section*.9}{Methodology}{section*.7}% 9
-\BOOKMARK [3][-]{section*.10}{Likelihood Estimates}{section*.9}% 10
-\BOOKMARK [3][-]{section*.11}{Rejection Sampling}{section*.9}% 11
-\BOOKMARK [2][-]{section*.12}{Results \046 Discussion}{section*.7}% 12
-\BOOKMARK [3][-]{section*.13}{Self-consistency}{section*.12}% 13
-\BOOKMARK [3][-]{section*.14}{Reproducibility}{section*.12}% 14
-\BOOKMARK [3][-]{section*.15}{Rejection Sampling}{section*.12}% 15
-\BOOKMARK [1][-]{section*.16}{Conclusions}{}% 16
-\BOOKMARK [1][-]{section*.17}{Acknowledgements}{}% 17
-\BOOKMARK [1][-]{section*.18}{References}{}% 18
+\BOOKMARK [2][-]{section*.2}{VItamin: User-Friendly Inference}{section*.1}% 2
+\BOOKMARK [1][-]{section*.3}{Theoretical Framework}{}% 3
+\BOOKMARK [2][-]{section*.4}{Monte Carlo Framework}{section*.3}% 4
+\BOOKMARK [2][-]{section*.5}{SIR Framework}{section*.3}% 5
+\BOOKMARK [1][-]{section*.6}{Methodology}{}% 6
+\BOOKMARK [2][-]{section*.7}{Model Training}{section*.6}% 7
+\BOOKMARK [2][-]{section*.8}{Likelihood Estimates}{section*.6}% 8
+\BOOKMARK [2][-]{section*.9}{Importance Resampling}{section*.6}% 9
+\BOOKMARK [1][-]{section*.10}{Results}{}% 10
+\BOOKMARK [2][-]{section*.11}{Self-consistency}{section*.10}% 11
+\BOOKMARK [2][-]{section*.12}{Reproducibility}{section*.10}% 12
+\BOOKMARK [2][-]{section*.13}{Importance Resampling}{section*.10}% 13
+\BOOKMARK [1][-]{section*.14}{Future Work}{}% 14
+\BOOKMARK [1][-]{section*.15}{Conclusions}{}% 15
+\BOOKMARK [1][-]{section*.16}{Acknowledgements}{}% 16
+\BOOKMARK [1][-]{section*.17}{References}{}% 17

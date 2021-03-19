@@ -64,7 +64,7 @@
 \date{\today}
 
 \begin{abstract}
-Enter 250 words here!
+My 250 word abstract goes here...
 \end{abstract}
 
 \maketitle
@@ -87,41 +87,82 @@ Enter 250 words here!
 
 \section{Introduction}\label{intro}
 
-\subsection{}
+\textbf{\textcolor{red}{Figs: LIGO Cumulative events}}
 
-\section{\vitamin: User-Friendly Inference}\label{vit}
+\textbf{\textcolor{red}{Figs: Hunter's Vit Schematic}}
 
-\subsection{Structure}
 
-\subsection{Training}
 
-\subsection{Results}
+Remember to signpost rest of paper at end of this section!
 
-\section{Monte Carlo Approaches}\label{monte}
+%\subsection{}
+%
+\subsection{\vitamin: User-Friendly Inference}\label{vit}
+%
+%\subsection{Structure}
+%
+%\subsection{Training}
+%
+%\subsection{Results}
 
-\subsection{Theoretical Framework}\label{monte:theory}
+\section{Theoretical Framework}\label{theory}
 
-\subsection{Methodology}\label{monte:method}
+Don't apply it to our sitaution at this stage, just straight theory and equations (Section \ref{methods} deals with taking these eqns arnd applying them to our situation)
 
-\subsubsection{Likelihood Estimates}
+\subsection{Monte Carlo Framework}\label{theory:monte}
 
-\subsubsection{Rejection Sampling}
+\subsection{SIR Framework}\label{theory:sir}
 
-\subsection{Results \& Discussion}\label{monte:results}
+Do theory on normal IS and then say that SIR is an monte carlo approach/approx to normal IS then give equations for bot (talk about the NEW IMPROVED SIR method (link to Section \ref{future}))
 
-\subsubsection{Self-consistency}
+%
+%\subsection{Theoretical Framework}\label{monte:theory}
 
-\subsubsection{Reproducibility}
+\section{Methodology}\label{methods}
 
-\subsubsection{Rejection Sampling}
+
+
+
+
+\subsection{Model Training}
+\textbf{\textcolor{red}{Figs: loss plot, training hypers in table}}
+
+\textbf{\textcolor{red}{Figs: initial corner plot? (to talk about params and how posteriors aren't perfect)}}
+
+
+\subsection{Likelihood Estimates}
+
+\textbf{\textcolor{red}{Figs: Monte flowchart}}
+
+\subsection{Importance Resampling}
+
+
+\section{Results}\label{results}
+
+\subsection{Self-consistency}
+
+\subsection{Reproducibility}
+
+\subsection{Importance Resampling}
+
+
+\textbf{\textcolor{red}{Figs: Final corner plot (big)}}
+
+
+\section{Future Work}\label{future}
+
+As we find ourself in a proof-of-concept mode, there is justification of a section dedicated to the next steps leading towards production of this code.
 
 \section{Conclusions}\label{conc}
 
-
+This is section has to encapsulate everything we did so that after the abstract a reader can go here and see if they want to buy the paper or not!
 
 \section{Acknowledgements}
 
+Thanks to Chris and Hunter and Michael and Daniel.
 
+Paragraph on the software used \bilby\cite{bilby} 
+\clearpage
 \bibliography{refs}
 
 
