@@ -1,4 +1,4 @@
-\documentclass[prd,superscriptaddress,twocolumn,nopreprintnumbers,floatfix]{revtex4}
+\documentclass[aps,superscriptaddress,twocolumn,nopreprintnumbers,floatfix,groupedaddress]{revtex4-1}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{graphicx}
@@ -122,15 +122,16 @@ Do theory on normal IS and then say that SIR is an monte carlo approach/approx t
 
 \section{Methodology}\label{methods}
 
-
-
-
+Apply the intro/theory mateiral to our case, JUSTIFY scientific decisions like number of samples, batch size, npars!!
 
 \subsection{Model Training}
-\textbf{\textcolor{red}{Figs: loss plot, training hypers in table}}
+\textbf{\textcolor{red}{Figs: loss plot}}
+
+\textbf{\textcolor{red}{Tables: training hypers in table}}
 
 \textbf{\textcolor{red}{Figs: initial corner plot? (to talk about params and how posteriors aren't perfect)}}
 
+Need this cornerplot here to talk about how it doesn't `get' the multimodal dists, which after resampling it does!
 
 \subsection{Likelihood Estimates}
 
@@ -143,9 +144,19 @@ Do theory on normal IS and then say that SIR is an monte carlo approach/approx t
 
 \subsection{Self-consistency}
 
+\textbf{\textcolor{red}{Figs: Self consist corner plot}}
+
 \subsection{Reproducibility}
 
 Talk about how 'binning' is preventing proper error profile acorss the likelihood range, (not present in the \dynesty case)
+
+\textbf{\textcolor{red}{Figs: z batch vs sigma}}
+
+\textbf{\textcolor{red}{Figs: sigma gaussians for different z batch}}
+
+\textbf{\textcolor{red}{Figs: scatter vit vit}}
+
+\textbf{\textcolor{red}{Figs: scatter vit dynesty}}
 
 \subsection{Importance Resampling}
 
@@ -166,7 +177,7 @@ This is section has to encapsulate everything we did so that after the abstract 
 Thanks to Chris and Hunter and Michael and Daniel.
 
 Paragraph on the software used \bilby\cite{bilby} 
-\clearpage
+%\clearpage
 \bibliography{refs}
 
 

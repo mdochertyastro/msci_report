@@ -1,31 +1,84 @@
-\begin{thebibliography}{1}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname bibnamefont\endcsname\relax
-  \def\bibnamefont#1{#1}\fi
-\expandafter\ifx\csname bibfnamefont\endcsname\relax
-  \def\bibfnamefont#1{#1}\fi
-\expandafter\ifx\csname citenamefont\endcsname\relax
-  \def\citenamefont#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\providecommand{\bibinfo}[2]{#2}
-\providecommand{\eprint}[2][]{\url{#2}}
-
-\bibitem[{\citenamefont{Ashton et~al.}(2019)\citenamefont{Ashton, Huebner,
-  Lasky, {Colm Talbot}, Ackley, {Sylvia Biscoveanu}, Chu, Divarkala, Easter,
-  {Boris Goncharov} et~al.}}]{bilby}
-\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Ashton}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Huebner}},
-  \bibinfo{author}{\bibfnamefont{P.~D.} \bibnamefont{Lasky}},
-  \bibinfo{author}{\bibnamefont{{Colm Talbot}}},
-  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Ackley}},
-  \bibinfo{author}{\bibnamefont{{Sylvia Biscoveanu}}},
-  \bibinfo{author}{\bibfnamefont{Q.}~\bibnamefont{Chu}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Divarkala}},
-  \bibinfo{author}{\bibfnamefont{P.~J.} \bibnamefont{Easter}},
-  \bibinfo{author}{\bibnamefont{{Boris Goncharov}}}, \bibnamefont{et~al.},
-  \bibinfo{journal}{Astrophys. J. Supp.} \textbf{\bibinfo{volume}{241}},
-  \bibinfo{pages}{27} (\bibinfo{year}{2019}).
-
-\end{thebibliography}
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{1}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Ashton}\ \emph {et~al.}(2019)\citenamefont {Ashton},
+  \citenamefont {Huebner}, \citenamefont {Lasky}, \citenamefont {{Colm
+  Talbot}}, \citenamefont {Ackley}, \citenamefont {{Sylvia Biscoveanu}},
+  \citenamefont {Chu}, \citenamefont {Divarkala}, \citenamefont {Easter},
+  \citenamefont {{Boris Goncharov}}, \citenamefont {{Francisco Hernandez
+  Vivanco}}, \citenamefont {Harms}, \citenamefont {Lower}, \citenamefont
+  {{Grant D. Meadors}}, \citenamefont {Melchor}, \citenamefont {Payne},
+  \citenamefont {Pitkin}, \citenamefont {Powell}, \citenamefont {Sarin},
+  \citenamefont {{Rory J. E. Smith}},\ and\ \citenamefont {Thrane}}]{bilby}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Ashton}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Huebner}},
+  \bibinfo {author} {\bibfnamefont {P.~D.}\ \bibnamefont {Lasky}}, \bibinfo
+  {author} {\bibnamefont {{Colm Talbot}}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Ackley}}, \bibinfo {author} {\bibnamefont {{Sylvia
+  Biscoveanu}}}, \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont {Chu}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Divarkala}}, \bibinfo
+  {author} {\bibfnamefont {P.~J.}\ \bibnamefont {Easter}}, \bibinfo {author}
+  {\bibnamefont {{Boris Goncharov}}}, \bibinfo {author} {\bibnamefont
+  {{Francisco Hernandez Vivanco}}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Harms}}, \bibinfo {author} {\bibfnamefont {M.~E.}\
+  \bibnamefont {Lower}}, \bibinfo {author} {\bibnamefont {{Grant D. Meadors}}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Melchor}}, \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {Payne}}, \bibinfo {author}
+  {\bibfnamefont {M.~D.}\ \bibnamefont {Pitkin}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Powell}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Sarin}}, \bibinfo {author} {\bibnamefont {{Rory J. E.
+  Smith}}}, \ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Thrane}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Astrophys. J. Supp.}\ }\textbf {\bibinfo {volume} {241}},\ \bibinfo {pages}
+  {27} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\end{thebibliography}%
