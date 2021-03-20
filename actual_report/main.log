@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.3)  19 MAR 2021 23:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.3)  20 MAR 2021 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -517,11 +517,11 @@ Class revtex4-1 Info: Line numbering not turned on yet on input line 52.
 \openout3 = `mainNotes.bib'.
 
 Class revtex4-1 Info: Overriding \@LN@LLerror on input line 52.
-<figs/cost.png, id=82, 2215.27625pt x 1617.04124pt>
-File: figs/cost.png Graphic file (type png)
-<use figs/cost.png>
-Package pdftex.def Info: figs/cost.png  used on input line 131.
-(pdftex.def)             Requested size: 244.69386pt x 178.59064pt.
+<figs/cost.pdf, id=82, 462.52798pt x 346.89601pt>
+File: figs/cost.pdf Graphic file (type pdf)
+<use figs/cost.pdf>
+Package pdftex.def Info: figs/cost.pdf  used on input line 131.
+(pdftex.def)             Requested size: 244.69386pt x 183.52052pt.
 
 ! Undefined control sequence.
 <argument> ...es in the physical space $\physical 
@@ -732,7 +732,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/cost.png>]
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/cost.pdf>]
 (./main.bbl) [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
  (./main.aux)
@@ -742,8 +742,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A661B622598AB50A621156D561A1095E;1246.
  ) 
 Here is how much of TeX's memory you used:
- 10658 strings out of 483183
- 156252 string characters out of 5966293
+ 10657 strings out of 483183
+ 156272 string characters out of 5966293
  441298 words of memory out of 5000000
  25464 multiletter control sequences out of 15000+600000
  538253 words of font info for 46 fonts, out of 8000000 for 9000
@@ -753,13 +753,17 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (2 pages, 468574 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti9.pfb>
+Output written on main.pdf (2 pages, 274038 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 163 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
  23 named destinations out of 1000 (max. 500000)
  158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

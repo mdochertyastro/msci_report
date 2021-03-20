@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: VItamin.aux
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: VItaminNotes.bib
+Database file #2: references.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Warning--empty year in gracedb_O3
+Warning--missing journal in cpnest
+Warning--missing journal in ptemcee
+Warning--empty year in aligo_noisecurves
+You've used 39 entries,
+            5847 wiz_defined-function locations,
+            1883 strings with 25157 characters,
+and the built_in function-call counts, 46640 in all, are:
+= -- 2479
+> -- 1662
+< -- 309
++ -- 511
+- -- 429
+* -- 8221
+:= -- 4255
+add.period$ -- 48
+call.type$ -- 39
+change.case$ -- 168
+chr.to.int$ -- 39
+cite$ -- 47
+duplicate$ -- 4324
+empty$ -- 3322
+format.name$ -- 983
+if$ -- 9170
+int.to.chr$ -- 1
+int.to.str$ -- 47
+missing$ -- 511
+newline$ -- 169
+num.names$ -- 112
+pop$ -- 1660
+preamble$ -- 1
+purify$ -- 193
+quote$ -- 0
+skip$ -- 1459
+stack$ -- 0
+substring$ -- 727
+swap$ -- 4423
+text.length$ -- 214
+text.prefix$ -- 0
+top$ -- 8
+type$ -- 646
+warning$ -- 4
+while$ -- 89
+width$ -- 0
+write$ -- 370
+(There were 4 warnings)
