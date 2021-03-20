@@ -125,6 +125,14 @@ Do theory on normal IS and then say that SIR is an monte carlo approach/approx t
 Apply the intro/theory mateiral to our case, JUSTIFY scientific decisions like number of samples, batch size, npars!!
 
 \subsection{Model Training}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\figwidth]{figs/cost.png}
+	\caption{Example of how a normalising flow trained on a set of live points can produce samples within current iso-likelihood contour for simple two-dimensional parameter space. \textbf{Top:} example of training samples in the physical space $\physical$ and learned mapping to the latent space $\latent$ with the iso-likelihood contour for the current \textit{worst point} shown in orange. \textbf{Middle:} samples drawn from a truncated Guassian within the iso-likelihood contour in $\latent$ and mapped to $\physical$ using the inverse mapping. \textbf{Bottom:} pool of accepted samples after applying rejection sampling until 1000 points are obtained shown in both $\latent$ and $\physical$.}
+	\label{fig:learning_contours}
+\end{figure}
+
 \textbf{\textcolor{red}{Figs: loss plot}}
 
 \textbf{\textcolor{red}{Tables: training hypers in table}}
