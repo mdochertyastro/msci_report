@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.3)  20 MAR 2021 13:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.3)  21 MAR 2021 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -441,43 +441,75 @@ Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
 \AC@clearlist=\toks25
 )
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip65
+\subfigcapskip=\skip66
+\subfigcaptopadj=\dimen165
+\subfigbottomskip=\skip67
+\subfigcapmargin=\dimen166
+\subfiglabelskip=\skip68
+\c@subfigure=\count290
+\c@lofdepth=\count291
+\c@subtable=\count292
+\c@lotdepth=\count293
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip69
+\subfig@bottom=\skip70
+)
 Class revtex4-1 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 52.
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 52.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 52.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 52.
- (./main.aux)
+lass! (Proceeding with fingers crossed.) on input line 53.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 53.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 53.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 53.
+ (./main.aux
+
+LaTeX Warning: Label `fig:learning_contours' multiply defined.
+
+
+LaTeX Warning: Label `fig:pp_plot' multiply defined.
+
+
+LaTeX Warning: Label `fig:learning_contours' multiply defined.
+
+
+LaTeX Warning: Label `fig:pp_plot' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen165
+\scratchcounter=\count294
+\scratchdimen=\dimen167
 \scratchbox=\box66
-\nofMPsegments=\count291
-\nofMParguments=\count292
+\nofMPsegments=\count295
+\nofMParguments=\count296
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen166
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen168
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
 \everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -489,7 +521,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring OFF on input line 52.
+Package hyperref Info: Link coloring OFF on input line 53.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -500,33 +532,33 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count296
+\c@section@level=\count300
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
-LaTeX Info: Redefining \nameref on input line 52.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 52.
+Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 53.
 Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input 
-line 52.
-Class revtex4-1 Info: Line numbering not turned on yet on input line 52.
+line 53.
+Class revtex4-1 Info: Line numbering not turned on yet on input line 53.
 \openout3 = `mainNotes.bib'.
 
-Class revtex4-1 Info: Overriding \@LN@LLerror on input line 52.
-<figs/cost.pdf, id=82, 462.52798pt x 346.89601pt>
-File: figs/cost.pdf Graphic file (type pdf)
-<use figs/cost.pdf>
-Package pdftex.def Info: figs/cost.pdf  used on input line 131.
-(pdftex.def)             Requested size: 244.69386pt x 183.52052pt.
+Class revtex4-1 Info: Overriding \@LN@LLerror on input line 53.
+<figs/network_setup.png, id=80, 561.59813pt x 846.16125pt>
+File: figs/network_setup.png Graphic file (type png)
+<use figs/network_setup.png>
+Package pdftex.def Info: figs/network_setup.png  used on input line 103.
+(pdftex.def)             Requested size: 244.69386pt x 368.6711pt.
 
 ! Undefined control sequence.
 <argument> ...es in the physical space $\physical 
                                                   $ and learned mapping to t...
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -537,7 +569,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...apping to the latent space $\latent 
                                                   $ with the iso-likelihood ...
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -548,7 +580,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... iso-likelihood contour in $\latent 
                                                   $ and mapped to $\physical...
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -559,7 +591,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...$\latent $ and mapped to $\physical 
                                                   $ using the inverse mappin...
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -570,7 +602,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...are obtained shown in both $\latent 
                                                   $ and $\physical $.}}{\the...
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -581,7 +613,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...n in both $\latent $ and $\physical 
                                                   $.}}{\thepage }{\@currentH...
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -589,12 +621,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 132
+LaTeX Font Info:    Trying to load font information for U+msa on input line 104
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 132
+LaTeX Font Info:    Trying to load font information for U+msb on input line 104
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -603,7 +635,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -614,7 +646,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -625,7 +657,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -636,7 +668,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -647,7 +679,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -658,7 +690,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -669,7 +701,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -680,7 +712,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -691,7 +723,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -702,7 +734,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -713,7 +745,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -724,7 +756,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.132 ...shown in both $\latent$ and $\physical$.}
+l.104 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -732,38 +764,618 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/cost.pdf>]
-(./main.bbl) [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+<figs/cost.pdf, id=84, 462.52798pt x 346.89601pt>
+File: figs/cost.pdf Graphic file (type pdf)
+<use figs/cost.pdf>
+Package pdftex.def Info: figs/cost.pdf  used on input line 138.
+(pdftex.def)             Requested size: 244.69386pt x 183.52052pt.
+! Undefined control sequence.
+<argument> ...es in the physical space $\physical 
+                                                  $ and learned mapping to t...
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...apping to the latent space $\latent 
+                                                  $ with the iso-likelihood ...
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ... iso-likelihood contour in $\latent 
+                                                  $ and mapped to $\physical...
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...$\latent $ and mapped to $\physical 
+                                                  $ using the inverse mappin...
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...are obtained shown in both $\latent 
+                                                  $ and $\physical $.}}{\the...
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...n in both $\latent $ and $\physical 
+                                                  $.}}{\thepage }{\@currentH...
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \physical 
+                          
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \latent 
+                        
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \latent 
+                        
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \physical 
+                          
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \latent 
+                        
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \physical 
+                          
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \physical 
+                          
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \latent 
+                        
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \latent 
+                        
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \physical 
+                          
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \latent 
+                        
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \physical 
+                          
+l.139 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figs/vit_train_corner1.pdf, id=85, 523.85875pt x 523.85875pt>
+File: figs/vit_train_corner1.pdf Graphic file (type pdf)
+<use figs/vit_train_corner1.pdf>
+Package pdftex.def Info: figs/vit_train_corner1.pdf  used on input line 144.
+(pdftex.def)             Requested size: 244.69386pt x 244.69489pt.
+<figs/vit_train_corner2.pdf, id=86, 530.14432pt x 524.52376pt>
+File: figs/vit_train_corner2.pdf Graphic file (type pdf)
+<use figs/vit_train_corner2.pdf>
+Package pdftex.def Info: figs/vit_train_corner2.pdf  used on input line 145.
+(pdftex.def)             Requested size: 244.69386pt x 242.10022pt.
+<figs/tikz_monte.pdf, id=87, 324.21124pt x 346.29375pt>
+File: figs/tikz_monte.pdf Graphic file (type pdf)
+<use figs/tikz_monte.pdf>
+Package pdftex.def Info: figs/tikz_monte.pdf  used on input line 164.
+(pdftex.def)             Requested size: 312.9803pt x 334.31932pt.
+! Undefined control sequence.
+<argument> ...hich maps an \protect \ndimensional 
+                                                  {n} input vector x to an \...
+l.165 ...m+1:n}$ as shown in the right transform.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ctor x to an \protect \ndimensional 
+                                                  {n} latent vector z. Each ...
+l.165 ...m+1:n}$ as shown in the right transform.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...hich maps an \protect \ndimensional 
+                                                  {n} input vector x to an \...
+l.165 ...m+1:n}$ as shown in the right transform.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ctor x to an \protect \ndimensional 
+                                                  {n} latent vector z. Each ...
+l.165 ...m+1:n}$ as shown in the right transform.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figs/self_consist1.pdf, id=88, 523.85875pt x 523.85875pt>
+File: figs/self_consist1.pdf Graphic file (type pdf)
+<use figs/self_consist1.pdf>
+Package pdftex.def Info: figs/self_consist1.pdf  used on input line 180.
+(pdftex.def)             Requested size: 244.69386pt x 244.69489pt.
+<figs/self_consist2.pdf, id=89, 530.1603pt x 524.52376pt>
+File: figs/self_consist2.pdf Graphic file (type pdf)
+<use figs/self_consist2.pdf>
+Package pdftex.def Info: figs/self_consist2.pdf  used on input line 181.
+(pdftex.def)             Requested size: 244.69386pt x 242.09221pt.
+<figs/hists_rect.pdf, id=90, 462.52798pt x 346.89601pt>
+File: figs/hists_rect.pdf Graphic file (type pdf)
+<use figs/hists_rect.pdf>
+Package pdftex.def Info: figs/hists_rect.pdf  used on input line 195.
+(pdftex.def)             Requested size: 244.69386pt x 183.52052pt.
+! Undefined control sequence.
+<argument> ...es in the physical space $\physical 
+                                                  $ and learned mapping to t...
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...apping to the latent space $\latent 
+                                                  $ with the iso-likelihood ...
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ... iso-likelihood contour in $\latent 
+                                                  $ and mapped to $\physical...
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...$\latent $ and mapped to $\physical 
+                                                  $ using the inverse mappin...
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...are obtained shown in both $\latent 
+                                                  $ and $\physical $.}}{\the...
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...n in both $\latent $ and $\physical 
+                                                  $.}}{\thepage }{\@currentH...
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \physical 
+                          
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \latent 
+                        
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \latent 
+                        
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \physical 
+                          
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \latent 
+                        
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \physical 
+                          
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \physical 
+                          
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \latent 
+                        
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \latent 
+                        
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \physical 
+                          
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \latent 
+                        
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \physical 
+                          
+l.196 ...shown in both $\latent$ and $\physical$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figs/vvscatter.pdf, id=91, 462.52798pt x 462.52798pt>
+File: figs/vvscatter.pdf Graphic file (type pdf)
+<use figs/vvscatter.pdf>
+Package pdftex.def Info: figs/vvscatter.pdf  used on input line 208.
+(pdftex.def)             Requested size: 244.69386pt x 244.69403pt.
+<figs/bvscatter.pdf, id=92, 462.52798pt x 462.52798pt>
+File: figs/bvscatter.pdf Graphic file (type pdf)
+<use figs/bvscatter.pdf>
+Package pdftex.def Info: figs/bvscatter.pdf  used on input line 209.
+(pdftex.def)             Requested size: 244.69386pt x 244.69403pt.
+<figs/resample_corner.pdf, id=93, 987.5157pt x 981.89516pt>
+File: figs/resample_corner.pdf Graphic file (type pdf)
+<use figs/resample_corner.pdf>
+Package pdftex.def Info: figs/resample_corner.pdf  used on input line 221.
+(pdftex.def)             Requested size: 489.38731pt x 486.60146pt.
+! Undefined control sequence.
+<argument> ... 14 parameters are shown, see \cref 
+                                                  {app:priors} for details o...
+l.222 ...ndimensional{1} marginalised posteriors.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ... 14 parameters are shown, see \cref 
+                                                  {app:priors} for details o...
+l.222 ...ndimensional{1} marginalised posteriors.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...shown in the \protect \ndimensional 
+                                                  {1} marginalised posterior...
+l.222 ...ndimensional{1} marginalised posteriors.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ... 14 parameters are shown, see \cref 
+                                                  {app:priors} for details o...
+l.222 ...ndimensional{1} marginalised posteriors.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...shown in the \protect \ndimensional 
+                                                  {1} marginalised posterior...
+l.222 ...ndimensional{1} marginalised posteriors.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Class revtex4-1 Warning: Float cannot be placed.
+
+(./main.bbl [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2 <./figs/
+network_setup.png>] [3 <./figs/cost.pdf> <./figs/vit_train_corner1.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/vit_train_corner1.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figs/vit_train_corner2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/vit_train_corner2.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+>] [4 <./figs/tikz_monte.pdf>] [5 <./figs/self_consist1.pdf> <./figs/self_consi
+st2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/self_consist2.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figs/hists_rect.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/hists_rect.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>] [6 <./figs/vvscatter.pdf> <./figs/bvscatter.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/bvscatter.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>] [7 <./figs/resample_corner.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A661B622598AB50A621156D561A1095E;1246.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 10657 strings out of 483183
- 156272 string characters out of 5966293
- 441298 words of memory out of 5000000
- 25464 multiletter control sequences out of 15000+600000
- 538253 words of font info for 46 fonts, out of 8000000 for 9000
+ 10900 strings out of 483183
+ 160352 string characters out of 5966293
+ 474805 words of memory out of 5000000
+ 25671 multiletter control sequences out of 15000+600000
+ 538552 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 43i,6n,38p,799b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,7n,52p,857b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti9.pfb>
-Output written on main.pdf (2 pages, 274038 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti9.pfb>
+Output written on main.pdf (7 pages, 1107080 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 402 PDF objects out of 1000 (max. 8388607)
+ 343 compressed objects within 4 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 
