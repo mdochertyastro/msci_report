@@ -90,7 +90,7 @@ My 250 word abstract goes here...
 
 \textbf{\textcolor{red}{Figs: Hunter's Vit Schematic}}
 
-
+\textbf{\textcolor{green}{Tables: Compare inference speeds like in vit paper}}
 
 Remember to signpost rest of paper at end of this section!
 
@@ -98,11 +98,16 @@ Remember to signpost rest of paper at end of this section!
 %
 \subsection{\vitamin: User-Friendly Inference}\label{vit}
 
+\textbf{\textcolor{green}{Tables: Compare Gen Model abilities}}
+
+Use gen pap to intro CVAE in context, CONTEXT IS KEY HERE
+
+
 \begin{figure}
 	\centering
 	\includegraphics[width=\figwidth]{figs/network_setup.png}
 	\caption{Example of how a normalising flow trained on a set of live points can produce samples within current iso-likelihood contour for simple two-dimensional parameter space. \textbf{Top:} example of training samples in the physical space $\physical$ and learned mapping to the latent space $\latent$ with the iso-likelihood contour for the current \textit{worst point} shown in orange. \textbf{Middle:} samples drawn from a truncated Guassian within the iso-likelihood contour in $\latent$ and mapped to $\physical$ using the inverse mapping. \textbf{Bottom:} pool of accepted samples after applying rejection sampling until 1000 points are obtained shown in both $\latent$ and $\physical$.}
-	\label{fig:learning_contours}
+	\label{fig:vit_flow}
 \end{figure}
 
 %
@@ -112,11 +117,11 @@ Remember to signpost rest of paper at end of this section!
 %
 %\subsection{Results}
 
-\section{Theoretical Framework}\label{theory}
+%\section{Theoretical Framework}\label{theory}
 
 Need to mention metropolis hastings it seems!
 
-Don't apply it to our sitaution at this stage, just straight theory and equations (Section \ref{methods} deals with taking these eqns arnd applying them to our situation)
+Introduce equations directly to our specifics, we don't have space to intro them blind then again to specifics...
 
 \subsection{Monte Carlo Framework}\label{theory:monte}
 
@@ -144,7 +149,7 @@ Apply the intro/theory mateiral to our case, JUSTIFY scientific decisions like n
 	\subfigure{\includegraphics[width=\figwidth]{figs/vit_train_corner1.pdf}}
 	\subfigure{\includegraphics[width=\figwidth]{figs/vit_train_corner2.pdf}}
 	\caption{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis \nessai for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe. The 1-, 2- and 3-$\sigma$ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown.}
-	\label{fig:pp_plot}
+	\label{fig:vit_train_corner}
 \end{figure*}
 
 \textbf{\textcolor{red}{Figs: loss plot}}
@@ -162,8 +167,8 @@ Need this cornerplot here to talk about how it doesn't `get' the multimodal dist
 \begin{figure*}
 	\centering
 	\includegraphics[width=\montefigwidth]{figs/tikz_monte.pdf}
-	\caption{Diagram of a normalising flow $f(x)$ composed of four coupling transforms which maps an \protect\ndimensional{n} input vector x to an \protect\ndimensional{n} latent vector z. Each transform splits $x$ in two $[x_{1:m}, x_{m+1:n}]$ and updates one part conditioned on the other. In the first and third transforms $x_{1:m}$ is used as the input to a neural network (NN) which then produces the scale $s$ and translation $t$ vectors of length $m$. The element-wise product ($\odot$) is then computed between $x_{1:m}$ and $\exp(s)$ followed by the sum of the output and $t$. This is shown in the left transform. In the second and fourth transforms $x_{1:m}$ is updated conditioned on $x_{m+1:n}$ as shown in the right transform.}
-	\label{fig:flow_diagram}
+	\caption{Diagram of a normalising flow $f(x)$ composed of four coupling transforms which maps an \protect\ndimensional{n} input vector x to an \protect\ndimensional{n} latent vector z. Each transform splits $x$ in two $[x_{1:m}, x_{m+1:n}]$ and updates one part conditioned on the other. In the first and third transforms $x_{1:m}$ is used as the input to a neural network (NN) which then produces the scale $s$ and translation $t$ vectors of length $m$. The element-wise product ($\odot$) is then computed between $x_{1:m}$ and $\exp(s)$ followed by the sum of the output and $t$. This is shown in the left transform. In the second and fourth transforms $x_{1:m}$ is updated conditioned on $x_{m+1:n}$ as shown in the right transform. \textcolor{red} {In my caption, link to previous sections and equations}}
+	\label{fig:monte_flow}
 \end{figure*}
 
 
@@ -180,7 +185,7 @@ Need this cornerplot here to talk about how it doesn't `get' the multimodal dist
 	\subfigure{\includegraphics[width=\figwidth]{figs/self_consist1.pdf}}
 	\subfigure{\includegraphics[width=\figwidth]{figs/self_consist2.pdf}}
 	\caption{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis \nessai for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe. The 1-, 2- and 3-$\sigma$ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown.}
-	\label{fig:pp_plot}
+	\label{fig:sel_consist}
 \end{figure*}
 
 
@@ -194,7 +199,7 @@ Talk about how 'binning' is preventing proper error profile acorss the likelihoo
 	\centering
 	\includegraphics[width=\figwidth]{figs/hists_rect.pdf}
 	\caption{Example of how a normalising flow trained on a set of live points can produce samples within current iso-likelihood contour for simple two-dimensional parameter space. \textbf{Top:} example of training samples in the physical space $\physical$ and learned mapping to the latent space $\latent$ with the iso-likelihood contour for the current \textit{worst point} shown in orange. \textbf{Middle:} samples drawn from a truncated Guassian within the iso-likelihood contour in $\latent$ and mapped to $\physical$ using the inverse mapping. \textbf{Bottom:} pool of accepted samples after applying rejection sampling until 1000 points are obtained shown in both $\latent$ and $\physical$.}
-	\label{fig:learning_contours}
+	\label{fig:hists}
 \end{figure}
 
 
@@ -208,7 +213,7 @@ Talk about how 'binning' is preventing proper error profile acorss the likelihoo
 	\subfigure[]{\includegraphics[width=\figwidth]{figs/vvscatter.pdf}}
 	\subfigure[]{\includegraphics[width=\figwidth]{figs/bvscatter.pdf}}
 	\caption{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis \nessai for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe. The 1-, 2- and 3-$\sigma$ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown.}
-	\label{fig:pp_plot}
+	\label{fig:scatter}
 \end{figure*}
 
 \subsection{Importance Resampling}
@@ -220,16 +225,18 @@ Talk about how 'binning' is preventing proper error profile acorss the likelihoo
 	\centering
 	\includegraphics[width=\doublefigwidth]{figs/resample_corner.pdf}
 	\caption{Corner plot comparing the posterior distributions produced with \dynesty (blue) and our sampler \nessai (red). The phase is marginalised and remaining 14 parameters are shown, see \cref{app:priors} for details on the parameters. The respective 16\% and 84\% quantiles are also shown in the \protect\ndimensional{1} marginalised posteriors.}
-	\label{fig:corner}
+	\label{fig:final_corner}
 \end{figure*}
 
-\section{Future Work}\label{future}
+%\section{Future Work}\label{future}
 
-As we find ourself in a proof-of-concept mode, there is justification of a section dedicated to the next steps leading towards production of this code.
 
 \section{Conclusions}\label{conc}
 
 This is section has to encapsulate everything we did so that after the abstract a reader can go here and see if they want to buy the paper or not!
+
+As we find ourself in a proof-of-concept mode, there is justification of a section dedicated to the next steps leading towards production of this code.
+
 
 \section{Acknowledgements}
 

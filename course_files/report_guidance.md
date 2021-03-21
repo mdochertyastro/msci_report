@@ -14,3 +14,15 @@ All project work should finish by week 24. The student will be given a further 3
    - mark breakdown:
      - 80% (**13 creds**) refs, - (correct choice in setting context) pres+figs - (captions, professional layout, readable) structure - (all sections in correct order and of balanced length) writing - (concise english with few typos, correct capitisation for abbrevs etc) **NOTE** 80% of all project marks come from how the doc looks, the refs,m fig choice/layout and no typos/ sentence structure. Can literally do all this from significant proofreading alone! dont leave till last minute at all, get the techpaper in on time but slowly gather intro layout
    - 20% (**3 creds**) technical content (well-informed, good depth/breadth of knowledge - this comes from the intro section where i go wide but then quickly go deep)
+
+
+# Bits I need to focus on:
+
+*This will provided a summary of the professional literature in the chosen area, including a critical comparison ofthe material presented.*
+*A critical evaluation of the significanceof the work, in the context of the literature survey carried out should also be provided.*
+
+
+*All sections are correctly placed of a length that produces a balanced overall document.*
+
+*References were used to set the performed work into context.*
+
