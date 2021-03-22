@@ -7,7 +7,7 @@
 \BOOKMARK [1][-]{section*.7}{Methodology}{section*.2}% 7
 \BOOKMARK [2][-]{section*.8}{Model Training}{section*.7}% 8
 \BOOKMARK [2][-]{section*.9}{Likelihood Estimates}{section*.7}% 9
-\BOOKMARK [2][-]{section*.10}{Importance Resampling}{section*.7}% 10
+\BOOKMARK [2][-]{section*.10}{Likelihood Reweighting}{section*.7}% 10
 \BOOKMARK [1][-]{section*.11}{Results}{section*.2}% 11
 \BOOKMARK [2][-]{section*.12}{Self-consistency}{section*.11}% 12
 \BOOKMARK [2][-]{section*.13}{Reproducibility}{section*.11}% 13
