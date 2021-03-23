@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.3)  22 MAR 2021 20:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.3)  23 MAR 2021 10:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -539,13 +539,13 @@ Class revtex4-1 Info: Overriding \@LN@LLerror on input line 53.
 <figs/network_setup.png, id=72, 561.59813pt x 846.16125pt>
 File: figs/network_setup.png Graphic file (type png)
 <use figs/network_setup.png>
-Package pdftex.def Info: figs/network_setup.png  used on input line 108.
+Package pdftex.def Info: figs/network_setup.png  used on input line 106.
 (pdftex.def)             Requested size: 244.69386pt x 368.6711pt.
 
 ! Undefined control sequence.
 <argument> ...es in the physical space $\physical 
                                                   $ and learned mapping to t...
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -556,7 +556,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...apping to the latent space $\latent 
                                                   $ with the iso-likelihood ...
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -567,7 +567,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... iso-likelihood contour in $\latent 
                                                   $ and mapped to $\physical...
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -578,7 +578,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...$\latent $ and mapped to $\physical 
                                                   $ using the inverse mappin...
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -589,7 +589,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...are obtained shown in both $\latent 
                                                   $ and $\physical $.}}{\the...
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -600,7 +600,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...n in both $\latent $ and $\physical 
                                                   $.}}{\thepage }{\@currentH...
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -608,12 +608,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 109
+LaTeX Font Info:    Trying to load font information for U+msa on input line 107
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 109
+LaTeX Font Info:    Trying to load font information for U+msb on input line 107
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -622,7 +622,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -633,7 +633,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -644,7 +644,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -655,7 +655,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -666,7 +666,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -677,7 +677,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -688,7 +688,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -699,7 +699,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -710,7 +710,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -721,7 +721,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -732,7 +732,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -743,7 +743,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.109 ...shown in both $\latent$ and $\physical$.}
+l.107 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -752,17 +752,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `future' on page 1 undefined on input line 130.
+LaTeX Warning: Reference `future' on page 1 undefined on input line 128.
 
 <figs/cost.pdf, id=74, 462.52798pt x 346.89601pt>
 File: figs/cost.pdf Graphic file (type pdf)
 <use figs/cost.pdf>
-Package pdftex.def Info: figs/cost.pdf  used on input line 143.
+Package pdftex.def Info: figs/cost.pdf  used on input line 141.
 (pdftex.def)             Requested size: 244.69386pt x 183.52052pt.
 ! Undefined control sequence.
 <argument> ...es in the physical space $\physical 
                                                   $ and learned mapping to t...
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -773,7 +773,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...apping to the latent space $\latent 
                                                   $ with the iso-likelihood ...
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -784,7 +784,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... iso-likelihood contour in $\latent 
                                                   $ and mapped to $\physical...
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -795,7 +795,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...$\latent $ and mapped to $\physical 
                                                   $ using the inverse mappin...
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -806,7 +806,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...are obtained shown in both $\latent 
                                                   $ and $\physical $.}}{\the...
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -817,7 +817,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...n in both $\latent $ and $\physical 
                                                   $.}}{\thepage }{\@currentH...
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -828,7 +828,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -839,7 +839,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -850,7 +850,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -861,7 +861,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -872,7 +872,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -883,7 +883,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -894,7 +894,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -905,7 +905,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -916,7 +916,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -927,7 +927,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -938,7 +938,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -949,7 +949,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.144 ...shown in both $\latent$ and $\physical$.}
+l.142 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -960,22 +960,22 @@ and I'll forget about whatever was undefined.
 <figs/vit_train_corner1.pdf, id=75, 523.85875pt x 523.85875pt>
 File: figs/vit_train_corner1.pdf Graphic file (type pdf)
 <use figs/vit_train_corner1.pdf>
-Package pdftex.def Info: figs/vit_train_corner1.pdf  used on input line 149.
+Package pdftex.def Info: figs/vit_train_corner1.pdf  used on input line 147.
 (pdftex.def)             Requested size: 244.69386pt x 244.69489pt.
 <figs/vit_train_corner2.pdf, id=76, 530.14432pt x 524.52376pt>
 File: figs/vit_train_corner2.pdf Graphic file (type pdf)
 <use figs/vit_train_corner2.pdf>
-Package pdftex.def Info: figs/vit_train_corner2.pdf  used on input line 150.
+Package pdftex.def Info: figs/vit_train_corner2.pdf  used on input line 148.
 (pdftex.def)             Requested size: 244.69386pt x 242.10022pt.
 <figs/tikz_monte.pdf, id=77, 324.21124pt x 346.29375pt>
 File: figs/tikz_monte.pdf Graphic file (type pdf)
 <use figs/tikz_monte.pdf>
-Package pdftex.def Info: figs/tikz_monte.pdf  used on input line 169.
+Package pdftex.def Info: figs/tikz_monte.pdf  used on input line 167.
 (pdftex.def)             Requested size: 312.9803pt x 334.31932pt.
 ! Undefined control sequence.
 <argument> ...hich maps an \protect \ndimensional 
                                                   {n} input vector x to an \...
-l.170 ...link to previous sections and equations}}
+l.168 ...link to previous sections and equations}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -986,7 +986,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...ctor x to an \protect \ndimensional 
                                                   {n} latent vector z. Each ...
-l.170 ...link to previous sections and equations}}
+l.168 ...link to previous sections and equations}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -997,7 +997,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...hich maps an \protect \ndimensional 
                                                   {n} input vector x to an \...
-l.170 ...link to previous sections and equations}}
+l.168 ...link to previous sections and equations}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1008,7 +1008,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...ctor x to an \protect \ndimensional 
                                                   {n} latent vector z. Each ...
-l.170 ...link to previous sections and equations}}
+l.168 ...link to previous sections and equations}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1019,22 +1019,22 @@ and I'll forget about whatever was undefined.
 <figs/self_consist1.pdf, id=78, 523.85875pt x 523.85875pt>
 File: figs/self_consist1.pdf Graphic file (type pdf)
 <use figs/self_consist1.pdf>
-Package pdftex.def Info: figs/self_consist1.pdf  used on input line 185.
+Package pdftex.def Info: figs/self_consist1.pdf  used on input line 183.
 (pdftex.def)             Requested size: 244.69386pt x 244.69489pt.
 <figs/self_consist2.pdf, id=79, 530.1603pt x 524.52376pt>
 File: figs/self_consist2.pdf Graphic file (type pdf)
 <use figs/self_consist2.pdf>
-Package pdftex.def Info: figs/self_consist2.pdf  used on input line 186.
+Package pdftex.def Info: figs/self_consist2.pdf  used on input line 184.
 (pdftex.def)             Requested size: 244.69386pt x 242.09221pt.
 <figs/hists_rect.pdf, id=80, 462.52798pt x 346.89601pt>
 File: figs/hists_rect.pdf Graphic file (type pdf)
 <use figs/hists_rect.pdf>
-Package pdftex.def Info: figs/hists_rect.pdf  used on input line 200.
+Package pdftex.def Info: figs/hists_rect.pdf  used on input line 198.
 (pdftex.def)             Requested size: 244.69386pt x 183.52052pt.
 ! Undefined control sequence.
 <argument> ...es in the physical space $\physical 
                                                   $ and learned mapping to t...
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1045,7 +1045,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...apping to the latent space $\latent 
                                                   $ with the iso-likelihood ...
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1056,7 +1056,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... iso-likelihood contour in $\latent 
                                                   $ and mapped to $\physical...
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1067,7 +1067,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...$\latent $ and mapped to $\physical 
                                                   $ using the inverse mappin...
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1078,7 +1078,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...are obtained shown in both $\latent 
                                                   $ and $\physical $.}}{\the...
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1089,7 +1089,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...n in both $\latent $ and $\physical 
                                                   $.}}{\thepage }{\@currentH...
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1100,7 +1100,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1111,7 +1111,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1122,7 +1122,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1133,7 +1133,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1144,7 +1144,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1155,7 +1155,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1166,7 +1166,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1177,7 +1177,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1188,7 +1188,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1199,7 +1199,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1210,7 +1210,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \latent 
                         
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1221,7 +1221,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \physical 
                           
-l.201 ...shown in both $\latent$ and $\physical$.}
+l.199 ...shown in both $\latent$ and $\physical$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1232,22 +1232,22 @@ and I'll forget about whatever was undefined.
 <figs/vvscatter.pdf, id=81, 462.52798pt x 462.52798pt>
 File: figs/vvscatter.pdf Graphic file (type pdf)
 <use figs/vvscatter.pdf>
-Package pdftex.def Info: figs/vvscatter.pdf  used on input line 213.
+Package pdftex.def Info: figs/vvscatter.pdf  used on input line 211.
 (pdftex.def)             Requested size: 244.69386pt x 244.69403pt.
 <figs/bvscatter.pdf, id=82, 462.52798pt x 462.52798pt>
 File: figs/bvscatter.pdf Graphic file (type pdf)
 <use figs/bvscatter.pdf>
-Package pdftex.def Info: figs/bvscatter.pdf  used on input line 214.
+Package pdftex.def Info: figs/bvscatter.pdf  used on input line 212.
 (pdftex.def)             Requested size: 244.69386pt x 244.69403pt.
 <figs/resample_corner.pdf, id=83, 987.5157pt x 981.89516pt>
 File: figs/resample_corner.pdf Graphic file (type pdf)
 <use figs/resample_corner.pdf>
-Package pdftex.def Info: figs/resample_corner.pdf  used on input line 226.
+Package pdftex.def Info: figs/resample_corner.pdf  used on input line 224.
 (pdftex.def)             Requested size: 489.38731pt x 486.60146pt.
 ! Undefined control sequence.
 <argument> ... 14 parameters are shown, see \cref 
                                                   {app:priors} for details o...
-l.227 ...ndimensional{1} marginalised posteriors.}
+l.225 ...ndimensional{1} marginalised posteriors.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1258,7 +1258,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... 14 parameters are shown, see \cref 
                                                   {app:priors} for details o...
-l.227 ...ndimensional{1} marginalised posteriors.}
+l.225 ...ndimensional{1} marginalised posteriors.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1269,7 +1269,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...shown in the \protect \ndimensional 
                                                   {1} marginalised posterior...
-l.227 ...ndimensional{1} marginalised posteriors.}
+l.225 ...ndimensional{1} marginalised posteriors.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1280,7 +1280,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... 14 parameters are shown, see \cref 
                                                   {app:priors} for details o...
-l.227 ...ndimensional{1} marginalised posteriors.}
+l.225 ...ndimensional{1} marginalised posteriors.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1291,7 +1291,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...shown in the \protect \ndimensional 
                                                   {1} marginalised posterior...
-l.227 ...ndimensional{1} marginalised posteriors.}
+l.225 ...ndimensional{1} marginalised posteriors.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1325,10 +1325,10 @@ multiple pdfs with page group included in a single page
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/bvscatter.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >] [7 <./figs/resample_corner.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 6D2FC596598A000E1256BEAF46184EE2;1119.
 
@@ -1362,7 +1362,7 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (7 pages, 1107309 bytes).
+Output written on main.pdf (7 pages, 1107310 bytes).
 PDF statistics:
  392 PDF objects out of 1000 (max. 8388607)
  333 compressed objects within 4 object streams
