@@ -245,7 +245,20 @@ In Section 2 we discuss the methods behind training our model in our reduced par
 \begin{figure}
 	\centering
 	\includegraphics[width=\figwidth]{figs/network_setup.png}
-	\caption{}
+	\caption{The structure of the \ac{CVAE}
+		neural network. During training (left-hand side), a training set of noisy
+		\ac{GW} signals ($y$) and their corresponding true parameters ($x$) are given
+		as input to encoder network $q_{\phi}$, while only $y$ is given to
+		encoder network $r_{\theta_1}$. The output of the decoder ($\mu_x$) describes a distribution in
+		the physical parameter space and the cost component $L$ is computed by
+		evaluating that distribution at the location of the original input $x$.
+		When performed in batches this scheme allows the computation of the total cost
+		function Eq.~\ref{eq:cost_approx}. After having trained the network and
+		therefore having minimised the cross-entropy $H$, we test (right-hand side)
+		using only the $r_{\theta_1}$ encoder and the $r_{\theta_2}$
+		decoder to produce samples ($x_{\text{samp}}$). These samples are drawn
+		from the proposal distribution $r_{\theta}(x|y)$ (Eq.~\ref{eq:prop_post})
+		and accurately model the true posterior $p(x|y)$. Figure sourced from paper 1~\cite{vitpaper}.}
 	\label{fig:vit_flow}
 \end{figure}
 
@@ -275,156 +288,156 @@ In Section 2 we discuss the methods behind training our model in our reduced par
 %
 %Apply the intro/theory mateiral to our case, JUSTIFY scientific decisions like number of samples, batch size, npars!!
 %
-%\subsection{Model Training}
+\subsection{Model Training}
 %
-%\begin{align}\label{eq:cost_approx} H \lesssim
-%\frac{1}{N}\sum_{n=1}^{N_{\text{b}}}&\Big[\overbrace{-\log
-%	r_{\theta_{2}}(x_{n}|z_{n},y_{n})}^{L}\nonumber\\
-%&+\overbrace{\text{KL}\left[q_{\phi}(z|x_{n},y_{n})||r_{\theta_{1}}(z|y_{n})\right]}^{\text{KL}}\Big],
-%\end{align}
+\begin{align}\label{eq:cost_approx} H \lesssim
+\frac{1}{N}\sum_{n=1}^{N_{\text{b}}}&\Big[\overbrace{-\log
+	r_{\theta_{2}}(x_{n}|z_{n},y_{n})}^{L}\nonumber\\
+&+\overbrace{\text{KL}\left[q_{\phi}(z|x_{n},y_{n})||r_{\theta_{1}}(z|y_{n})\right]}^{\text{KL}}\Big],
+\end{align}
 %
 %
-%\begin{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=\figwidth]{figs/cost.pdf}
+	\caption{}
+	\label{fig:learning_contours}
+\end{figure}
+
+\begin{figure*}
+	\subfigure{\includegraphics[width=\figwidth]{figs/vit_train_corner1.pdf}}
+	\subfigure{\includegraphics[width=\figwidth]{figs/vit_train_corner2.pdf}}
+	\caption{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis \nessai for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe. The 1-, 2- and 3-$\sigma$ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown.}
+	\label{fig:vit_train_corner}
+\end{figure*}
+
+
+\subsection{Likelihood Estimates}
+
+\begin{align}\label{eq:monte_approx}
+	r_{\theta}(x|y) = & \,\mathbb{E}_{r_{\theta_1}(z|y)}r_{\theta_2}(x|y,z)\nonumber \\
+	 \approx & \frac{1}{N}\sum^{N}_{j=1}\left.r_{\theta_{2,j}}(x_i|y,z_j)\right|_{z_j\sim r_{\theta_1}(z_j|y)},
+\end{align}
+
+\begin{align}\label{eq:post_like}
+r_{\theta}(x|y) \sim {\cal L}_{\theta}(y|x),
+\end{align}
+
+\textbf{\textcolor{red}{Figs: Monte flowchart}}
+
+\begin{figure*}
+	\centering
+	\includegraphics[width=\montefigwidth]{figs/tikz_monte.pdf}
+	\caption{}
+	\label{fig:monte_flow}
+\end{figure*}
+
+
+\subsection{Likelihood Reweighting}
+
+Start with eq 2 then multiply by unity
+
+\begin{align}\label{eq:sir} 
+p(x|y) &\propto \frac{{\cal L}_\theta(y|x)}{{\cal L}_\theta(y|x)}{\cal L}(y|x) p(x)\nonumber\\
+&\propto w(y|x)\overbrace{{\cal L}_{\theta}(y|x) p(x)}^{r_{\theta}(x|y)}.
+\end{align}
+
+%\begin{table}
 %	\centering
-%	\includegraphics[width=\figwidth]{figs/cost.pdf}
-%	\caption{}
-%	\label{fig:learning_contours}
-%\end{figure}
-%
-%\begin{figure*}
-%	\subfigure{\includegraphics[width=\figwidth]{figs/vit_train_corner1.pdf}}
-%	\subfigure{\includegraphics[width=\figwidth]{figs/vit_train_corner2.pdf}}
-%	\caption{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis \nessai for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe. The 1-, 2- and 3-$\sigma$ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown.}
-%	\label{fig:vit_train_corner}
-%\end{figure*}
-%
-%
-%\subsection{Likelihood Estimates}
-%
-%\begin{align}\label{eq:monte_approx}
-%	r_{\theta}(x|y) = & \,\mathbb{E}_{r_{\theta_1}(z|y)}r_{\theta_2}(x|y,z)\nonumber \\
-%	 \approx & \frac{1}{N}\sum^{N}_{j=1}\left.r_{\theta_{2,j}}(x_i|y,z_j)\right|_{z_j\sim r_{\theta_1}(z_j|y)},
-%\end{align}
-%
-%\begin{align}\label{eq:post_like}
-%r_{\theta}(x|y) \sim {\cal L}_{\theta}(y|x),
-%\end{align}
-%
-%\textbf{\textcolor{red}{Figs: Monte flowchart}}
-%
-%\begin{figure*}
-%	\centering
-%	\includegraphics[width=\montefigwidth]{figs/tikz_monte.pdf}
-%	\caption{}
-%	\label{fig:monte_flow}
-%\end{figure*}
-%
-%
-%\subsection{Likelihood Reweighting}
-%
-%Start with eq 2 then multiply by unity
-%
-%\begin{align}\label{eq:sir} 
-%p(x|y) &\propto \frac{{\cal L}_\theta(y|x)}{{\cal L}_\theta(y|x)}{\cal L}(y|x) p(x)\nonumber\\
-%&\propto w(y|x)\overbrace{{\cal L}_{\theta}(y|x) p(x)}^{r_{\theta}(x|y)}.
-%\end{align}
-%
-%%\begin{table}
-%%	\centering
-%%	\caption{Med time to gen 10,000 samples...the DL doesnt account for training time}
-%%	\begin{tabular}[t]{llcc} 
-%%				\toprule
-%%				sampler & method & deep-learning & run-time (s)\\
+%	\caption{Med time to gen 10,000 samples...the DL doesnt account for training time}
+%	\begin{tabular}[t]{llcc} 
+%				\toprule
+%				sampler & method & deep-learning & run-time (s)\\
+%				\hline
+%				h &&&\\
+%				h &&&\\
+%%				\emcee~\cite{mcmc_og} & help & help & help\\
+%%				help & & &\\
+%%				\emcee~\cite{mcmc_og} & help & help & help\\
+%%				\emcee~\cite{emcee} & MCMC~\cite{mcmc_og} & X  &  32070\\
+%%				\ptemcee~\cite{ptemcee} & MCMC & X & 24372\\
+%%				\dynesty~\cite{dynesty} & NS~\cite{skilling2006} & X & 19400\\
+%%				\cpnest~\cite{cpnest} & NS & X &  26202 \\
 %%				\hline
-%%				h &&&\\
-%%				h &&&\\
-%%%				\emcee~\cite{mcmc_og} & help & help & help\\
-%%%				help & & &\\
-%%%				\emcee~\cite{mcmc_og} & help & help & help\\
-%%%				\emcee~\cite{emcee} & MCMC~\cite{mcmc_og} & X  &  32070\\
-%%%				\ptemcee~\cite{ptemcee} & MCMC & X & 24372\\
-%%%				\dynesty~\cite{dynesty} & NS~\cite{skilling2006} & X & 19400\\
-%%%				\cpnest~\cite{cpnest} & NS & X &  26202 \\
-%%%				\hline
-%%%				\nessai~\cite{williams2021nested} & NS & Y & 9372\\
-%%%				\vitamin~\cite{vitpaper} & VI~\cite{1904.06264} & Y & $1\times 10^{-1}$\\
-%%				\botrule
-%%	\end{tabular}
-%%	\label{Tab:speed}
-%%\end{table}
-%Here,
-%
-%\begin{align}\label{eq:weights}
-%w(y|x) \equiv \frac{{\cal L}(y|x)}{{\cal L}_{\theta}(y|x)},
-%\end{align}
-%
-%is the weight function...
-%
-%\section{Results}\label{results}
-%
-%\subsection{Self-consistency}
-%
-%\begin{figure*}
-%	\subfigure{\includegraphics[width=\figwidth]{figs/self_consist1.pdf}}
-%	\subfigure{\includegraphics[width=\figwidth]{figs/self_consist2.pdf}}
-%	\caption{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis \nessai for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe. The 1-, 2- and 3-$\sigma$ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown.}
-%	\label{fig:sel_consist}
-%\end{figure*}
-%
-%
-%\subsection{Reproducibility}
-%
-%\begin{align}\label{eq:sigma}
-%\sigma \propto \frac{1}{\sqrt{N}},
-%\end{align}
-%
-%where N is monte carlo batch size
-%
-%\begin{align}\label{eq:error}
-%\text{Error} = \frac{\sigma}{\sqrt{n_{\text{samples}}}},
-%\end{align}
-%
-%
-%
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=\figwidth]{figs/hists_rect.pdf}
-%	\caption{}
-%	\label{fig:hists}
-%\end{figure}
-%
-%\begin{figure*}
-%	\subfigure[]{\includegraphics[width=\figwidth]{figs/vvscatter.pdf}}
-%	\subfigure[]{\includegraphics[width=\figwidth]{figs/bvscatter.pdf}}
-%	\caption{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis \nessai for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe. The 1-, 2- and 3-$\sigma$ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown.}
-%	\label{fig:scatter}
-%\end{figure*}
-%
-%\subsection{Importance Resampling}
-%
-%
-%\begin{figure*}[h]
-%	\centering
-%	\includegraphics[width=\doublefigwidth]{figs/resample_corner.pdf}
-%	\caption{}
-%	\label{fig:final_corner}
-%\end{figure*}
-%
-%%\section{Future Work}\label{future}
-%
-%
-%\section{Conclusions}\label{conc}
-%
-%This is section has to encapsulate everything we did so that after the abstract a reader can go here and see if they want to buy the paper or not!
-%
-%As we find ourself in a proof-of-concept mode, there is justification of a section dedicated to the next steps leading towards production of this code.
-%
-%
-%\section*{Acknowledgements}
-%
-%Thanks to Chris and Hunter and Michael and Daniel.
-%
-%Paragraph on the software used \bilby\cite{bilby} \cite{0004-637X-748-2-136}help please dont fuck up now , lets just keep typing and see what happens, im really shitting ymself now... and dont want to have to spend precious time on fucking type setting and bibliography hunting \cite{emcee}
+%%				\nessai~\cite{williams2021nested} & NS & Y & 9372\\
+%%				\vitamin~\cite{vitpaper} & VI~\cite{1904.06264} & Y & $1\times 10^{-1}$\\
+%				\botrule
+%	\end{tabular}
+%	\label{Tab:speed}
+%\end{table}
+Here,
+
+\begin{align}\label{eq:weights}
+w(y|x) \equiv \frac{{\cal L}(y|x)}{{\cal L}_{\theta}(y|x)},
+\end{align}
+
+is the weight function...
+
+\section{Results}\label{results}
+
+\subsection{Self-consistency}
+
+\begin{figure*}
+	\subfigure{\includegraphics[width=\figwidth]{figs/self_consist1.pdf}}
+	\subfigure{\includegraphics[width=\figwidth]{figs/self_consist2.pdf}}
+	\caption{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis \nessai for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe. The 1-, 2- and 3-$\sigma$ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown.}
+	\label{fig:sel_consist}
+\end{figure*}
+
+
+\subsection{Reproducibility}
+
+\begin{align}\label{eq:sigma}
+\sigma \propto \frac{1}{\sqrt{N}},
+\end{align}
+
+where N is monte carlo batch size
+
+\begin{align}\label{eq:error}
+\text{Error} = \frac{\sigma}{\sqrt{n_{\text{samples}}}},
+\end{align}
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\figwidth]{figs/hists_rect.pdf}
+	\caption{}
+	\label{fig:hists}
+\end{figure}
+
+\begin{figure*}
+	\subfigure[]{\includegraphics[width=\figwidth]{figs/vvscatter.pdf}}
+	\subfigure[]{\includegraphics[width=\figwidth]{figs/bvscatter.pdf}}
+	\caption{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis \nessai for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe. The 1-, 2- and 3-$\sigma$ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown.}
+	\label{fig:scatter}
+\end{figure*}
+
+\subsection{Importance Resampling}
+
+
+\begin{figure*}[h]
+	\centering
+	\includegraphics[width=\doublefigwidth]{figs/resample_corner.pdf}
+	\caption{}
+	\label{fig:final_corner}
+\end{figure*}
+
+%\section{Future Work}\label{future}
+
+
+\section{Conclusions}\label{conc}
+
+This is section has to encapsulate everything we did so that after the abstract a reader can go here and see if they want to buy the paper or not!
+
+As we find ourself in a proof-of-concept mode, there is justification of a section dedicated to the next steps leading towards production of this code.
+
+
+\section*{Acknowledgements}
+
+Thanks to Chris and Hunter and Michael and Daniel.
+
+Paragraph on the software used \bilby\cite{bilby} \cite{0004-637X-748-2-136}help please dont fuck up now , lets just keep typing and see what happens, im really shitting ymself now... and dont want to have to spend precious time on fucking type setting and bibliography hunting \cite{emcee}
 %%\clearpage
 %
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.3)  24 MAR 2021 18:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.3)  24 MAR 2021 20:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,6 +865,11 @@ File: figs/network_setup.png Graphic file (type png)
 <use figs/network_setup.png>
 Package pdftex.def Info: figs/network_setup.png  used on input line 247.
 (pdftex.def)             Requested size: 244.69386pt x 368.6711pt.
+Package acronym Info: Label `acro:CVAE' newly defined as it shall be overridden
+
+although it is yet undefined on input line 261.
+Package acronym Info: Label `acro:GW' newly defined as it shall be overridden
+although it is yet undefined on input line 261.
  (./main.bbl [3 <./figs/network_setup.png>]
 Underfull \hbox (badness 1371) in paragraph at lines 320--324
  []\OT1/cmr/m/n/9 R. Ab-bott, T. Ab-bott, S. Abra-ham, F. Ac-er-nese,
@@ -880,25 +885,25 @@ Underfull \hbox (badness 1132) in paragraph at lines 457--462
 Package natbib Warning: There were undefined citations.
 
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 438.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 451.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 438.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 438.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 451.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 451.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4D58EA8D08669F8563AF97876633B843;497.
+(rerunfilecheck)             Checksum: AC4313B9E5CC8DD6547B7AB87C571B2B;497.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 21208 strings out of 483183
- 380056 string characters out of 5966293
- 690399 words of memory out of 5000000
- 35750 multiletter control sequences out of 15000+600000
+ 21216 strings out of 483183
+ 380136 string characters out of 5966293
+ 693351 words of memory out of 5000000
+ 35757 multiletter control sequences out of 15000+600000
  540549 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,14n,60p,1352b,578s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,60p,1352b,578s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
@@ -910,17 +915,19 @@ ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type
 c/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (4 pages, 274724 bytes).
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msam10.pfb>
+Output written on main.pdf (4 pages, 298642 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 227 compressed objects within 3 object streams
- 55 named destinations out of 1000 (max. 500000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
  74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
