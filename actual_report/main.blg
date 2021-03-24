@@ -12,12 +12,12 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: mainNotes.bib
 Database file #2: refs.bib
 Warning--entry type for "gwtc2" isn't style-file defined
---line 153 of file refs.bib
-Repeated entry---line 1091 of file refs.bib
+--line 177 of file refs.bib
+Repeated entry---line 1115 of file refs.bib
  : @misc{dynesty
  :              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1099 of file refs.bib
+Repeated entry---line 1123 of file refs.bib
  : @article{cpnest
  :                ,
 I'm skipping whatever remains of this entry
