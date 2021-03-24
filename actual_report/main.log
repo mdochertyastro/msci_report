@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.3)  24 MAR 2021 09:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.3)  24 MAR 2021 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -758,29 +758,29 @@ zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
 Class revtex4-1 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 60.
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 60.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 60.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 60.
+lass! (Proceeding with fingers crossed.) on input line 63.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 63.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 63.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 63.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -805,7 +805,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring OFF on input line 60.
+Package hyperref Info: Link coloring OFF on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -818,167 +818,109 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count322
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
  ABD: EveryShipout initializing macros
-Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 60.
+Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 63.
 Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input 
-line 60.
-Class revtex4-1 Info: Line numbering not turned on yet on input line 60.
+line 63.
+Class revtex4-1 Info: Line numbering not turned on yet on input line 63.
 \openout3 = `mainNotes.bib'.
 
-Class revtex4-1 Info: Overriding \@LN@LLerror on input line 60.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 109
+Class revtex4-1 Info: Overriding \@LN@LLerror on input line 63.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 135
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 109
+LaTeX Font Info:    Trying to load font information for U+msb on input line 135
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figs/network_setup.png, id=75, 561.59813pt x 846.16125pt>
+
+LaTeX Warning: Reference `methods:model training' on page 2 undefined on input 
+line 200.
+
+
+Package natbib Warning: Citation `OzGrav' on page 2 undefined on input line 208
+.
+
+
+Package natbib Warning: Citation `OzGrav' on page 2 undefined on input line 217
+.
+
+[2]
+<figs/network_setup.png, id=131, 561.59813pt x 846.16125pt>
 File: figs/network_setup.png Graphic file (type png)
 <use figs/network_setup.png>
-Package pdftex.def Info: figs/network_setup.png  used on input line 162.
+Package pdftex.def Info: figs/network_setup.png  used on input line 247.
 (pdftex.def)             Requested size: 244.69386pt x 368.6711pt.
+ (./main.bbl [3 <./figs/network_setup.png>]
+Underfull \hbox (badness 1371) in paragraph at lines 320--324
+ []\OT1/cmr/m/n/9 R. Ab-bott, T. Ab-bott, S. Abra-ham, F. Ac-er-nese,
+ []
 
 
-LaTeX Warning: Reference `future' on page 1 undefined on input line 184.
+Underfull \hbox (badness 1132) in paragraph at lines 457--462
+ \OT1/cmr/m/n/9 hamed,  and B. Lak-sh-mi-narayanan, arXiv preprint
+ []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/network_setup.png
->]
-<figs/cost.pdf, id=105, 462.52798pt x 346.89601pt>
-File: figs/cost.pdf Graphic file (type pdf)
-<use figs/cost.pdf>
-Package pdftex.def Info: figs/cost.pdf  used on input line 204.
-(pdftex.def)             Requested size: 244.69386pt x 183.52052pt.
-<figs/vit_train_corner1.pdf, id=106, 523.85875pt x 523.85875pt>
-File: figs/vit_train_corner1.pdf Graphic file (type pdf)
-<use figs/vit_train_corner1.pdf>
-Package pdftex.def Info: figs/vit_train_corner1.pdf  used on input line 210.
-(pdftex.def)             Requested size: 244.69386pt x 244.69489pt.
-<figs/vit_train_corner2.pdf, id=107, 530.14432pt x 524.52376pt>
-File: figs/vit_train_corner2.pdf Graphic file (type pdf)
-<use figs/vit_train_corner2.pdf>
-Package pdftex.def Info: figs/vit_train_corner2.pdf  used on input line 211.
-(pdftex.def)             Requested size: 244.69386pt x 242.10022pt.
-<figs/tikz_monte.pdf, id=108, 324.21124pt x 346.29375pt>
-File: figs/tikz_monte.pdf Graphic file (type pdf)
-<use figs/tikz_monte.pdf>
-Package pdftex.def Info: figs/tikz_monte.pdf  used on input line 232.
-(pdftex.def)             Requested size: 312.9803pt x 334.31932pt.
-<figs/self_consist1.pdf, id=109, 523.85875pt x 523.85875pt>
-File: figs/self_consist1.pdf Graphic file (type pdf)
-<use figs/self_consist1.pdf>
-Package pdftex.def Info: figs/self_consist1.pdf  used on input line 283.
-(pdftex.def)             Requested size: 244.69386pt x 244.69489pt.
-<figs/self_consist2.pdf, id=110, 530.1603pt x 524.52376pt>
-File: figs/self_consist2.pdf Graphic file (type pdf)
-<use figs/self_consist2.pdf>
-Package pdftex.def Info: figs/self_consist2.pdf  used on input line 284.
-(pdftex.def)             Requested size: 244.69386pt x 242.09221pt.
-<figs/hists_rect.pdf, id=111, 462.52798pt x 346.89601pt>
-File: figs/hists_rect.pdf Graphic file (type pdf)
-<use figs/hists_rect.pdf>
-Package pdftex.def Info: figs/hists_rect.pdf  used on input line 306.
-(pdftex.def)             Requested size: 244.69386pt x 183.52052pt.
-<figs/vvscatter.pdf, id=112, 462.52798pt x 462.52798pt>
-File: figs/vvscatter.pdf Graphic file (type pdf)
-<use figs/vvscatter.pdf>
-Package pdftex.def Info: figs/vvscatter.pdf  used on input line 312.
-(pdftex.def)             Requested size: 244.69386pt x 244.69403pt.
-<figs/bvscatter.pdf, id=113, 462.52798pt x 462.52798pt>
-File: figs/bvscatter.pdf Graphic file (type pdf)
-<use figs/bvscatter.pdf>
-Package pdftex.def Info: figs/bvscatter.pdf  used on input line 313.
-(pdftex.def)             Requested size: 244.69386pt x 244.69403pt.
-<figs/resample_corner.pdf, id=114, 987.5157pt x 981.89516pt>
-File: figs/resample_corner.pdf Graphic file (type pdf)
-<use figs/resample_corner.pdf>
-Package pdftex.def Info: figs/resample_corner.pdf  used on input line 323.
-(pdftex.def)             Requested size: 489.38731pt x 486.60146pt.
+)
 
+Package natbib Warning: There were undefined citations.
 
-Class revtex4-1 Warning: Float cannot be placed.
-
-(./main.bbl [2 <./figs/cost.pdf>] [3 <./figs/vit_train_corner1.pdf> <./figs/vit
-_train_corner2.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figs/vit_train_corner2.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./figs/tikz_monte.pdf>] [4 <./figs/self_consist1.pdf> <./figs/self_consist2.
-pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figs/self_consist2.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
-> <./figs/hists_rect.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figs/hists_rect.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
->]) [5 <./figs/vvscatter.pdf> <./figs/bvscatter.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figs/bvscatter.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
->] [6 <./figs/resample_corner.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 369.
+[4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 438.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 369.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 369.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 438.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 438.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 622CE32E7E0CB826D34ECE9F13AF38DF;1129.
+(rerunfilecheck)             Checksum: 4D58EA8D08669F8563AF97876633B843;497.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 21229 strings out of 483183
- 380466 string characters out of 5966293
- 671796 words of memory out of 5000000
- 35753 multiletter control sequences out of 15000+600000
- 540850 words of font info for 57 fonts, out of 8000000 for 9000
+ 21208 strings out of 483183
+ 380056 string characters out of 5966293
+ 690399 words of memory out of 5000000
+ 35750 multiletter control sequences out of 15000+600000
+ 540549 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,17n,60p,675b,578s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,60p,1352b,578s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (6 pages, 1182679 bytes).
+ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti9.pfb>
+Output written on main.pdf (4 pages, 274724 bytes).
 PDF statistics:
- 488 PDF objects out of 1000 (max. 8388607)
- 420 compressed objects within 5 object streams
- 63 named destinations out of 1000 (max. 500000)
- 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
