@@ -92,9 +92,11 @@ My 250 word abstract goes here...
 
 Remember to signpost rest of paper at end of this section!
 
-%\subsection{}
-%
-\subsection{\vitamin: User-Friendly Inference}\label{vit}
+\subsection{Parameter Estimation}
+
+\subsection{Deep-learning Approaches}
+
+\subsection{\vitamin: User-friendly Inference}\label{vit}
 
 \textbf{\textcolor{green}{Tables: Compare Gen Model abilities}}
 
@@ -104,7 +106,7 @@ Use gen pap to intro CVAE in context, CONTEXT IS KEY HERE
 \begin{figure}
 	\centering
 	\includegraphics[width=\figwidth]{figs/network_setup.png}
-	\caption{Example of how a normalising flow trained on a set of live points can produce samples within current iso-likelihood contour for simple two-dimensional parameter space. \textbf{Top:} example of training samples in the physical space $\physical$ and learned mapping to the latent space $\latent$ with the iso-likelihood contour for the current \textit{worst point} shown in orange. \textbf{Middle:} samples drawn from a truncated Guassian within the iso-likelihood contour in $\latent$ and mapped to $\physical$ using the inverse mapping. \textbf{Bottom:} pool of accepted samples after applying rejection sampling until 1000 points are obtained shown in both $\latent$ and $\physical$.}
+	\caption{}
 	\label{fig:vit_flow}
 \end{figure}
 
@@ -121,9 +123,9 @@ Need to mention metropolis hastings it seems!
 
 Introduce equations directly to our specifics, we don't have space to intro them blind then again to specifics...
 
-\subsection{Monte Carlo Framework}\label{theory:monte}
+%\subsection{Monte Carlo Framework}\label{theory:monte}
 
-\subsection{SIR Framework}\label{theory:sir}
+%\subsection{SIR Framework}\label{theory:sir}
 
 Do theory on normal IS and then say that SIR is an monte carlo approach/approx to normal IS then give equations for bot (talk about the NEW IMPROVED SIR method (link to Section \ref{future}))
 
@@ -139,7 +141,7 @@ Apply the intro/theory mateiral to our case, JUSTIFY scientific decisions like n
 \begin{figure}
 	\centering
 	\includegraphics[width=\figwidth]{figs/cost.pdf}
-	\caption{Example of how a normalising flow trained on a set of live points can produce samples within current iso-likelihood contour for simple two-dimensional parameter space. \textbf{Top:} example of training samples in the physical space $\physical$ and learned mapping to the latent space $\latent$ with the iso-likelihood contour for the current \textit{worst point} shown in orange. \textbf{Middle:} samples drawn from a truncated Guassian within the iso-likelihood contour in $\latent$ and mapped to $\physical$ using the inverse mapping. \textbf{Bottom:} pool of accepted samples after applying rejection sampling until 1000 points are obtained shown in both $\latent$ and $\physical$.}
+	\caption{}
 	\label{fig:learning_contours}
 \end{figure}
 
@@ -165,7 +167,7 @@ Need this cornerplot here to talk about how it doesn't `get' the multimodal dist
 \begin{figure*}
 	\centering
 	\includegraphics[width=\montefigwidth]{figs/tikz_monte.pdf}
-	\caption{Diagram of a normalising flow $f(x)$ composed of four coupling transforms which maps an \protect\ndimensional{n} input vector x to an \protect\ndimensional{n} latent vector z. Each transform splits $x$ in two $[x_{1:m}, x_{m+1:n}]$ and updates one part conditioned on the other. In the first and third transforms $x_{1:m}$ is used as the input to a neural network (NN) which then produces the scale $s$ and translation $t$ vectors of length $m$. The element-wise product ($\odot$) is then computed between $x_{1:m}$ and $\exp(s)$ followed by the sum of the output and $t$. This is shown in the left transform. In the second and fourth transforms $x_{1:m}$ is updated conditioned on $x_{m+1:n}$ as shown in the right transform. \textcolor{red} {In my caption, link to previous sections and equations}}
+	\caption{}
 	\label{fig:monte_flow}
 \end{figure*}
 
@@ -196,7 +198,7 @@ Talk about how 'binning' is preventing proper error profile acorss the likelihoo
 \begin{figure}
 	\centering
 	\includegraphics[width=\figwidth]{figs/hists_rect.pdf}
-	\caption{Example of how a normalising flow trained on a set of live points can produce samples within current iso-likelihood contour for simple two-dimensional parameter space. \textbf{Top:} example of training samples in the physical space $\physical$ and learned mapping to the latent space $\latent$ with the iso-likelihood contour for the current \textit{worst point} shown in orange. \textbf{Middle:} samples drawn from a truncated Guassian within the iso-likelihood contour in $\latent$ and mapped to $\physical$ using the inverse mapping. \textbf{Bottom:} pool of accepted samples after applying rejection sampling until 1000 points are obtained shown in both $\latent$ and $\physical$.}
+	\caption{}
 	\label{fig:hists}
 \end{figure}
 
@@ -222,7 +224,7 @@ Talk about how 'binning' is preventing proper error profile acorss the likelihoo
 \begin{figure*}[h]
 	\centering
 	\includegraphics[width=\doublefigwidth]{figs/resample_corner.pdf}
-	\caption{Corner plot comparing the posterior distributions produced with \dynesty (blue) and our sampler \nessai (red). The phase is marginalised and remaining 14 parameters are shown, see \cref{app:priors} for details on the parameters. The respective 16\% and 84\% quantiles are also shown in the \protect\ndimensional{1} marginalised posteriors.}
+	\caption{}
 	\label{fig:final_corner}
 \end{figure*}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.3)  23 MAR 2021 16:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.3)  23 MAR 2021 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1308,7 +1308,14 @@ Class revtex4-1 Warning: Float cannot be placed.
 Package natbib Warning: Citation `bilby' on page 1 undefined on input line 245.
 
 
-No file report_draft1.bbl.
+(./report_draft1.bbl
+
+LaTeX Warning: Reference `LastBibItem' on page 1 undefined on input line 9.
+
+
+Package natbib Warning: Empty `thebibliography' environment on input line 53.
+
+)
 
 Package natbib Warning: There were undefined citations.
 
@@ -1339,18 +1346,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
  (./report_draft1.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
-Package rerunfilecheck Info: File `report_draft1.out' has not changed.
-(rerunfilecheck)             Checksum: 0EE424132114E94F328E31B1710DB317;848.
 
+
+Package rerunfilecheck Warning: File `report_draft1.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report_draft1.out':
+(rerunfilecheck)             Before: 0EE424132114E94F328E31B1710DB317;848
+(rerunfilecheck)             After:  215F7ED6F7F0F2D9BB735E732D10DC69;906.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10867 strings out of 483183
- 160155 string characters out of 5966293
- 473691 words of memory out of 5000000
- 25647 multiletter control sequences out of 15000+600000
+ 10878 strings out of 483183
+ 160281 string characters out of 5966293
+ 474796 words of memory out of 5000000
+ 25655 multiletter control sequences out of 15000+600000
  538552 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  43i,7n,52p,940b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1372,10 +1385,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti9.pfb>
-Output written on report_draft1.pdf (7 pages, 1103165 bytes).
+Output written on report_draft1.pdf (7 pages, 1104673 bytes).
 PDF statistics:
- 370 PDF objects out of 1000 (max. 8388607)
- 312 compressed objects within 4 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 313 compressed objects within 4 object streams
+ 35 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 

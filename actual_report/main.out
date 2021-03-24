@@ -1,9 +1,9 @@
 \BOOKMARK [0][-]{section*.2}{Explainable Deep-learning: Monte Carlo methods for Gravitational-Wave Inference}{}% 2
 \BOOKMARK [1][-]{section*.1}{Abstract}{section*.2}% 1
 \BOOKMARK [1][-]{section*.3}{Introduction}{section*.2}% 3
-\BOOKMARK [2][-]{section*.4}{VItamin: User-Friendly Inference}{section*.3}% 4
-\BOOKMARK [2][-]{section*.5}{Monte Carlo Framework}{section*.3}% 5
-\BOOKMARK [2][-]{section*.6}{SIR Framework}{section*.3}% 6
+\BOOKMARK [2][-]{section*.4}{Parameter Estimation}{section*.3}% 4
+\BOOKMARK [2][-]{section*.5}{Deep-learning Approaches}{section*.3}% 5
+\BOOKMARK [2][-]{section*.6}{VItamin: User-friendly Inference}{section*.3}% 6
 \BOOKMARK [1][-]{section*.7}{Methodology}{section*.2}% 7
 \BOOKMARK [2][-]{section*.8}{Model Training}{section*.7}% 8
 \BOOKMARK [2][-]{section*.9}{Likelihood Estimates}{section*.7}% 9
