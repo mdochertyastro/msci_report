@@ -20,6 +20,8 @@
 \newlabel{FirstPage}{{}{1}{}{section*.1}{}}
 \@writefile{toc}{\contentsline {title}{Explainable Deep-learning: Monte Carlo methods for Gravitational-Wave Inference}{1}{section*.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {abstract}{Abstract}{1}{section*.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces }}{1}{table.1}\protected@file@percent }
+\newlabel{tab:prior_ranges}{{I}{1}{}{table.1}{}}
 \newacro{GW}[GW]{Gravitational wave}
 \newacro{BBH}[BBH]{binary black hole}
 \newacro{EM}[EM]{electromagnetic}
@@ -38,46 +40,81 @@
 \@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section*.3}\protected@file@percent }
 \newlabel{intro}{{I}{1}{}{section*.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {A}Parameter Estimation}{1}{section*.4}\protected@file@percent }
+\newlabel{eq:bayes_exact}{{1}{1}{}{equation.1.1}{}}
+\newlabel{eq:bayes_prop}{{2}{1}{}{equation.1.2}{}}
+\newlabel{eq:bayes_evidence}{{3}{1}{}{equation.1.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {B}Deep-learning Approaches}{1}{section*.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {C}{\sc  VItamin}\xspace  : User-friendly Inference}{1}{section*.6}\protected@file@percent }
 \newlabel{vit}{{I\tmspace  +\thinmuskip {.1667em}C}{1}{}{section*.6}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {II}Methodology}{1}{section*.7}\protected@file@percent }
-\newlabel{methods}{{II}{1}{}{section*.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {A}Model Training}{1}{section*.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {B}Likelihood Estimates}{1}{section*.9}\protected@file@percent }
+\newlabel{eq:cross_ent}{{4}{1}{}{equation.1.4}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces }}{1}{figure.1}\protected@file@percent }
 \newlabel{fig:vit_flow}{{1}{1}{}{figure.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {C}Likelihood Reweighting}{1}{section*.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {III}Results}{1}{section*.11}\protected@file@percent }
-\newlabel{results}{{III}{1}{}{section*.11}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {A}Self-consistency}{1}{section*.12}\protected@file@percent }
+\newlabel{eq:prop_post}{{5}{1}{}{equation.1.5}{}}
 \citation{bilby}
+\citation{0004-637X-748-2-136}
+\citation{emcee}
+\citation{emcee}
+\citation{mcmc_og}
+\citation{ptemcee}
+\citation{dynesty}
+\citation{skilling2006}
+\citation{cpnest}
+\citation{williams2021nested}
+\citation{vitpaper}
+\citation{1904.06264}
 \bibdata{mainNotes,refs}
 \bibcite{bilby}{{1}{2019}{{Ashton\ \emph  {et~al.}}}{{Ashton, Huebner, Lasky, {Colm Talbot}, Ackley, {Sylvia Biscoveanu}, Chu, Divarkala, Easter, {Boris Goncharov}, {Francisco Hernandez Vivanco}, Harms, Lower, {Grant D. Meadors}, Melchor, Payne, Pitkin, Powell, Sarin, {Rory J. E. Smith},\ and\ Thrane}}}
-\bibstyle{apsrev4-1}
-\citation{REVTEX41Control}
-\citation{apsrev41Control}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces }}{2}{figure.2}\protected@file@percent }
 \newlabel{fig:learning_contours}{{2}{2}{}{figure.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Methodology}{2}{section*.7}\protected@file@percent }
+\newlabel{methods}{{II}{2}{}{section*.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Model Training}{2}{section*.8}\protected@file@percent }
+\newlabel{eq:cost_approx}{{6}{2}{}{equation.2.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Likelihood Estimates}{2}{section*.9}\protected@file@percent }
+\newlabel{eq:monte_approx}{{7}{2}{}{equation.2.7}{}}
+\newlabel{eq:post_like}{{8}{2}{}{equation.2.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Likelihood Reweighting}{2}{section*.10}\protected@file@percent }
+\newlabel{eq:sir}{{9}{2}{}{equation.2.9}{}}
+\newlabel{eq:weights}{{10}{2}{}{equation.2.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Results}{2}{section*.11}\protected@file@percent }
+\newlabel{results}{{III}{2}{}{section*.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Self-consistency}{2}{section*.12}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {B}Reproducibility}{2}{section*.13}\protected@file@percent }
+\newlabel{eq:sigma}{{11}{2}{}{equation.3.11}{}}
+\newlabel{eq:error}{{12}{2}{}{equation.3.12}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {C}Importance Resampling}{2}{section*.14}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {IV}Conclusions}{2}{section*.15}\protected@file@percent }
 \newlabel{conc}{{IV}{2}{}{section*.15}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {}Acknowledgements}{2}{section*.16}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {}References}{2}{section*.17}\protected@file@percent }
-\newlabel{LastBibItem}{{1}{2}{}{section*.17}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis {\sc  Nessai}\xspace  for 128 simulated compact binary coalescence signals produced with {\sc  Bilby}\xspace  and {\sc  bilby\_pipe}\xspace  . The 1-, 2- and 3-$\sigma $ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown.}}{3}{figure.3}\protected@file@percent }
 \newlabel{fig:vit_train_corner}{{3}{3}{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis \nessai for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe . The 1-, 2- and 3-$\sigma $ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown}{figure.3}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces }}{3}{figure.4}\protected@file@percent }
 \newlabel{fig:monte_flow}{{4}{3}{}{figure.4}{}}
+\bibcite{0004-637X-748-2-136}{{2}{2012}{{Cannon\ \emph  {et~al.}}}{{Cannon, Cariou, Chapman, Crispin-Ortuzar, Fotopoulos, Frei, Hanna, Kara, Keppel, Liao, Privitera, Searle, Singer,\ and\ Weinstein}}}
+\bibcite{emcee}{{3}{2013}{{{Foreman-Mackey}\ \emph  {et~al.}}}{{{Foreman-Mackey}, {Hogg}, {Lang},\ and\ {Goodman}}}}
+\bibcite{mcmc_og}{{4}{1970}{{Hastings}}{{}}}
+\bibcite{ptemcee}{{5}{2015}{{Vousden\ \emph  {et~al.}}}{{Vousden, Farr,\ and\ Mandel}}}
+\bibcite{dynesty}{{6}{2019}{{Speagle}}{{}}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis {\sc  Nessai}\xspace  for 128 simulated compact binary coalescence signals produced with {\sc  Bilby}\xspace  and {\sc  bilby\_pipe}\xspace  . The 1-, 2- and 3-$\sigma $ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown.}}{4}{figure.5}\protected@file@percent }
 \newlabel{fig:sel_consist}{{5}{4}{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis \nessai for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe . The 1-, 2- and 3-$\sigma $ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown}{figure.5}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces }}{4}{figure.6}\protected@file@percent }
 \newlabel{fig:hists}{{6}{4}{}{figure.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}References}{4}{section*.17}\protected@file@percent }
+\bibcite{skilling2006}{{7}{2006}{{Skilling}}{{}}}
+\bibcite{cpnest}{{8}{2019}{{Pozzo\ and\ Veitch}}{{}}}
+\bibcite{williams2021nested}{{9}{2021}{{Williams\ \emph  {et~al.}}}{{Williams, Veitch,\ and\ Messenger}}}
+\bibcite{vitpaper}{{10}{2019}{{Gabbard\ \emph  {et~al.}}}{{Gabbard, Messenger, Heng, Tonolini,\ and\ Murray-Smith}}}
+\bibcite{1904.06264}{{11}{2019}{{Tonolini\ \emph  {et~al.}}}{{Tonolini, Lyons, Caramazza, Faccio,\ and\ Murray-Smith}}}
+\bibstyle{apsrev4-1}
+\citation{REVTEX41Control}
+\citation{apsrev41Control}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis {\sc  Nessai}\xspace  for 128 simulated compact binary coalescence signals produced with {\sc  Bilby}\xspace  and {\sc  bilby\_pipe}\xspace  . The 1-, 2- and 3-$\sigma $ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown.}}{5}{figure.7}\protected@file@percent }
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{5}{figure.7}\protected@file@percent }
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{5}{figure.7}\protected@file@percent }
 \newlabel{fig:scatter}{{7}{5}{Probability-probability (P-P) plot showing the confidence interval versus the fraction of the events within that confidence interval for the posterior distributions obtained using our analysis \nessai for 128 simulated compact binary coalescence signals produced with \bilby and \bilbypipe . The 1-, 2- and 3-$\sigma $ confidence intervals are indicated by the shaded regions and $p$-values are shown for each of the parameters and the combined $p$-value is also shown}{figure.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Generic Caption like in vitamin paper!}}{5}{table.2}\protected@file@percent }
+\newlabel{Tab:speed}{{II}{5}{Generic Caption like in vitamin paper!}{table.2}{}}
+\newlabel{LastBibItem}{{11}{5}{}{section*.17}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces }}{6}{figure.8}\protected@file@percent }
 \newlabel{fig:final_corner}{{8}{6}{}{figure.8}{}}
 \newlabel{LastPage}{{}{6}{}{}{}}

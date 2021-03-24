@@ -11,6 +11,8 @@
 \usepackage{physics}
 \usepackage{acronym}
 \usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{tikz}
 
 \newcommand{\bilby}{{\sc Bilby}\xspace}
 \newcommand{\lal}{{\sc LAL}\xspace}
@@ -27,6 +29,9 @@
 \newcommand{\et}[1]{\textcolor{blue}{[ET: #1]}}
 \newcommand{\ct}[1]{\textcolor{green}{[CT: #1]}}
 
+
+\newcommand{\emcee}{{\sc emcee}\xspace}
+\newcommand{\ptemcee}{{\sc ptemcee}\xspace}
 \newcommand{\nessai}{{\sc Nessai}\xspace}
 \newcommand{\vitamin}{{\sc VItamin}\xspace}
 \newcommand{\bilbypipe}{{\sc bilby\_pipe}\xspace}
@@ -49,8 +54,12 @@
 \newcommand{\onehalffigwidth}{12.9cm}
 \newcommand{\doublefigwidth}{17.2cm}
 \newcommand{\montefigwidth}{11cm}
+\newcommand*{\checktikz}[1][]{\tikz[x=1em, y=1em]\fill[#1] (0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
+
 
 \begin{document}
+
+
 
 \title{Explainable Deep-learning: Monte Carlo methods for Gravitational-Wave Inference}
 
@@ -86,19 +95,64 @@ My 250 word abstract goes here...
 
 \section{Introduction}\label{intro}
 
-\textbf{\textcolor{red}{Figs: Hunter's Vit Schematic}}
-
-\textbf{\textcolor{green}{Tables: Compare inference speeds like in vit paper}}
-
 Remember to signpost rest of paper at end of this section!
 
 \subsection{Parameter Estimation}
+
+\begin{table}[t]
+	\centering
+	\caption{}
+	\begin{tabular}[t]{lcccc}
+		\toprule
+		parameter name & symbol & status & value & units\\
+		\hline
+		mass 1 & $m_1$ & inferred  & 35-80 & \(\textup{M}_\odot\)\\
+		mass 2 & $m_2$ & inferred & 35-80 & \(\textup{M}_\odot\)\\
+		luminosity distance & $d_{\text{L}}$ & inferred & 1-3 & Gpc\\
+		time of coalescence & $t_{0}$ & inferred & 0.65-0.85 & s\\
+		inclination & $\Theta_{jn}$ & inferred & 0-$\pi$ & rad\\
+		polarisation & $\psi$ & inferred & 0-$\pi$ & rad\\
+		\hline
+		right ascension & $\alpha$ & fixed & 0 & rad\\
+		declination & $\delta$ & fixed & 0 & rad\\
+		spins & - & fixed & 0 & -\\
+		\hline
+		phase at coalescence & $\phi_{0}$ & marginalised & 0-$2\pi$ & rad\\
+		\botrule
+	\end{tabular}
+	\label{tab:prior_ranges}
+\end{table}
+
+
+
+\begin{align}\label{eq:bayes_exact} 
+	p(x|y) = \frac{{\cal L}(y|x) p(x)}{\cal Z} ,
+\end{align}
+
+\begin{align}\label{eq:bayes_prop} 
+	p(x|y) &\propto {\cal L}(y|x) p(x), 
+\end{align}
+
+\begin{align}\label{eq:bayes_evidence} 
+{\cal Z} = \int dx {\cal L}(y|x) p(x) ,
+\end{align}
+
+Need to know if equation is at end of sentence then swap comma for full stop
+
+
 
 \subsection{Deep-learning Approaches}
 
 \subsection{\vitamin: User-friendly Inference}\label{vit}
 
-\textbf{\textcolor{green}{Tables: Compare Gen Model abilities}}
+\begin{align}\label{eq:cross_ent} 
+H(p,r) &= -\int dx\, p(x|y) \log r_{\theta}(x|y),
+\end{align}
+
+\begin{align}\label{eq:prop_post}
+r_{\theta}(x|y) = \int dz\,r_{\theta_1}(z|y)r_{\theta_2}(x|y,z).
+\end{align}
+
 
 Use gen pap to intro CVAE in context, CONTEXT IS KEY HERE
 
@@ -138,6 +192,13 @@ Apply the intro/theory mateiral to our case, JUSTIFY scientific decisions like n
 
 \subsection{Model Training}
 
+\begin{align}\label{eq:cost_approx} H \lesssim
+\frac{1}{N}\sum_{n=1}^{N_{\text{b}}}&\Big[\overbrace{-\log
+	r_{\theta_{2}}(x_{n}|z_{n},y_{n})}^{L}\nonumber\\
+&+\overbrace{\text{KL}\left[q_{\phi}(z|x_{n},y_{n})||r_{\theta_{1}}(z|y_{n})\right]}^{\text{KL}}\Big],
+\end{align}
+
+
 \begin{figure}
 	\centering
 	\includegraphics[width=\figwidth]{figs/cost.pdf}
@@ -152,15 +213,17 @@ Apply the intro/theory mateiral to our case, JUSTIFY scientific decisions like n
 	\label{fig:vit_train_corner}
 \end{figure*}
 
-\textbf{\textcolor{red}{Figs: loss plot}}
-
-\textbf{\textcolor{green}{Tables: training hypers in table}}
-
-\textbf{\textcolor{red}{Figs: initial corner plot? (to talk about params and how posteriors aren't perfect)}}
-
-Need this cornerplot here to talk about how it doesn't `get' the multimodal dists, which after resampling it does!
 
 \subsection{Likelihood Estimates}
+
+\begin{align}\label{eq:monte_approx}
+	r_{\theta}(x|y) = & \,\mathbb{E}_{r_{\theta_1}(z|y)}r_{\theta_2}(x|y,z)\nonumber \\
+	 \approx & \frac{1}{N}\sum^{N}_{j=1}\left.r_{\theta_{2,j}}(x_i|y,z_j)\right|_{z_j\sim r_{\theta_1}(z_j|y)},
+\end{align}
+
+\begin{align}\label{eq:post_like}
+r_{\theta}(x|y) \sim {\cal L}_{\theta}(y|x),
+\end{align}
 
 \textbf{\textcolor{red}{Figs: Monte flowchart}}
 
@@ -174,12 +237,47 @@ Need this cornerplot here to talk about how it doesn't `get' the multimodal dist
 
 \subsection{Likelihood Reweighting}
 
+Start with eq 2 then multiply by unity
+
+\begin{align}\label{eq:sir} 
+p(x|y) &\propto \frac{{\cal L}_\theta(y|x)}{{\cal L}_\theta(y|x)}{\cal L}(y|x) p(x)\nonumber\\
+&\propto w(y|x)\overbrace{{\cal L}_{\theta}(y|x) p(x)}^{r_{\theta}(x|y)}.
+\end{align}
+
+%\begin{table}
+%	\centering
+%	\caption{Med time to gen 10,000 samples...the DL doesnt account for training time}
+%	\begin{tabular}[t]{llcc} 
+%				\toprule
+%				sampler & method & deep-learning & run-time (s)\\
+%				\hline
+%				h &&&\\
+%				h &&&\\
+%%				\emcee~\cite{mcmc_og} & help & help & help\\
+%%				help & & &\\
+%%				\emcee~\cite{mcmc_og} & help & help & help\\
+%%				\emcee~\cite{emcee} & MCMC~\cite{mcmc_og} & X  &  32070\\
+%%				\ptemcee~\cite{ptemcee} & MCMC & X & 24372\\
+%%				\dynesty~\cite{dynesty} & NS~\cite{skilling2006} & X & 19400\\
+%%				\cpnest~\cite{cpnest} & NS & X &  26202 \\
+%%				\hline
+%%				\nessai~\cite{williams2021nested} & NS & Y & 9372\\
+%%				\vitamin~\cite{vitpaper} & VI~\cite{1904.06264} & Y & $1\times 10^{-1}$\\
+%				\botrule
+%	\end{tabular}
+%	\label{Tab:speed}
+%\end{table}
+Here,
+
+\begin{align}\label{eq:weights}
+w(y|x) \equiv \frac{{\cal L}(y|x)}{{\cal L}_{\theta}(y|x)},
+\end{align}
+
+is the weight function...
 
 \section{Results}\label{results}
 
 \subsection{Self-consistency}
-
-\textbf{\textcolor{red}{Figs: Self consist corner plot}}
 
 \begin{figure*}
 	\subfigure{\includegraphics[width=\figwidth]{figs/self_consist1.pdf}}
@@ -191,9 +289,17 @@ Need this cornerplot here to talk about how it doesn't `get' the multimodal dist
 
 \subsection{Reproducibility}
 
-Talk about how 'binning' is preventing proper error profile acorss the likelihood range, (not present in the \dynesty case)
+\begin{align}\label{eq:sigma}
+\sigma \propto \frac{1}{\sqrt{N}},
+\end{align}
 
-\textbf{\textcolor{red}{Figs: sigma gaussians for different z batch}}
+where N is monte carlo batch size
+
+\begin{align}\label{eq:error}
+\text{Error} = \frac{\sigma}{\sqrt{n_{\text{samples}}}},
+\end{align}
+
+
 
 \begin{figure}
 	\centering
@@ -201,13 +307,6 @@ Talk about how 'binning' is preventing proper error profile acorss the likelihoo
 	\caption{}
 	\label{fig:hists}
 \end{figure}
-
-
-
-\textbf{\textcolor{red}{Figs: scatter vit vit}}
-
-\textbf{\textcolor{red}{Figs: scatter vit dynesty}}
-
 
 \begin{figure*}
 	\subfigure[]{\includegraphics[width=\figwidth]{figs/vvscatter.pdf}}
@@ -218,8 +317,6 @@ Talk about how 'binning' is preventing proper error profile acorss the likelihoo
 
 \subsection{Importance Resampling}
 
-
-\textbf{\textcolor{red}{Figs: Final corner plot (big)}}
 
 \begin{figure*}[h]
 	\centering
@@ -242,8 +339,28 @@ As we find ourself in a proof-of-concept mode, there is justification of a secti
 
 Thanks to Chris and Hunter and Michael and Daniel.
 
-Paragraph on the software used \bilby\cite{bilby} 
+Paragraph on the software used \bilby\cite{bilby} \cite{0004-637X-748-2-136}help please dont fuck up now , lets just keep typing and see what happens, im really shitting ymself now... and dont want to have to spend precious time on fucking type setting and bibliography hunting \cite{emcee}
 %\clearpage
+
+\begin{table}[t]
+	\centering
+	\caption{Generic Caption like in vitamin paper!}
+	\begin{tabular}[t]{llcc} 
+				\toprule
+				sampler & algorithm & deep-learning & run-time (s)\footnote{The benchmark samplers all produced $\mathcal{O}(10000)$ samples dependent on the default sampling parameters used, run-time for depp-learning algorihms does not include trainign time}\\
+				\hline
+				\emcee~\cite{emcee} & MCMC~\cite{mcmc_og} & X  &  32070\\
+				\ptemcee~\cite{ptemcee} & MCMC & X & 24372\\
+				\dynesty~\cite{dynesty} & NS~\cite{skilling2006} & X & 19400\\
+				\cpnest~\cite{cpnest} & NS & X &  26202 \\
+				\hline
+				\nessai~\cite{williams2021nested} & NS & \checktikz & 9372\\
+				\vitamin~\cite{vitpaper} & VI~\cite{1904.06264} & \checktikz & $1\times 10^{-1}$\\
+				\botrule
+	\end{tabular}
+	\label{Tab:speed}
+\end{table}
+
 \bibliography{refs}
 
 
